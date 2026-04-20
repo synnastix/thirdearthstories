@@ -1,6 +1,6 @@
 ---
 title: The Slums
-category: places
+category: place
 lead: The Slums
 image: /images/the_slums.png
 meta:
