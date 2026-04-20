@@ -2,6 +2,7 @@
 title: The Slums
 category: places
 lead: The Slums
+image: /images/the_slums.png
 meta:
   Status: Active
   Territory: Timbur Deep
