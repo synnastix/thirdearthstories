@@ -9,37 +9,225 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+const tagColors: Record<string, { bg: string; color: string }> = {
+  place:    { bg: '#EAF3DE', color: '#3B6D11' },
+  faction:  { bg: '#EEEDFE', color: '#3C3489' },
+  creature: { bg: '#FAECE7', color: '#993C1D' },
+  lore:     { bg: '#FAEEDA', color: '#854F0B' },
+  person:   { bg: '#E1F5EE', color: '#0F6E56' },
+};
+const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
 ---
+
 <Base title={entry.data.title}>
-  <div style="max-width:740px;margin:0 auto;padding:3rem 2rem;">
-    <a href="/" style="font-size:12px;color:#999;">← Encyclopedia</a>
-    <div style="margin-top:1.5rem;padding-bottom:1.5rem;border-bottom:0.5px solid #ddd9d0;">
-      <p style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#999;margin-bottom:.5rem;">{entry.data.category}</p>
-      <h1 style="font-family:'Crimson Pro',serif;font-size:40px;font-weight:300;margin-bottom:.75rem;">{entry.data.title}</h1>
-      <p style="font-size:15px;line-height:1.8;color:#666;font-style:italic;">{entry.data.lead}</p>
-    </div>
-    {entry.data.meta && (
-      <div style="float:right;margin:1rem 0 1rem 2rem;padding:1rem 1.25rem;background:#f7f5f0;border:0.5px solid #ddd9d0;border-radius:8px;font-size:12px;width:180px;">
-        {Object.entries(entry.data.meta).map(([k, v]) => (
-          <div style="margin-bottom:.5rem;">
-            <div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#999;">{k}</div>
-            <div>{v}</div>
-          </div>
-        ))}
-      </div>
-    )}
-    <div style="font-size:14px;line-height:1.85;color:#444;margin-top:1.5rem;">
-      <Content />
-    </div>
-    {entry.data.related && entry.data.related.length > 0 && (
-      <div style="margin-top:2rem;padding-top:1.5rem;border-top:0.5px solid #ddd9d0;">
-        <p style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#999;margin-bottom:.75rem;">See also</p>
-        <div style="display:flex;flex-wrap:wrap;gap:.5rem;">
-          {entry.data.related.map(r => (
-            <a href={`/encyclopedia/${r}`} style="font-size:12px;padding:4px 10px;border:0.5px solid #ccc;border-radius:20px;color:#666;">{r.replace(/-/g,' ')}</a>
-          ))}
+  <div class="page">
+    <div class="body">
+
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-heading">Browse by type</div>
+          <a class="sidebar-item" href="/">All entries</a>
+          <a class="sidebar-item" href="/?type=place">Places</a>
+          <a class="sidebar-item" href="/?type=faction">Factions</a>
+          <a class="sidebar-item" href="/?type=creature">Creatures</a>
+          <a class="sidebar-item" href="/?type=lore">Lore &amp; magic</a>
+          <a class="sidebar-item" href="/?type=person">People</a>
         </div>
-      </div>
-    )}
+      </aside>
+
+      <main class="main">
+        <a href="/" class="back">← Encyclopedia</a>
+
+        <div class="article-header">
+          <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
+          <h1 class="article-title">{entry.data.title}</h1>
+          <p class="article-lead">{entry.data.lead}</p>
+        </div>
+
+        <div class="article-body">
+          {entry.data.meta && (
+            <aside class="meta-panel">
+              {Object.entries(entry.data.meta).map(([k, v]) => (
+                <div class="meta-row">
+                  <div class="meta-label">{k}</div>
+                  <div class="meta-value">{v}</div>
+                </div>
+              ))}
+            </aside>
+          )}
+          <div class="prose">
+            <Content />
+          </div>
+        </div>
+
+        {entry.data.related && entry.data.related.length > 0 && (
+          <div class="related">
+            <p class="related-label">See also</p>
+            <div class="related-links">
+              {entry.data.related.map(r => (
+                <a href={`/encyclopedia/${r}`} class="related-link">
+                  {r.replace(/-/g, ' ')}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </main>
+
+    </div>
   </div>
 </Base>
+
+<style>
+  .page { background: #f7f5f0; min-height: 100vh; }
+
+  .body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    min-height: calc(100vh - 52px);
+  }
+
+  .sidebar {
+    background: #fff;
+    border-right: 0.5px solid #ddd9d0;
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 52px;
+    height: calc(100vh - 52px);
+  }
+  .sidebar-heading {
+    font-size: 10px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #aaa;
+    padding: 0 1.25rem;
+    margin-bottom: .5rem;
+  }
+  .sidebar-item {
+    display: block;
+    padding: .35rem 1.25rem;
+    font-size: 13px;
+    color: #666;
+    text-decoration: none;
+  }
+  .sidebar-item:hover { color: #1a1a18; background: #f7f5f0; }
+
+  .main {
+    padding: 2.5rem 3rem;
+    max-width: 780px;
+  }
+
+  .back {
+    font-size: 12px;
+    color: #aaa;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+  .back:hover { color: #1a1a18; }
+
+  .article-header {
+    padding-bottom: 1.5rem;
+    border-bottom: 0.5px solid #ddd9d0;
+    margin-bottom: 1.5rem;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-bottom: .75rem;
+  }
+  .article-title {
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: .75rem;
+  }
+  .article-lead {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #666;
+    font-style: italic;
+    max-width: 580px;
+  }
+
+  .article-body {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .meta-panel {
+    flex-shrink: 0;
+    width: 168px;
+    background: #f7f5f0;
+    border: 0.5px solid #ddd9d0;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    order: 2;
+  }
+  .meta-row { margin-bottom: .6rem; }
+  .meta-row:last-child { margin-bottom: 0; }
+  .meta-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: #aaa;
+    margin-bottom: 2px;
+  }
+  .meta-value { font-size: 12px; color: #333; }
+
+  .prose {
+    flex: 1;
+    order: 1;
+    font-size: 14px;
+    line-height: 1.85;
+    color: #444;
+  }
+  .prose :global(h2) {
+    font-family: 'Crimson Pro', serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 1.75rem 0 .6rem;
+    color: #1a1a18;
+  }
+  .prose :global(h3) {
+    font-family: 'Crimson Pro', serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1.5rem 0 .5rem;
+    color: #1a1a18;
+  }
+  .prose :global(p) { margin-bottom: 1rem; }
+  .prose :global(em) { font-style: italic; }
+  .prose :global(strong) { font-weight: 500; color: #1a1a18; }
+
+  .related {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 0.5px solid #ddd9d0;
+  }
+  .related-label {
+    font-size: 11px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: .75rem;
+  }
+  .related-links { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .related-link {
+    font-size: 12px;
+    padding: 4px 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 20px;
+    color: #666;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .related-link:hover { background: #fff; color: #1a1a18; border-color: #aaa; }
+</style>
