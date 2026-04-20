@@ -1,0 +1,34 @@
+---
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} — Third Earth Stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #f7f5f0; color: #1a1a18; min-height: 100vh; }
+    a { color: inherit; text-decoration: none; }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 52px; border-bottom: 0.5px solid #ddd9d0; background: #fff; }
+    nav .site-title { font-family: 'Crimson Pro', serif; font-size: 20px; font-weight: 600; letter-spacing: 0.04em; }
+    nav .nav-links { display: flex; gap: 1.5rem; }
+    nav .nav-links a { font-size: 13px; color: #888; }
+    nav .nav-links a:hover { color: #1a1a18; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="site-title">Third Earth Stories</a>
+    <div class="nav-links">
+      <a href="/encyclopedia">Encyclopedia</a>
+      <a href="/maps">Maps</a>
+      <a href="/about">About</a>
+    </div>
+  </nav>
+  <slot />
+</body>
+</html>
