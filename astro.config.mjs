@@ -1,9 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://third-earth-stories.netlify.app',
-export default defineConfig({
   site: 'https://synnastix.github.io',
   base: '/thirdearthstories',
-});
 });
