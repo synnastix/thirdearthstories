@@ -58,8 +58,18 @@ const tagColors: Record<string, { bg: string; color: string }> = {
 </Base>
 
 <style>
-  .page { background: #f7f5f0; min-height: auto; }
+ .page {
+  background: #f7f5f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  flex: 1;
+}
   .hero {
     background: #fff;
     border-bottom: 0.5px solid #ddd9d0;
@@ -99,12 +109,6 @@ const tagColors: Record<string, { bg: string; color: string }> = {
     letter-spacing: .06em;
     color: #999;
     margin-top: 2px;
-  }
-
-  .body {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    min-height: calc(auto);
   }
 
   .sidebar {
