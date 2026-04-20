@@ -45,6 +45,12 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
           <p class="article-lead">{entry.data.lead}</p>
         </div>
 
+  {entry.data.image && (
+    <div class="article-image">
+      <img src={entry.data.image} alt={entry.data.title} />
+    </div>
+  )}
+
         <div class="article-body">
           {entry.data.meta && (
             <aside class="meta-panel">
