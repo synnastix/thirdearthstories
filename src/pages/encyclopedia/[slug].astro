@@ -47,7 +47,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
 
   {entry.data.image && (
     <div class="article-image">
-      <img src={entry.data.image} alt={entry.data.title} />
+      <img src={`/thirdearthstories${entry.data.image}`} alt={entry.data.title} />
     </div>
   )}
 
