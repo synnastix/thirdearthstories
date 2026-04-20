@@ -44,7 +44,7 @@ const tagColors: Record<string, { bg: string; color: string }> = {
           {entries.map(entry => {
             const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
             return (
-              <a href={`/encyclopedia/${entry.slug}`} class="card" data-category={entry.data.category}>
+              <a href={`/thirdearthstories/encyclopedia/${entry.slug}`} class="card" data-category={entry.data.category}>
                 <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
                 <div class="card-title">{entry.data.title}</div>
                 <div class="card-desc">{entry.data.lead}</div>
