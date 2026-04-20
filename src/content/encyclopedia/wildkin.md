@@ -2,6 +2,7 @@
 title: The Wildkin
 category: faction
 lead: A ruling-class designation for those who practice the old druidic arts — worn by outsiders as a badge of tradition, felt by those it names as a collar.
+image: /images/wildkin.jpg
 meta:
   Status: Active
   Territory: Ashfield interior
