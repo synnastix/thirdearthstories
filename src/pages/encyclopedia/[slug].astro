@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('encyclopedia');
+  return entries.map(entry => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+<Base title={entry.data.title}>
+  <div style="max-width:740px;margin:0 auto;padding:3rem 2rem;">
+    <a href="/" style="font-size:12px;color:#999;">← Encyclopedia</a>
+    <div style="margin-top:1.5rem;padding-bottom:1.5rem;border-bottom:0.5px solid #ddd9d0;">
+      <p style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#999;margin-bottom:.5rem;">{entry.data.category}</p>
+      <h1 style="font-family:'Crimson Pro',serif;font-size:40px;font-weight:300;margin-bottom:.75rem;">{entry.data.title}</h1>
+      <p style="font-size:15px;line-height:1.8;color:#666;font-style:italic;">{entry.data.lead}</p>
+    </div>
+    {entry.data.meta && (
+      <div style="float:right;margin:1rem 0 1rem 2rem;padding:1rem 1.25rem;background:#f7f5f0;border:0.5px solid #ddd9d0;border-radius:8px;font-size:12px;width:180px;">
+        {Object.entries(entry.data.meta).map(([k, v]) => (
+          <div style="margin-bottom:.5rem;">
+            <div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#999;">{k}</div>
+            <div>{v}</div>
+          </div>
+        ))}
+      </div>
+    )}
+    <div style="font-size:14px;line-height:1.85;color:#444;margin-top:1.5rem;">
+      <Content />
+    </div>
+    {entry.data.related && entry.data.related.length > 0 && (
+      <div style="margin-top:2rem;padding-top:1.5rem;border-top:0.5px solid #ddd9d0;">
+        <p style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#999;margin-bottom:.75rem;">See also</p>
+        <div style="display:flex;flex-wrap:wrap;gap:.5rem;">
+          {entry.data.related.map(r => (
+            <a href={`/encyclopedia/${r}`} style="font-size:12px;padding:4px 10px;border:0.5px solid #ccc;border-radius:20px;color:#666;">{r.replace(/-/g,' ')}</a>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+</Base>
