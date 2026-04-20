@@ -37,7 +37,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
       </aside>
 
       <main class="main">
-        <a href="/" class="back">← Encyclopedia</a>
+        <a href="/thirdearthstories/" class="back">← Encyclopedia</a>
 
         <div class="article-header">
           <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
@@ -72,7 +72,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
             <p class="related-label">See also</p>
             <div class="related-links">
               {entry.data.related.map(r => (
-                <a href={`/encyclopedia/${r}`} class="related-link">
+                <a href={`/thirdearthstories/encyclopedia/${r}`} class="related-link">
                   {r.replace(/-/g, ' ')}
                 </a>
               ))}
