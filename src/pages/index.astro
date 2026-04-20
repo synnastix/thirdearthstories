@@ -58,7 +58,7 @@ const tagColors: Record<string, { bg: string; color: string }> = {
 </Base>
 
 <style>
-  .page { background: #f7f5f0; min-height: 100vh; }
+  .page { background: #f7f5f0; min-height: auto; }
 
   .hero {
     background: #fff;
@@ -104,7 +104,7 @@ const tagColors: Record<string, { bg: string; color: string }> = {
   .body {
     display: grid;
     grid-template-columns: 200px 1fr;
-    min-height: calc(100vh - 52px);
+    min-height: calc(auto);
   }
 
   .sidebar {
@@ -113,7 +113,6 @@ const tagColors: Record<string, { bg: string; color: string }> = {
     padding: 1.5rem 0;
     position: sticky;
     top: 52px;
-    height: calc(100vh - 52px);
   }
   .sidebar-heading {
     font-size: 10px;
