@@ -29,22 +29,22 @@ const tagColors: Record<string, { bg: string; color: string }> = {
       <aside class="sidebar">
         <div class="sidebar-section">
           <div class="sidebar-heading">Browse by type</div>
-          <a class="sidebar-item" href="/">All entries</a>
-          <a class="sidebar-item" href="/?type=place">Places</a>
-          <a class="sidebar-item" href="/?type=faction">Factions</a>
-          <a class="sidebar-item" href="/?type=creature">Creatures</a>
-          <a class="sidebar-item" href="/?type=lore">Lore &amp; magic</a>
-          <a class="sidebar-item" href="/?type=person">People</a>
+          <a class="sidebar-item" href="#" data-filter="all">All entries</a>
+          <a class="sidebar-item" href="#" data-filter="place">Places</a>
+          <a class="sidebar-item" href="#" data-filter="faction">Factions</a>
+          <a class="sidebar-item" href="#" data-filter="creature">Creatures</a>
+          <a class="sidebar-item" href="#" data-filter="lore">Lore &amp; magic</a>
+          <a class="sidebar-item" href="#" data-filter="person">People</a>
         </div>
       </aside>
 
       <main class="main">
-        <p class="section-label">All entries</p>
-        <div class="grid">
+        <p class="section-label" id="section-label">All entries</p>
+        <div class="grid" id="entry-grid">
           {entries.map(entry => {
             const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
             return (
-              <a href={`/encyclopedia/${entry.slug}`} class="card">
+              <a href={`/encyclopedia/${entry.slug}`} class="card" data-category={entry.data.category}>
                 <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
                 <div class="card-title">{entry.data.title}</div>
                 <div class="card-desc">{entry.data.lead}</div>
@@ -111,6 +111,9 @@ const tagColors: Record<string, { bg: string; color: string }> = {
     background: #fff;
     border-right: 0.5px solid #ddd9d0;
     padding: 1.5rem 0;
+    position: sticky;
+    top: 52px;
+    height: calc(100vh - 52px);
   }
   .sidebar-heading {
     font-size: 10px;
@@ -126,10 +129,14 @@ const tagColors: Record<string, { bg: string; color: string }> = {
     font-size: 13px;
     color: #666;
     text-decoration: none;
+    border-left: 2px solid transparent;
   }
-  .sidebar-item:hover {
+  .sidebar-item:hover { color: #1a1a18; background: #f7f5f0; }
+  .sidebar-item.active {
     color: #1a1a18;
     background: #f7f5f0;
+    border-left-color: #1a1a18;
+    padding-left: calc(1.25rem - 2px);
   }
 
   .main { padding: 2rem 2.5rem; }
@@ -160,6 +167,7 @@ const tagColors: Record<string, { bg: string; color: string }> = {
     color: inherit;
   }
   .card:hover { background: #faf8f4; }
+  .card.hidden { display: none; }
 
   .tag {
     display: inline-block;
@@ -182,3 +190,38 @@ const tagColors: Record<string, { bg: string; color: string }> = {
     line-height: 1.6;
   }
 </style>
+
+<script>
+  const items = document.querySelectorAll<HTMLElement>('.sidebar-item');
+  const cards = document.querySelectorAll<HTMLElement>('.card');
+  const label = document.getElementById('section-label')!;
+
+  const labels: Record<string, string> = {
+    all: 'All entries',
+    place: 'Places',
+    faction: 'Factions',
+    creature: 'Creatures',
+    lore: 'Lore & magic',
+    person: 'People',
+  };
+
+  function filter(type: string) {
+    cards.forEach(card => {
+      const match = type === 'all' || card.dataset.category === type;
+      card.classList.toggle('hidden', !match);
+    });
+    items.forEach(item => {
+      item.classList.toggle('active', item.dataset.filter === type);
+    });
+    label.textContent = labels[type] ?? 'All entries';
+  }
+
+  items.forEach(item => {
+    item.addEventListener('click', e => {
+      e.preventDefault();
+      filter(item.dataset.filter ?? 'all');
+    });
+  });
+
+  filter('all');
+</script>
