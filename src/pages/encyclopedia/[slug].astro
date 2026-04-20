@@ -91,7 +91,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
   .body {
     display: grid;
     grid-template-columns: 200px 1fr;
-    min-height: calc(100vh - 52px);
+    min-height: calc(auto);
   }
 
   .sidebar {
@@ -100,7 +100,6 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
     padding: 1.5rem 0;
     position: sticky;
     top: 52px;
-    height: calc(100vh - 52px);
   }
   .sidebar-heading {
     font-size: 10px;
