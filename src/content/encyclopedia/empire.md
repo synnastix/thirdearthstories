@@ -2,7 +2,7 @@
 title: The Empire
 category: faction
 lead: The Empire is the central human faction and strongest military power on Tellunis.
-image: /images/empire.png
+image: /images/empiresealsmall.png
 meta:
   Status: Active
   Territory: The Heartlands
