@@ -2,17 +2,66 @@
 import Base from '../layouts/Base.astro';
 ---
 <Base title="About">
-  <div style="max-width:740px;margin:3rem auto;padding:0 2rem;">
-    <p style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#999;margin-bottom:.75rem;">About</p>
-    <h1 style="font-family:'Crimson Pro',serif;font-size:40px;font-weight:300;margin-bottom:1rem;">Third Earth Stories</h1>
-    <p style="font-size:15px;line-height:1.8;color:#666;">
+  <div class="about">
+    <p class="eyebrow">About</p>
+    <h1 class="page-title">Third Earth Stories</h1>
 
-“Consistency is the death of the spirit.”
-~Em, Wildkin – Recursion
+    <blockquote>
+      <p class="quote">"Consistency is the death of the spirit."</p>
+      <p class="attribution">— Em, Wildkin · Recursion</p>
+    </blockquote>
 
-“I figured as long as I wasn’t dead…I may as well live.”
-~Rast, Wizard – Recursion
+    <blockquote>
+      <p class="quote">"I figured as long as I wasn't dead…I may as well live."</p>
+      <p class="attribution">— Rast, Wizard · Recursion</p>
+    </blockquote>
 
-</p>
+    <p class="body-text">We're all in this together, keep the vibes high.</p>
   </div>
 </Base>
+
+<style>
+  .about {
+    max-width: 740px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+  }
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: .75rem;
+  }
+  .page-title {
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  blockquote {
+    margin-bottom: 2rem;
+  }
+  .quote {
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1a1a18;
+    line-height: 1.6;
+    margin-bottom: .35rem;
+  }
+  .attribution {
+    font-size: 12px;
+    letter-spacing: .06em;
+    color: #999;
+  }
+  .body-text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #666;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 0.5px solid #ddd9d0;
+  }
+</style>
