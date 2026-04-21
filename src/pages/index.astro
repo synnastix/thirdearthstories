@@ -258,77 +258,65 @@ const counts = {
 </style>
 
 <script>
-  import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.esm.js';
+  function initSearch() {
+    const cards = Array.from(document.querySelectorAll('.card')) as HTMLElement[];
+    const searchInput = document.getElementById('search') as HTMLInputElement;
+    const label = document.getElementById('section-label')!;
+    const noResults = document.getElementById('no-results')!;
+    const sidebarItems = document.querySelectorAll('.sidebar-item') as NodeListOf<HTMLElement>;
 
-  const cards = Array.from(document.querySelectorAll<HTMLElement>('.card'));
-  const searchInput = document.getElementById('search') as HTMLInputElement;
-  const label = document.getElementById('section-label')!;
-  const noResults = document.getElementById('no-results')!;
-  const sidebarItems = document.querySelectorAll<HTMLElement>('.sidebar-item');
+    const labels: Record<string, string> = {
+      all: 'All entries', place: 'Places', faction: 'Factions',
+      creature: 'Creatures', lore: 'Lore & magic', person: 'People',
+    };
 
-  const labels: Record<string, string> = {
-    all: 'All entries', place: 'Places', faction: 'Factions',
-    creature: 'Creatures', lore: 'Lore & magic', person: 'People',
-  };
+    let activeFilter = 'all';
 
-  let activeFilter = 'all';
-
-  const data = cards.map(card => ({
-    el: card,
-    title: card.dataset.title ?? '',
-    lead: card.dataset.lead ?? '',
-    category: card.dataset.category ?? '',
-  }));
-
-  const fuse = new Fuse(data, {
-    keys: ['title', 'lead', 'category'],
-    threshold: 0.35,
-  });
-
-  function update() {
-    const query = searchInput.value.trim();
-    let visible: HTMLElement[];
-
-    if (query) {
-      visible = fuse.search(query).map(r => r.item.el);
-      cards.forEach(c => c.classList.add('hidden'));
-      visible.forEach(c => c.classList.remove('hidden'));
-      if (activeFilter !== 'all') {
-        visible = visible.filter(c => c.dataset.category === activeFilter);
-        cards.forEach(c => c.classList.add('hidden'));
-        visible.forEach(c => c.classList.remove('hidden'));
-      }
-      label.textContent = `Results for "${query}"`;
-    } else {
-      filter(activeFilter);
-      return;
+    function matchesSearch(card: HTMLElement, query: string): boolean {
+      if (!query) return true;
+      const text = `${card.dataset.title} ${card.dataset.lead} ${card.dataset.category}`.toLowerCase();
+      return text.includes(query.toLowerCase());
     }
 
-    noResults.style.display = visible.length === 0 ? 'block' : 'none';
-  }
+    function update() {
+      const query = searchInput.value.trim();
+      let visibleCount = 0;
 
-  function filter(type: string) {
-    activeFilter = type;
-    const query = searchInput.value.trim();
-    cards.forEach(card => {
-      const matchType = type === 'all' || card.dataset.category === type;
-      const matchSearch = !query || card.classList.contains('hidden') === false;
-      card.classList.toggle('hidden', !matchType);
-    });
+      cards.forEach(card => {
+        const matchType = activeFilter === 'all' || card.dataset.category === activeFilter;
+        const matchSearch = matchesSearch(card, query);
+        const show = matchType && matchSearch;
+        card.classList.toggle('hidden', !show);
+        if (show) visibleCount++;
+      });
+
+      if (query) {
+        label.textContent = `Results for "${query}"`;
+      } else {
+        label.textContent = labels[activeFilter] ?? 'All entries';
+      }
+
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    function filter(type: string) {
+      activeFilter = type;
+      sidebarItems.forEach(item => {
+        item.classList.toggle('active', item.dataset.filter === type);
+      });
+      update();
+    }
+
+    searchInput.addEventListener('input', update);
     sidebarItems.forEach(item => {
-      item.classList.toggle('active', item.dataset.filter === type);
+      item.addEventListener('click', e => {
+        e.preventDefault();
+        filter((item as HTMLElement).dataset.filter ?? 'all');
+      });
     });
-    label.textContent = query ? `Results for "${query}"` : (labels[type] ?? 'All entries');
-    noResults.style.display = cards.filter(c => !c.classList.contains('hidden')).length === 0 ? 'block' : 'none';
+
+    filter('all');
   }
 
-  searchInput.addEventListener('input', update);
-  sidebarItems.forEach(item => {
-    item.addEventListener('click', e => {
-      e.preventDefault();
-      filter(item.dataset.filter ?? 'all');
-    });
-  });
-
-  filter('all');
+  initSearch();
 </script>
