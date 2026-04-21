@@ -13,4 +13,4 @@ related:
 
 
 
-Look in the mirror to find the fool.
+<span style="color: #f5f0eb; user-select: text;">Look in the mirror to find the fool.</span>
