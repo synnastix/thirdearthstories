@@ -1,7 +1,7 @@
 ---
 title: The Empire
 category: faction
-lead: A ruling-class designation for those who practice the old druidic arts — worn by outsiders as a badge of tradition, felt by those it names as a collar.
+lead: The Empire is the central human faction and strongest military power on Tellunis.
 image: /images/empire.png
 meta:
   Status: Active
@@ -10,7 +10,7 @@ related:
   - timbur-deep
 ---
 
-The Empire is the central human faction and strongest military power on Tellunis.
+
 
 ## Culture
 
