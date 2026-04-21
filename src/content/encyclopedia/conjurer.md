@@ -20,7 +20,7 @@ It wore stripes and a mask. Eyes like wet coals and hands too clever to belong t
 
 Each night the conjurer summoned the trickster. Each night they hunted it. Each night it hissed like wind through bone and vanished into smoke.
 
-On the final night, the child watched as he summoned the beast for a final time.
+On the third night, the child watched as he summoned the beast for a final time.
 
 The conjurer had been stripped bare, but still he summoned the beast. Through pain and fire, it burst from his shoulders. And by morning, he was gone.
 
