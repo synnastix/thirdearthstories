@@ -6,7 +6,7 @@ image: /images/the_slums.png
 meta:
   Status: Active
   Territory: Timbur Deep
-  Also known as: El Barrio
+  Also known as: Rotlinburg
 related:
   - timbur_deep
 ---
