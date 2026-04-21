@@ -2,7 +2,7 @@
 title: The Somari
 category: faction
 lead: Nomadic warrior-tribes who roam the plains and build no permanent settlements.
-image: /images/wildkin.jpg
+
 meta:
   Status: Active
   Territory: Plains of Somaria
