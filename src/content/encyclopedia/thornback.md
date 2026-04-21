@@ -13,7 +13,7 @@ related:
   - wildkin
 ---
 
-Trappers in the interior have a habit of narrating. When they encounter something they cannot explain, they reach for pattern and story rather than silence. Nix has benefited enormously from this tendency.
+
 
 ## Physical Description
 
