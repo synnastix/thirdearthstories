@@ -52,12 +52,15 @@ const counts = {
       </aside>
 
       <main class="main">
+       <div class="search-bar">
+        <input type="text" id="search" placeholder="Search entries…" autocomplete="off" />
+        </div>
         <p class="section-label" id="section-label">All entries</p>
         <div class="grid" id="entry-grid">
           {entries.map(entry => {
             const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
             return (
-              <a href={`/thirdearthstories/encyclopedia/${entry.slug}`} class="card" data-category={entry.data.category}>
+              <a href={`/thirdearthstories/encyclopedia/${entry.slug}`} class="card" data-category={entry.data.category} data-title={entry.data.title} data-lead={entry.data.lead}>
                 <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
                 <div class="card-title">{entry.data.title}</div>
                 <div class="card-desc">{entry.data.lead}</div>
@@ -65,6 +68,7 @@ const counts = {
             );
           })}
         </div>
+        <p class="no-results" id="no-results" style="display:none;">No entries found.</p>
       </main>
     </div>
   </div>
@@ -76,6 +80,29 @@ const counts = {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.search-bar {
+  margin-bottom: 1rem;
+}
+.search-bar input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 0.5px solid #ddd9d0;
+  border-radius: 8px;
+  background: #fff;
+  color: #1a1a18;
+  font-family: 'Inter', sans-serif;
+}
+.search-bar input:focus {
+  outline: none;
+  border-color: #aaa;
+}
+.no-results {
+  font-size: 13px;
+  color: #aaa;
+  padding: 1rem 0;
 }
 
 .body {
@@ -231,31 +258,72 @@ const counts = {
 </style>
 
 <script>
-  const items = document.querySelectorAll<HTMLElement>('.sidebar-item');
-  const cards = document.querySelectorAll<HTMLElement>('.card');
+  import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.esm.js';
+
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('.card'));
+  const searchInput = document.getElementById('search') as HTMLInputElement;
   const label = document.getElementById('section-label')!;
+  const noResults = document.getElementById('no-results')!;
+  const sidebarItems = document.querySelectorAll<HTMLElement>('.sidebar-item');
 
   const labels: Record<string, string> = {
-    all: 'All entries',
-    place: 'Places',
-    faction: 'Factions',
-    creature: 'Creatures',
-    lore: 'Lore & magic',
-    person: 'People',
+    all: 'All entries', place: 'Places', faction: 'Factions',
+    creature: 'Creatures', lore: 'Lore & magic', person: 'People',
   };
 
-  function filter(type: string) {
-    cards.forEach(card => {
-      const match = type === 'all' || card.dataset.category === type;
-      card.classList.toggle('hidden', !match);
-    });
-    items.forEach(item => {
-      item.classList.toggle('active', item.dataset.filter === type);
-    });
-    label.textContent = labels[type] ?? 'All entries';
+  let activeFilter = 'all';
+
+  const data = cards.map(card => ({
+    el: card,
+    title: card.dataset.title ?? '',
+    lead: card.dataset.lead ?? '',
+    category: card.dataset.category ?? '',
+  }));
+
+  const fuse = new Fuse(data, {
+    keys: ['title', 'lead', 'category'],
+    threshold: 0.35,
+  });
+
+  function update() {
+    const query = searchInput.value.trim();
+    let visible: HTMLElement[];
+
+    if (query) {
+      visible = fuse.search(query).map(r => r.item.el);
+      cards.forEach(c => c.classList.add('hidden'));
+      visible.forEach(c => c.classList.remove('hidden'));
+      if (activeFilter !== 'all') {
+        visible = visible.filter(c => c.dataset.category === activeFilter);
+        cards.forEach(c => c.classList.add('hidden'));
+        visible.forEach(c => c.classList.remove('hidden'));
+      }
+      label.textContent = `Results for "${query}"`;
+    } else {
+      filter(activeFilter);
+      return;
+    }
+
+    noResults.style.display = visible.length === 0 ? 'block' : 'none';
   }
 
-  items.forEach(item => {
+  function filter(type: string) {
+    activeFilter = type;
+    const query = searchInput.value.trim();
+    cards.forEach(card => {
+      const matchType = type === 'all' || card.dataset.category === type;
+      const matchSearch = !query || card.classList.contains('hidden') === false;
+      card.classList.toggle('hidden', !matchType);
+    });
+    sidebarItems.forEach(item => {
+      item.classList.toggle('active', item.dataset.filter === type);
+    });
+    label.textContent = query ? `Results for "${query}"` : (labels[type] ?? 'All entries');
+    noResults.style.display = cards.filter(c => !c.classList.contains('hidden')).length === 0 ? 'block' : 'none';
+  }
+
+  searchInput.addEventListener('input', update);
+  sidebarItems.forEach(item => {
     item.addEventListener('click', e => {
       e.preventDefault();
       filter(item.dataset.filter ?? 'all');
