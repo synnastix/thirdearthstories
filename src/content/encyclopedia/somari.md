@@ -6,7 +6,7 @@ image: /images/wildkin.jpg
 meta:
   Status: Active
   Territory: Plains of Somaria
-  Also known as: "horse milk drinkers" - Imperial slur
+  Also known as: "horse milk drinkers" (Imperial slur)
 related:
   - thornhold
   - sandborn
