@@ -10,6 +10,14 @@ const tagColors: Record<string, { bg: string; color: string }> = {
   lore:     { bg: '#FAEEDA', color: '#854F0B' },
   person:   { bg: '#E1F5EE', color: '#0F6E56' },
 };
+
+const counts = {
+  place:    entries.filter(e => e.data.category === 'place').length,
+  faction:  entries.filter(e => e.data.category === 'faction').length,
+  creature: entries.filter(e => e.data.category === 'creature').length,
+  lore:     entries.filter(e => e.data.category === 'lore').length,
+  person:   entries.filter(e => e.data.category === 'person').length,
+};
 ---
 <Base title="Home">
   <div class="page">
@@ -20,7 +28,12 @@ const tagColors: Record<string, { bg: string; color: string }> = {
         <h1 class="site-title">Third Earth Stories</h1>
         <p class="site-desc">A living encyclopedia of places, peoples, and powers.</p>
         <div class="stats">
-          <div class="stat"><span class="stat-num">{entries.length}</span><span class="stat-label">Entries</span></div>
+          <div class="stat"><span class="stat-num">{entries.length}</span><span class="stat-label">Total</span></div>
+          <div class="stat"><span class="stat-num">{counts.place}</span><span class="stat-label">Places</span></div>
+          <div class="stat"><span class="stat-num">{counts.faction}</span><span class="stat-label">Factions</span></div>
+          <div class="stat"><span class="stat-num">{counts.creature}</span><span class="stat-label">Creatures</span></div>
+          <div class="stat"><span class="stat-num">{counts.lore}</span><span class="stat-label">Lore</span></div>
+          <div class="stat"><span class="stat-num">{counts.person}</span><span class="stat-label">People</span></div>
         </div>
       </div>
     </div>
