@@ -1,7 +1,7 @@
 ---
 title: Nix
 category: creature
-lead: A raccoon of no particular distinction who has, through a series of mundane behaviors, become the subject of at least four contradictory legends.
+lead: A raccoon of no particular distinction who has, through a series of mundane behaviors, become the subject of at least three contradictory legends.
 image: /images/nix.png
 meta:
   Species: Raccoon (Procyon)
@@ -15,6 +15,6 @@ Trappers in the interior have a habit of narrating. When they encounter somethin
 
 ## The legends
 
-The most common account holds that Nix appears before a significant crossing and leads the traveler to water. A competing account holds that she leads travelers *away* from water, as punishment for unnamed transgressions.
+The most common account holds that Nix appears before a significant crossing and leads the traveler to water. A competing account holds that he leads travelers *away* from water, as punishment for unnamed transgressions.
 
-The fourth account, held mostly by a single trapper who prefers not to be named, is that she is just a raccoon who has learned that humans carry food.
+The third account, held mostly by a single trapper who prefers not to be named, is that he is just a raccoon who has learned that humans carry food.
