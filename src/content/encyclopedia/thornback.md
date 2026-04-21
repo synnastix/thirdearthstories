@@ -10,7 +10,7 @@ meta:
   Size: 18-25 ft long, 8-12 ft tall, 8-10 tons
   Temperament: Docile in herds, Unstable if provoked
 related:
-
+  - wildkin
 ---
 
 Trappers in the interior have a habit of narrating. When they encounter something they cannot explain, they reach for pattern and story rather than silence. Nix has benefited enormously from this tendency.
