@@ -1,10 +1,9 @@
 ---
-title: The First and Second
+title: Creation Story
 category: lore
 lead: An account of the worlds that came before.
 related:
   - flow-and-energy
-  - verdant-post
 ---
 
 ## The Fall of Man
