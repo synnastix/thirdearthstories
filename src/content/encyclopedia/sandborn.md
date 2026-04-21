@@ -2,7 +2,7 @@
 title: The Sandborn
 category: faction
 lead: Masters of the Ryukhan Desert and operators of merchant networks throughout the land.
-image: /images/wildkin.jpg
+
 meta:
   Status: Active
   Territory: Ryukhan Desert
