@@ -1,12 +1,12 @@
 ---
-title: The Visari
+title: Visari
 category: faction
 lead: The people of the forest. Sensitive to the world's systems of life and energy.
 
 meta:
   Status: Active
   Territory: Redwood forest
-  Also known as: Rootborn
+  Also known as: Rootborn, Visareen
 related:
   - front
   - khuldinai
