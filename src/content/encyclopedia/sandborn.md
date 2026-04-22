@@ -1,5 +1,5 @@
 ---
-title: The Sandborn
+title: Sandborn
 category: faction
 lead: Masters of the Ryukhan Desert and operators of merchant networks throughout the land.
 
