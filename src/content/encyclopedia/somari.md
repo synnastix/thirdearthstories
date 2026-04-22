@@ -1,5 +1,5 @@
 ---
-title: The Somari
+title: Somari
 category: faction
 lead: Nomadic warrior-tribes who roam the plains and build no permanent settlements.
 
