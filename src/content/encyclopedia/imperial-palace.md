@@ -12,6 +12,7 @@ meta:
 related:
   - timbur_deep
   - the_slums
+  - imperial-politics
 ---
 
 The Imperial Palace of Timbur Deep is a layered structure built across multiple centuries on a foundation predating the current Empire by at least a millennium. The current visible structure represents the newest layer of a site that has been continuously occupied, demolished, rebuilt, and expanded. What stands today is the Empire's statement – what lies beneath it is older, stranger, and only partially understood by current inhabitants.
