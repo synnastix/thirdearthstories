@@ -1,7 +1,7 @@
 ---
 title: Politics of the Empire
 category: lore
-lead: Politics of the Empire
+lead: A discussion on the systems that govern the Empire.
 related:
   - timbur-deep
   - the-heartlands
