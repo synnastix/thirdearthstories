@@ -10,6 +10,7 @@ meta:
 related:
   - empire
   - the_slums
+  - imperial-politics
 ---
 
 City nestled at the seat of the Dragon's Spine Mountains.
