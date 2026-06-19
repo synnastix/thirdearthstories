@@ -8,6 +8,8 @@ meta:
   Territory: The Heartlands
 related:
   - timbur-deep
+  - imperial-palace
+  - imperial-politics
 ---
 
 
