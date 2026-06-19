@@ -3,7 +3,7 @@ title: Geography of the Heartlands
 category: place
 lead: A Survey of the Heartlands Region
 related:
-  - timbur_deep
+  - timbur-deep
   - front
   - empire
   - khuldinai 
