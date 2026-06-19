@@ -10,8 +10,8 @@ meta:
   Population: 5,000 - 7,000 (est)
   
 related:
-  - timbur_deep
-  - the_slums
+  - timbur-deep
+  - the-slums
   - imperial-politics
 ---
 
