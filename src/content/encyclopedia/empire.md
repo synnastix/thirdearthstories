@@ -7,7 +7,7 @@ meta:
   Status: Active
   Territory: The Heartlands
 related:
-  - timbur-deep
+  - timbur_deep
   - imperial-palace
   - imperial-politics
 ---
