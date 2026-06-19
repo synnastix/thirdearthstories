@@ -9,7 +9,7 @@ meta:
   Also known as: City of Plenty
 related:
   - empire
-  - the_slums
+  - the-slums
   - imperial-politics
 ---
 
