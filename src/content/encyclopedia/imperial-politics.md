@@ -9,8 +9,6 @@ related:
   - imperial-palace
 ---
 
-## Politics of the Empire
-
 *As understood by Rast, Wizard of the Tower and conjurer of woodland spirits.*
 
 The Empire, as we know it, is unlike the empires of old. The Emperor is a figure whose voice carries weight, but he is not the ultimate authority in the land. The engine that powers the imperial apparatus is derived from four largely independent components. I shall describe them here, based on my experience of each.
