@@ -16,9 +16,9 @@ The Empire, as we know it, is unlike the empires of old. The Emperor is a figure
 ## The Four Pillars
 
 If we think of the Empire as the surface of a table, each of the individual components underneath provide support like legs. If we take any single one out, it creates instability that threatens the whole.
-The Emperor is the figurehead. The Councilors, and there are twelve of them, are appointed advisors. Combined, they are responsible for setting administrative policies within the Empire’s sphere of influence, and for negotiations with external forces like the Visari and Khuldinai. The Emperor rules by decree – his authority backed by the Legion and threat of violence.
+The Emperor is the figurehead. The Councilors, and there are twelve of them, are appointed advisors. Combined, they are responsible for setting administrative policies within the Empire’s sphere of influence, and for negotiations with external forces like the Visari and Khuldinai. The Emperor rules by decree - his authority backed by the Legion and threat of violence.
 
-The Legion is the Empire’s enforcement arm – it is deployed with diplomacy fails. Legion deployments are directed by the Emperor, supplied by the Merchant Houses, and sanctioned by the Temple. The Legion is the pillar I am most familiar with, and I shall describe it in further detail in a moment.
+The Legion is the Empire’s enforcement arm - it is deployed with diplomacy fails. Legion deployments are directed by the Emperor, supplied by the Merchant Houses, and sanctioned by the Temple. The Legion is the pillar I am most familiar with, and I shall describe it in further detail in a moment.
 
 The Temple is the divine sanctioning organization within the Empire. Far from a single religion, the Temple is an organization that services multiple faiths and belief systems. Truthfully, I am not very familiar with the gods the Temple serves, but in my experience the Temple seems to use its influence over the populace in service of the Empire. What I have seen is that for many, behaviors dictated by the Temple are viewed as the highest law in the land, even when it conflicts with history and common sense.
 
@@ -34,7 +34,7 @@ Everything any of these organizations do must effectively maintain the whole, ot
 
 But, you ask, whose authority is highest?
 
-The truth is – it depends.
+The truth is - it depends.
 
 Within the Bastion and higher echelons of Timbur Deep, a Temple agent may carry more authority in a specific circumstance than a Councilor. In the Slums, the Legion may carry the most authority through the capacity for violence. Each organization has exactly as much authority in any given situation as anyone else allows. Ultimately, the Pillars work together for the good of the Empire.
 
@@ -56,7 +56,7 @@ This system, the Empire has found, has proven less problematic than prior Empire
 
 Worth noting is that while each Domain is semi-autonomous, the Empire has established a policy of restricting each Lord from establishing any significant standing military force. Each is allowed a certain garrison to serve as immediate protection for the people, but any attempt by a Lord to establish their own army quickly results in the Merchant Houses draining resources from the Domain, which usually motivates the Lord back into compliance. Thus, while each Domain may have their own local militia and guards, none ever grow to a size that threatens the authority of the Empire.
 
-The Legion is the exception – it is the officially sanctioned army of the Empire that serves not as an occupation force, but as a force designed for rapid deployment to problematic areas. This may be to settle a dispute between rival Lords that could not be resolved diplomatically or economically, or to exterminate any non-human threats that may disrupt local stability. It is this promise of rapid, extreme violence that ensures compliance with Imperial mandates, and for most people, that is enough.
+The Legion is the exception - it is the officially sanctioned army of the Empire that serves not as an occupation force, but as a force designed for rapid deployment to problematic areas. This may be to settle a dispute between rival Lords that could not be resolved diplomatically or economically, or to exterminate any non-human threats that may disrupt local stability. It is this promise of rapid, extreme violence that ensures compliance with Imperial mandates, and for most people, that is enough.
 
 To maintain this relationship, Legion in service of local Lords, each Domain is assigned a Prefect. The Prefect is a Legion officer that serves as a liaison between the Lord and the Legion directly, without requiring the Emperor’s involvement. The Prefect works with local agents from the Merchant Houses to keep track of resources in the region that are critical to the functioning of the Empire, manages a spy network to detect early indicators of instability, and maintains oversight of the Lords management of their Domain. Any Lord whose policies and behaviors begin to disturb the region may receive gentle correction and guidance through the Prefect, Temple, or Merchant Houses.
 
@@ -74,11 +74,11 @@ Crucially, it is important to understand that even a kind and well-meaning Lord 
 
 Whatever the reason for Deposition, the Legion, in collaboration with the Merchant Houses and Temple, will assume control of strategic resources within the Domain until a new Lordship is established. This is generally accomplished within a week as someone will often have been selected to replace the Lord beforehand, but in some cases that may not be possible.
 
-If the new Lordship is not established within the appointed time period, the Legion will employ a strategy termed *Abeyance*. To put it simply – the Legion will withdraw its forces from the region aside from the protection of the assets deemed to be most strategically important to the Empire. This is the least desirable state for the Domain to fall into as the power vacuum generates instability that wreaks havoc on the local people.
+If the new Lordship is not established within the appointed time period, the Legion will employ a strategy termed *Abeyance*. To put it simply - the Legion will withdraw its forces from the region aside from the protection of the assets deemed to be most strategically important to the Empire. This is the least desirable state for the Domain to fall into as the power vacuum generates instability that wreaks havoc on the local people.
 
 While this may seem cruel, it is a strategic calculation of the Empire that assures the instability will be resolved quickly by the local people, without requiring the Empire’s resources. Merchant Houses, in particular, will be eager to establish a new Lordship to restore stability and economic activity. They already know which resources matter and why, and are therefore uniquely positioned to facilitate a new Lordship quickly. The people as well have a particular interest in restoring order. Without a Lordship respected by the Empire, they receive no resources, no security, and are cut off from external supply lines. The Empire uses patience as a weapon, letting attrition and suffering do the work of motivating people toward a stable Lordship rather than going through the expense of forcing one upon them.
 
-In short – people die, often in great numbers. And the Empire believes it can outlast the chaos while the people reorganize.
+In short - people die, often in great numbers. And the Empire believes it can outlast the chaos while the people reorganize.
 
 The Legion mandate of Deposition isn’t just reserved for the Domain Lords, it applies to the Empire as well. Should the Emperor himself or the Councilors be found unfit to serve the interest of the Empire, they too risk Deposition.
 
