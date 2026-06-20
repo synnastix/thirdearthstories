@@ -79,6 +79,26 @@ Living in proximity to the wall is possible but makes specific demands. The sett
 
 For the Legion, this is simply referred to as the northern deployment zone. For everyone else, it is where the known world ends.
 
+## Weather Patterns of the Heartlands
+
+The Heartlands sits between two competing air systems that never fully resolve their disagreement. Cold dry continental air descends from the northwest off the high ranges year-round, while warm humid air rises from the sea to the south. The Heartlands basin is where they meet. The result is a climate of strong seasonal swings, high annual precipitation, and weather that changes character faster than the terrain suggests it should. The eastern wall range traps most of this moisture before it can escape eastward, which keeps the Heartlands wetter than the land beyond it and amplifies the collision between air masses over the basin itself.
+
+*Spring*
+
+The cold continental air begins losing ground to the warming sea air in early spring, and the transition is rarely polite. Heavy rainfall arrives in sustained events rather than steady drizzle - days of standing water in the lower fields, rivers running fast and brown with snowmelt from the peaks above. Flooding in the valley bottoms is a regular agricultural calculation, not a disaster. The compartmentalized terrain of the central ridgeland means each valley floods on its own schedule. Farmers here read the upland snowpack before they plant anything.
+
+*Summer*
+
+The sea air wins the season and the Heartlands turns hot and humid in a way that surprises travelers expecting a temperate climate. Heat sits in the valleys and doesn't move. The ridgelines catch whatever breeze exists; the valley floors do not. Storm season runs through midsummer - fast-moving systems that build over the sea, push north, and release hard over the basin before dissipating against the northern and eastern ranges. The storms arrive with little warning and pass quickly, leaving the air briefly clean before the humidity reasserts itself.
+
+*Autumn*
+
+The balance tips back toward the continental air as the sea cools. Mornings turn cold fast while afternoons stay warm long enough to be deceptive. Fog is the defining feature of autumn in the Heartlands - cold air sliding down from the ridges at night hits the warmer valley floor air and stays there until midday. Harvest happens in this light: flat, grey-white, diffuse. The ridgeline farms finish before the valley farms, which finish before the river-bottom farms. The harvest sequence runs roughly three weeks across the elevation gradient.
+
+*Winter*
+
+The continental air reasserts fully and the Heartlands argues with it rather than surrendering to it. Snow arrives in events - a hard fall that blankets the basin, sits for a week or two, then a warm pulse from the south clears it. Then another fall. The city never fully locks into winter the way the high range does; it cycles in and out of it. The dramatic quality of the snow is partly elevation - the caldera rim holds white for months while the valley floor below is already wet and grey again. When both air masses are present simultaneously and in roughly equal strength, the Heartlands gets its worst weather: sustained heavy snowfall, then immediate thaw, then freeze again as the continental air returns. The infrastructure knows this pattern. The roads are built for it. New arrivals are not.
+
 *Survey concluded. The author notes that the above reflects conditions as observed during the survey period and should not be taken as a guarantee of current conditions in any specific location. The Heartlands is a region in motion.*
 
 *- Filed with the Imperial Cartographic Office*
