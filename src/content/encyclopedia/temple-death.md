@@ -6,7 +6,11 @@ related:
   - flow-and-energy
 ---
 
-I have been asked to compile what is known, and what is rumored, about the energetic remnants of the dead. Aldric was characteristically sparse in his instructions. *"Write down what you find. Leave nothing out. Especially the things that embarrass you."* I will do my best.
+I have been asked to compile what is known, and what is rumored, about the energetic remnants of the dead. Aldric was characteristically sparse in his instructions. 
+
+*"Write down what you find. Leave nothing out. Especially the things that embarrass you."* 
+
+I will do my best.
 
 It is the Temple's position, and my own sincere belief, that the gods are present in all things. What follows does not contradict that. If anything, it confirms it - that even in death, even in suffering, something of the divine order persists. Whether that order is merciful is a question above my station.
 
