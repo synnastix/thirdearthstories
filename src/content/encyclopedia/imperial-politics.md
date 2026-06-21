@@ -16,6 +16,7 @@ The Empire, as we know it, is unlike the empires of old. The Emperor is a figure
 ## The Four Pillars
 
 If we think of the Empire as the surface of a table, each of the individual components underneath provide support like legs. If we take any single one out, it creates instability that threatens the whole.
+
 The Emperor is the figurehead. The Councilors, and there are twelve of them, are appointed advisors. Combined, they are responsible for setting administrative policies within the Empire’s sphere of influence, and for negotiations with external forces like the Visari and Khuldinai. The Emperor rules by decree - his authority backed by the Legion and threat of violence.
 
 The Legion is the Empire’s enforcement arm - it is deployed with diplomacy fails. Legion deployments are directed by the Emperor, supplied by the Merchant Houses, and sanctioned by the Temple. The Legion is the pillar I am most familiar with, and I shall describe it in further detail in a moment.
