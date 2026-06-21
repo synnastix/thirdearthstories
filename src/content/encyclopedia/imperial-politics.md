@@ -29,7 +29,7 @@ Together, these Four Pillars dictate every policy, trade, and everyday life of t
 
 ## Interdependency
 
-Despite being independent organizations, each of the Pillars is dependent on the others. The Legion depends on the Empire for funding, which then gets directed to Merchant Houses for supplies. The Merchant Houses rely on the Legion to ensure trade routes stay clear of threat, human or otherwise. The Temple provides moral guidance and justifies the Emperor’s decrees and sanctions Legion excursions. While it may seem then, that the Emperor or Temple may serve as a high authority, the Legion has its own mandate that allows, nay, requires it to depose leadership that no longer serves the Empire’s interests.
+Despite being independent organizations, each of the Pillars is dependent on the others. The Legion depends on the Empire for funding, which then gets directed to Merchant Houses for supplies. The Merchant Houses rely on the Legion to ensure trade routes stay clear of threat, human or otherwise. The Temple provides moral guidance and justifies the Emperor’s decrees and sanctions Legion excursions. The Emperor, in turn, is able to use the Temple to focus any discontent away from the Emperor and the Councilors, redirecting toward unseen divine forces. While it may seem then, that the Emperor or Temple may serve as a high authority, the Legion has its own mandate that allows, nay, requires it to depose leadership that no longer serves the Empire’s interests.
 
 Everything any of these organizations do must effectively maintain the whole, otherwise instability threatens everyone.
 
