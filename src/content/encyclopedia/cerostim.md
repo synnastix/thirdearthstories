@@ -7,7 +7,7 @@ meta:
   Type: Natural
   Habitat: Open plains, forest edge, mountain foothills
   Diet: Herbivore
-  Size: 9'10" - 10'6" long, 6'6" - 7' tall at the shoulder, 1,100 - 1,500 pounds
+  Size: 8 - 10 ft long, 6 - 7 ft tall at the shoulder, 1,100 - 1,500 pounds
   Temperament: Passive unless provoked - dangerous during rut
 related:
   - heartlands-geography
