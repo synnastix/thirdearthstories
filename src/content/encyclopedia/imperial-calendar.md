@@ -3,7 +3,6 @@ title: Imperial Calendar
 category: lore
 lead: An agreement between the Empire and Merchant Houses on the recording of time.
 related:
-  - flow-and-energy
   - empire
   - merchant-houses
 ---
