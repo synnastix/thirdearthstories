@@ -17,13 +17,13 @@ related:
 
 ---
 
-A merchant who cannot name the season has no business calling himself a factor. We record this not to instruct the learned, but because experience has shown that agents arriving from the western territories - and on occasion from among our Visari partners, who track time by altogether different customs - may benefit from a plain account of the calendar as it is observed within the Empire.
+A merchant who cannot name the season has no business calling himself a Great House. We record this not to instruct the learned, but because experience has shown that agents arriving from the western territories - and on occasion from among our Visari partners, who track time by altogether different customs - may benefit from a plain account of the calendar as it is observed within the Empire.
 
 The Common Reckoning holds twelve moons to a year. This is the number the Empire counts, the number the taxmen write into their ledgers, and the number by which the Great Houses schedule contracts. The year 753 CR begins, as all years do, with the cold.
 
 Each season turns on its midpoint. The deep of winter, the height of summer, the precise balance of spring and autumn - these are not the beginnings of their seasons but the pivots. A farmer in the Heartlands does not need a scholar to tell him when winter starts; he knows it when the ground freezes and his breath fogs. The equinoxes and solstices mark the turning of the wheel, not its first spoke.
 
-This is worth understanding for practical reasons. A contract specifying delivery *before the solstice* means before the peak of summer, not before summer begins. Factors who confuse pivot for threshold have cost this house money. We note it plainly.
+This is worth understanding for practical reasons. A contract specifying delivery *before the solstice* means before the peak of summer, not before summer begins. Agents who confuse pivot for threshold have cost this house money. We note it plainly.
 
 ---
 
@@ -52,7 +52,7 @@ The Visari do not count years. This is not ignorance; it is their custom. They o
 
 ## A Note on Timekeeping
 
-Great Houses factors rely on Khuldinai-made hourglasses upon appointment. This is not ceremonial. The Khuldinai build hourglasses because they believe time spent imprecisely is time wasted. We do not share their philosophy entirely, but we share their conclusion. An agent who cannot tell a captain what hour the tide turns is a liability.
+For detailed timekeeping, Great Houses rely on Khuldinai-made hourglasses. This is not ceremonial. The Khuldinai build hourglasses because they believe time spent imprecisely is time wasted. We do not share their philosophy entirely, but we share their conclusion. An agent who cannot tell a captain what hour the tide turns is a liability.
 
 ## The Year Count
 
@@ -60,4 +60,4 @@ The Common Reckoning counts from the founding of the Empire. The current year is
 
 ---
 
-*This taxonomy is issued to agents of Great Houses and is not for general distribution. Errors in dating or seasonal classification should be reported to the Chief Factor's office in Timbur Deep.*
+*This taxonomy is issued to agents of Great Houses and is not for general distribution. Errors in dating or seasonal classification should be reported to the Chief Merchant's office in Timbur Deep.*
