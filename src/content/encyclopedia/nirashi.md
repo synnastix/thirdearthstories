@@ -1,5 +1,5 @@
 ---
-title: The Nirashi
+title: Nirashi
 category: faction
 lead: A people without a homeland. They have always wandered in strangers' lands, and they have made peace with that.
 image: /images/nirashi.png
