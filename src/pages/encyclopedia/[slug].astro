@@ -275,6 +275,37 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
   .article-body {
     flex-direction: column;
   }
+.prose :global(h4) {
+  font-family: 'Crimson Pro', serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 1.25rem 0 .4rem;
+  color: #1a1a18;
+}
+.prose :global(table) {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 1.5rem 0;
+}
+.prose :global(th) {
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #999;
+  padding: .5rem .75rem;
+  border-bottom: 0.5px solid #ddd9d0;
+}
+.prose :global(td) {
+  padding: .5rem .75rem;
+  border-bottom: 0.5px solid #ddd9d0;
+  color: #444;
+  vertical-align: top;
+}
+.prose :global(th) {
+  text-align: left;
+}
   .meta-panel {
     width: 100%;
     order: 2;
