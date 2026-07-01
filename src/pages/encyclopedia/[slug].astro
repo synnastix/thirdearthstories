@@ -225,6 +225,13 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
     margin: 1.5rem 0 .5rem;
     color: #1a1a18;
   }
+  .prose :global(h4) {
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1.25rem 0 .4rem;
+    color: #1a1a18;
+  }
   .prose :global(p) { margin-bottom: 1rem; }
   .prose :global(em) { font-style: italic; }
   .prose :global(strong) { font-weight: 500; color: #1a1a18; }
@@ -275,13 +282,6 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666' };
   .article-body {
     flex-direction: column;
   }
-.prose :global(h4) {
-  font-family: 'Crimson Pro', serif;
-  font-size: 15px;
-  font-weight: 600;
-  margin: 1.25rem 0 .4rem;
-  color: #1a1a18;
-}
 .prose :global(table) {
   width: 100%;
   border-collapse: collapse;
