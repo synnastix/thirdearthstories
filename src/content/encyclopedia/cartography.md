@@ -1,5 +1,5 @@
 ---
-title: Cartography
+title: A Cartographer's Complaints
 category: lore
 lead: A note found in the Imperial library near the texts on map.
 related:
