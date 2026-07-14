@@ -11,13 +11,13 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
-  place:    { bg: '#EAF3DE', color: '#3B6D11', edge: '#97C459' },
-  faction:  { bg: '#EEEDFE', color: '#3C3489', edge: '#7F77DD' },
-  creature: { bg: '#FAECE7', color: '#993C1D', edge: '#F0997B' },
-  lore:     { bg: '#FAEEDA', color: '#854F0B', edge: '#EF9F27' },
-  person:   { bg: '#E1F5EE', color: '#0F6E56', edge: '#5DCAA5' },
+  place:    { bg: 'var(--place-bg)', color: 'var(--place-text)', edge: 'var(--place-edge)' },
+  faction:  { bg: 'var(--faction-bg)', color: 'var(--faction-text)', edge: 'var(--faction-edge)' },
+  creature: { bg: 'var(--creature-bg)', color: 'var(--creature-text)', edge: 'var(--creature-edge)' },
+  lore:     { bg: 'var(--lore-bg)', color: 'var(--lore-text)', edge: 'var(--lore-edge)' },
+  person:   { bg: 'var(--person-bg)', color: 'var(--person-text)', edge: 'var(--person-edge)' },
 };
-const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge: '#ccc' };
+const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
 ---
 
 <Base title={entry.data.title}>
@@ -87,7 +87,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
 
 <style>
 .page {
-  background: #f7f5f0;
+  background: var(--bg-page);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -100,8 +100,8 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
 }
 
 .sidebar {
-  background: #fff;
-  border-right: 0.5px solid #ddd9d0;
+  background: var(--bg-surface);
+  border-right: 0.5px solid var(--border);
   padding: 1.5rem 0;
   position: sticky;
   top: 52px;
@@ -110,7 +110,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
   font-size: 10px;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: #aaa;
+  color: var(--text-faint);
   padding: 0 1.25rem;
   margin-bottom: .5rem;
 }
@@ -118,10 +118,10 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
   display: block;
   padding: .35rem 1.25rem;
   font-size: 13px;
-  color: #666;
+  color: var(--text-secondary);
   text-decoration: none;
 }
-.sidebar-item:hover { color: #1a1a18; background: #f7f5f0; }
+.sidebar-item:hover { color: var(--text-primary); background: var(--bg-surface-alt); }
 
 .main {
   padding: 2.5rem 3rem;
@@ -130,16 +130,16 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
 
 .back {
   font-size: 12px;
-  color: #aaa;
+  color: var(--text-faint);
   text-decoration: none;
   display: inline-block;
   margin-bottom: 1.5rem;
 }
-.back:hover { color: #1a1a18; }
+.back:hover { color: var(--text-primary); }
 
 .article-header {
   padding-bottom: 1.5rem;
-  border-bottom: 0.5px solid #ddd9d0;
+  border-bottom: 0.5px solid var(--border);
   margin-bottom: 1.5rem;
 }
 .tag {
@@ -161,7 +161,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
 .article-lead {
   font-size: 15px;
   line-height: 1.8;
-  color: #666;
+  color: var(--text-secondary);
   font-style: italic;
   max-width: 580px;
 }
@@ -176,7 +176,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
   margin-bottom: 2rem;
   border-radius: 8px;
   overflow: hidden;
-  border: 0.5px solid #ddd9d0;
+  border: 0.5px solid var(--border);
 }
 .article-image img {
   width: 100%;
@@ -187,8 +187,8 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
 .meta-panel {
   flex-shrink: 0;
   width: 168px;
-  background: #f7f5f0;
-  border: 0.5px solid #ddd9d0;
+  background: var(--bg-surface-alt);
+  border: 0.5px solid var(--border);
   border-radius: 8px;
   padding: 1rem 1.25rem;
   order: 2;
@@ -199,44 +199,44 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: .06em;
-  color: #aaa;
+  color: var(--text-faint);
   margin-bottom: 2px;
 }
-.meta-value { font-size: 12px; color: #333; }
+.meta-value { font-size: 12px; color: var(--text-primary); }
 
 .prose {
   flex: 1;
   order: 1;
   font-size: 14px;
   line-height: 1.85;
-  color: #444;
+  color: var(--text-secondary);
 }
 .prose :global(h2) {
   font-family: 'Crimson Pro', serif;
   font-size: 22px;
   font-weight: 400;
   margin: 1.75rem 0 .6rem;
-  color: #1a1a18;
+  color: var(--text-primary);
   padding-bottom: .3rem;
-  border-bottom: 2px solid var(--edge-color, #ddd9d0);
+  border-bottom: 2px solid var(--edge-color, var(--border));
 }
 .prose :global(h3) {
   font-family: 'Crimson Pro', serif;
   font-size: 18px;
   font-weight: 400;
   margin: 1.5rem 0 .5rem;
-  color: #1a1a18;
+  color: var(--text-primary);
 }
 .prose :global(h4) {
   font-family: 'Crimson Pro', serif;
   font-size: 15px;
   font-weight: 400;
   margin: 1.25rem 0 .4rem;
-  color: #1a1a18;
+  color: var(--text-primary);
 }
 .prose :global(p) { margin-bottom: 1rem; }
 .prose :global(em) { font-style: italic; }
-.prose :global(strong) { font-weight: 500; color: #1a1a18; }
+.prose :global(strong) { font-weight: 500; color: var(--text-primary); }
 
 .prose :global(table) {
   width: 100%;
@@ -249,40 +249,40 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
   font-size: 10px;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: #999;
+  color: var(--text-muted);
   padding: .5rem .75rem;
-  border-bottom: 0.5px solid #ddd9d0;
+  border-bottom: 0.5px solid var(--border);
 }
 .prose :global(td) {
   padding: .5rem .75rem;
-  border-bottom: 0.5px solid #ddd9d0;
-  color: #444;
+  border-bottom: 0.5px solid var(--border);
+  color: var(--text-secondary);
   vertical-align: top;
 }
 
 .related {
   margin-top: 2.5rem;
   padding-top: 1.5rem;
-  border-top: 0.5px solid #ddd9d0;
+  border-top: 0.5px solid var(--border);
 }
 .related-label {
   font-size: 11px;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: #aaa;
+  color: var(--text-faint);
   margin-bottom: .75rem;
 }
 .related-links { display: flex; flex-wrap: wrap; gap: .5rem; }
 .related-link {
   font-size: 12px;
   padding: 4px 10px;
-  border: 0.5px solid #ccc;
+  border: 0.5px solid var(--border);
   border-radius: 20px;
-  color: #666;
+  color: var(--text-secondary);
   text-decoration: none;
   text-transform: capitalize;
 }
-.related-link:hover { background: #fff; color: #1a1a18; border-color: #aaa; }
+.related-link:hover { background: var(--bg-surface); color: var(--text-primary); border-color: var(--border-strong); }
 
 @media (max-width: 640px) {
   .body {
@@ -292,7 +292,7 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
     position: static;
     height: auto;
     border-right: none;
-    border-bottom: 0.5px solid #ddd9d0;
+    border-bottom: 0.5px solid var(--border);
     padding: 1rem 0;
   }
   .main {

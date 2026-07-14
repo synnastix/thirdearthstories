@@ -1,0 +1,75 @@
+:root {
+  --bg-page: #f7f5f0;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #f7f5f0;
+  --bg-surface-hover: #faf8f4;
+
+  --border: #ddd9d0;
+  --border-strong: #aaaaaa;
+
+  --text-primary: #1a1a18;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  --text-faint: #aaaaaa;
+  --link: #185fa5;
+
+  --place-bg: #eaf3de;
+  --place-text: #3b6d11;
+  --place-edge: #97c459;
+
+  --faction-bg: #eeedfe;
+  --faction-text: #3c3489;
+  --faction-edge: #7f77dd;
+
+  --creature-bg: #faece7;
+  --creature-text: #993c1d;
+  --creature-edge: #f0997b;
+
+  --lore-bg: #faeeda;
+  --lore-text: #854f0b;
+  --lore-edge: #ef9f27;
+
+  --person-bg: #e1f5ee;
+  --person-text: #0f6e56;
+  --person-edge: #5dcaa5;
+}
+
+[data-theme="dark"] {
+  --bg-page: #16150f;
+  --bg-surface: #1e1d16;
+  --bg-surface-alt: #26251b;
+  --bg-surface-hover: #262519;
+
+  --border: #33322a;
+  --border-strong: #55523f;
+
+  --text-primary: #f0eee5;
+  --text-secondary: #9c9a8e;
+  --text-muted: #8a8779;
+  --text-faint: #6f6c5e;
+  --link: #85b7eb;
+
+  --place-bg: #173404;
+  --place-text: #c0dd97;
+  --place-edge: #97c459;
+
+  --faction-bg: #26215c;
+  --faction-text: #cecbf6;
+  --faction-edge: #7f77dd;
+
+  --creature-bg: #4a1b0c;
+  --creature-text: #f5c4b3;
+  --creature-edge: #f0997b;
+
+  --lore-bg: #412402;
+  --lore-text: #fac775;
+  --lore-edge: #ef9f27;
+
+  --person-bg: #0a3629;
+  --person-text: #a3ead6;
+  --person-edge: #5dcaa5;
+}
+
+*, *::before, *::after {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}

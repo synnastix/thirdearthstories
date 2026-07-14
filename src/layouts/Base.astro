@@ -1,4 +1,5 @@
 ---
+import '../styles/theme.css';
 const { title } = Astro.props;
 ---
 <!DOCTYPE html>
@@ -9,22 +10,41 @@ const { title } = Astro.props;
   <title>{title} — Third Earth Stories</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <script is:inline>
+    (function () {
+      const saved = localStorage.getItem('theme');
+      const theme = saved ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Inter', sans-serif; background: #f7f5f0; color: #1a1a18; min-height: 100vh; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg-page); color: var(--text-primary); min-height: 100vh; }
     a { color: inherit; text-decoration: none; }
-    nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 52px; border-bottom: 0.5px solid #ddd9d0; background: #fff; }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 52px; border-bottom: 0.5px solid var(--border); background: var(--bg-surface); }
     nav .site-title { font-family: 'Crimson Pro', serif; font-size: 20px; font-weight: 600; letter-spacing: 0.04em; }
-    nav .nav-links { display: flex; gap: 1.5rem; }
-    nav .nav-links a { font-size: 13px; color: #888; }
-    nav .nav-links a:hover { color: #1a1a18; }
+    nav .nav-links { display: flex; align-items: center; gap: 1.5rem; }
+    nav .nav-links a { font-size: 13px; color: var(--text-muted); }
+    nav .nav-links a:hover { color: var(--text-primary); }
+    .theme-toggle {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      background: none;
+      border: 0.5px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 10px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      line-height: 1;
+    }
+    .theme-toggle:hover { color: var(--text-primary); border-color: var(--border-strong); }
   footer {
-    border-top: 0.5px solid #ddd9d0;
+    border-top: 0.5px solid var(--border);
     padding: 1.5rem 2rem;
     font-size: 12px;
-    color: #aaa;
+    color: var(--text-faint);
     text-align: center;
-    background: #fff;
+    background: var(--bg-surface);
     margin-top: auto;
   }
 @media (max-width: 640px) {
@@ -45,11 +65,20 @@ const { title } = Astro.props;
       <a href="/thirdearthstories/">Encyclopedia</a>
       <a href="/thirdearthstories/maps">Maps</a>
       <a href="/thirdearthstories/about">About</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">◐</button>
     </div>
   </nav>
   <slot />
 <footer>
   <p>© {new Date().getFullYear()} Jonathan Staples. All rights reserved. All characters, locations, and lore on this site are original works of fiction and may not be reproduced or used without permission.</p>
 </footer>
+  <script is:inline>
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  </script>
 </body>
 </html>
