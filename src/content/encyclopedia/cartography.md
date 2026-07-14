@@ -1,7 +1,7 @@
 ---
 title: On Maps and Cartography
 category: lore
-lead: A note found in the Imperial library near the texts on map.
+lead: A note found in the Imperial library near the texts on mapmaking.
 related:
   - heartlands-geography
 ---
