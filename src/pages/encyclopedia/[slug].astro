@@ -249,3 +249,65 @@ const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge:
   font-size: 10px;
   letter-spacing: .08em;
   text-transform: uppercase;
+  color: #999;
+  padding: .5rem .75rem;
+  border-bottom: 0.5px solid #ddd9d0;
+}
+.prose :global(td) {
+  padding: .5rem .75rem;
+  border-bottom: 0.5px solid #ddd9d0;
+  color: #444;
+  vertical-align: top;
+}
+
+.related {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 0.5px solid #ddd9d0;
+}
+.related-label {
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: .75rem;
+}
+.related-links { display: flex; flex-wrap: wrap; gap: .5rem; }
+.related-link {
+  font-size: 12px;
+  padding: 4px 10px;
+  border: 0.5px solid #ccc;
+  border-radius: 20px;
+  color: #666;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.related-link:hover { background: #fff; color: #1a1a18; border-color: #aaa; }
+
+@media (max-width: 640px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    position: static;
+    height: auto;
+    border-right: none;
+    border-bottom: 0.5px solid #ddd9d0;
+    padding: 1rem 0;
+  }
+  .main {
+    padding: 1.5rem 1.25rem;
+  }
+  .article-body {
+    flex-direction: column;
+  }
+  .meta-panel {
+    width: 100%;
+    order: 2;
+    margin-top: 1.5rem;
+  }
+  .prose {
+    order: 1;
+  }
+}
+</style>
