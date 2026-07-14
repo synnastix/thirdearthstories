@@ -52,11 +52,11 @@ const featuredPool = entries.map(e => ({
         <p class="site-desc">A living encyclopedia of places, peoples, and powers.</p>
         <div class="stats">
           <div class="stat"><span class="stat-num" data-target={entries.length}>0</span><span class="stat-label">Total</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.place}>0</span><span class="stat-label" style="color:var(--place-text);">Places</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.faction}>0</span><span class="stat-label" style="color:var(--faction-text);">Factions</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.creature}>0</span><span class="stat-label" style="color:var(--creature-text);">Creatures</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.lore}>0</span><span class="stat-label" style="color:var(--lore-text);">Lore</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.person}>0</span><span class="stat-label" style="color:var(--person-text);">People</span></div>
+          <div class="stat"><span class="stat-num" data-target={counts.place}>0</span><button type="button" class="stat-label stat-filter" data-filter="place" style="color:var(--place-text);">Places</button></div>
+          <div class="stat"><span class="stat-num" data-target={counts.faction}>0</span><button type="button" class="stat-label stat-filter" data-filter="faction" style="color:var(--faction-text);">Factions</button></div>
+          <div class="stat"><span class="stat-num" data-target={counts.creature}>0</span><button type="button" class="stat-label stat-filter" data-filter="creature" style="color:var(--creature-text);">Creatures</button></div>
+          <div class="stat"><span class="stat-num" data-target={counts.lore}>0</span><button type="button" class="stat-label stat-filter" data-filter="lore" style="color:var(--lore-text);">Lore</button></div>
+          <div class="stat"><span class="stat-num" data-target={counts.person}>0</span><button type="button" class="stat-label stat-filter" data-filter="person" style="color:var(--person-text);">People</button></div>
         </div>
       </div>
       <a href="/thirdearthstories/maps" class="map-teaser">
@@ -173,6 +173,16 @@ const featuredPool = entries.map(e => ({
   color: var(--text-muted);
   margin-top: 2px;
 }
+.stat-filter {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.stat-filter:hover { text-decoration: underline; }
+.stat-filter.active { text-decoration: underline; font-weight: 500; }
 
 .map-teaser {
   width: 260px;
@@ -481,7 +491,7 @@ const featuredPool = entries.map(e => ({
   const searchInput = document.getElementById('search');
   const label = document.getElementById('section-label');
   const noResults = document.getElementById('no-results');
-  const sidebarItems = document.querySelectorAll('.sidebar-item');
+  const filterTriggers = document.querySelectorAll('[data-filter]');
 
   const labels = {
     all: 'All entries', place: 'Places', faction: 'Factions',
@@ -513,17 +523,20 @@ const featuredPool = entries.map(e => ({
 
   function filter(type) {
     activeFilter = type;
-    sidebarItems.forEach(item => {
+    filterTriggers.forEach(item => {
       item.classList.toggle('active', item.dataset.filter === type);
     });
     update();
   }
 
   searchInput.addEventListener('input', update);
-  sidebarItems.forEach(item => {
+  filterTriggers.forEach(item => {
     item.addEventListener('click', e => {
       e.preventDefault();
       filter(item.dataset.filter ?? 'all');
+      if (item.classList.contains('stat-filter')) {
+        document.getElementById('section-label').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     });
   });
 
