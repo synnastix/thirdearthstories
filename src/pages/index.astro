@@ -6,11 +6,11 @@ import fs from 'node:fs';
 const entries = await getCollection('encyclopedia');
 
 const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
-  place:    { bg: '#EAF3DE', color: '#3B6D11', edge: '#97C459' },
-  faction:  { bg: '#EEEDFE', color: '#3C3489', edge: '#7F77DD' },
-  creature: { bg: '#FAECE7', color: '#993C1D', edge: '#F0997B' },
-  lore:     { bg: '#FAEEDA', color: '#854F0B', edge: '#EF9F27' },
-  person:   { bg: '#E1F5EE', color: '#0F6E56', edge: '#5DCAA5' },
+  place:    { bg: 'var(--place-bg)', color: 'var(--place-text)', edge: 'var(--place-edge)' },
+  faction:  { bg: 'var(--faction-bg)', color: 'var(--faction-text)', edge: 'var(--faction-edge)' },
+  creature: { bg: 'var(--creature-bg)', color: 'var(--creature-text)', edge: 'var(--creature-edge)' },
+  lore:     { bg: 'var(--lore-bg)', color: 'var(--lore-text)', edge: 'var(--lore-edge)' },
+  person:   { bg: 'var(--person-bg)', color: 'var(--person-text)', edge: 'var(--person-edge)' },
 };
 
 const counts = {
@@ -38,8 +38,8 @@ const featuredPool = entries.map(e => ({
   title: e.data.title,
   category: e.data.category,
   lead: e.data.lead,
-  bg: tagColors[e.data.category]?.bg ?? '#eee',
-  color: tagColors[e.data.category]?.color ?? '#666',
+  bg: tagColors[e.data.category]?.bg ?? 'var(--bg-surface-alt)',
+  color: tagColors[e.data.category]?.color ?? 'var(--text-secondary)',
 }));
 ---
 <Base title="Home">
@@ -52,11 +52,11 @@ const featuredPool = entries.map(e => ({
         <p class="site-desc">A living encyclopedia of places, peoples, and powers.</p>
         <div class="stats">
           <div class="stat"><span class="stat-num" data-target={entries.length}>0</span><span class="stat-label">Total</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.place}>0</span><span class="stat-label" style="color:#3B6D11;">Places</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.faction}>0</span><span class="stat-label" style="color:#3C3489;">Factions</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.creature}>0</span><span class="stat-label" style="color:#993C1D;">Creatures</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.lore}>0</span><span class="stat-label" style="color:#854F0B;">Lore</span></div>
-          <div class="stat"><span class="stat-num" data-target={counts.person}>0</span><span class="stat-label" style="color:#0F6E56;">People</span></div>
+          <div class="stat"><span class="stat-num" data-target={counts.place}>0</span><span class="stat-label" style="color:var(--place-text);">Places</span></div>
+          <div class="stat"><span class="stat-num" data-target={counts.faction}>0</span><span class="stat-label" style="color:var(--faction-text);">Factions</span></div>
+          <div class="stat"><span class="stat-num" data-target={counts.creature}>0</span><span class="stat-label" style="color:var(--creature-text);">Creatures</span></div>
+          <div class="stat"><span class="stat-num" data-target={counts.lore}>0</span><span class="stat-label" style="color:var(--lore-text);">Lore</span></div>
+          <div class="stat"><span class="stat-num" data-target={counts.person}>0</span><span class="stat-label" style="color:var(--person-text);">People</span></div>
         </div>
       </div>
       <a href="/thirdearthstories/maps" class="map-teaser">
@@ -105,7 +105,7 @@ const featuredPool = entries.map(e => ({
         <p class="section-label" id="section-label">All entries</p>
         <div class="grid" id="entry-grid">
           {entries.map(entry => {
-            const tag = tagColors[entry.data.category] ?? { bg: '#eee', color: '#666', edge: '#ccc' };
+            const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
             return (
               <a href={`/thirdearthstories/encyclopedia/${entry.slug}`} class="card" style={`border-top-color:${tag.edge};`} data-category={entry.data.category} data-title={entry.data.title} data-lead={entry.data.lead}>
                 <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
@@ -123,15 +123,15 @@ const featuredPool = entries.map(e => ({
 
 <style>
 .page {
-  background: #f7f5f0;
+  background: var(--bg-page);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .hero {
-  background: #fff;
-  border-bottom: 0.5px solid #ddd9d0;
+  background: var(--bg-surface);
+  border-bottom: 0.5px solid var(--border);
   padding: 3rem 2rem 2.5rem;
   display: flex;
   gap: 3rem;
@@ -142,7 +142,7 @@ const featuredPool = entries.map(e => ({
   font-size: 11px;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: #999;
+  color: var(--text-muted);
   margin-bottom: .75rem;
 }
 .site-title {
@@ -155,7 +155,7 @@ const featuredPool = entries.map(e => ({
 .site-desc {
   font-size: 15px;
   line-height: 1.8;
-  color: #666;
+  color: var(--text-secondary);
   max-width: 520px;
   margin-bottom: 1.75rem;
 }
@@ -170,14 +170,14 @@ const featuredPool = entries.map(e => ({
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: .06em;
-  color: #999;
+  color: var(--text-muted);
   margin-top: 2px;
 }
 
 .map-teaser {
   width: 260px;
   flex-shrink: 0;
-  border: 0.5px solid #ddd9d0;
+  border: 0.5px solid var(--border);
   border-radius: 12px;
   overflow: hidden;
   display: block;
@@ -196,14 +196,14 @@ const featuredPool = entries.map(e => ({
   font-size: 10px;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: #666;
-  background: #fff;
-  border-top: 0.5px solid #ddd9d0;
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  border-top: 0.5px solid var(--border);
 }
 
 .quote-band {
-  background: #f7f5f0;
-  border-bottom: 0.5px solid #ddd9d0;
+  background: var(--bg-page);
+  border-bottom: 0.5px solid var(--border);
   padding: 14px 2rem;
   text-align: center;
   min-height: 64px;
@@ -217,12 +217,12 @@ const featuredPool = entries.map(e => ({
   font-size: 17px;
   font-style: italic;
   font-weight: 300;
-  color: #1a1a18;
+  color: var(--text-primary);
 }
 .quote-attr {
   font-size: 11px;
   letter-spacing: .06em;
-  color: #999;
+  color: var(--text-muted);
   margin-top: 2px;
 }
 
@@ -233,8 +233,8 @@ const featuredPool = entries.map(e => ({
 }
 
 .sidebar {
-  background: #fff;
-  border-right: 0.5px solid #ddd9d0;
+  background: var(--bg-surface);
+  border-right: 0.5px solid var(--border);
   padding: 1.5rem 0;
   position: sticky;
   top: 52px;
@@ -243,7 +243,7 @@ const featuredPool = entries.map(e => ({
   font-size: 10px;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: #aaa;
+  color: var(--text-faint);
   padding: 0 1.25rem;
   margin-bottom: .5rem;
 }
@@ -251,15 +251,15 @@ const featuredPool = entries.map(e => ({
   display: block;
   padding: .35rem 1.25rem;
   font-size: 13px;
-  color: #666;
+  color: var(--text-secondary);
   text-decoration: none;
   border-left: 2px solid transparent;
 }
-.sidebar-item:hover { color: #1a1a18; background: #f7f5f0; }
+.sidebar-item:hover { color: var(--text-primary); background: var(--bg-surface-alt); }
 .sidebar-item.active {
-  color: #1a1a18;
-  background: #f7f5f0;
-  border-left-color: #1a1a18;
+  color: var(--text-primary);
+  background: var(--bg-surface-alt);
+  border-left-color: var(--text-primary);
   padding-left: calc(1.25rem - 2px);
 }
 
@@ -268,16 +268,16 @@ const featuredPool = entries.map(e => ({
   font-size: 11px;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: #aaa;
+  color: var(--text-faint);
   margin-bottom: 1rem;
   padding-bottom: .5rem;
-  border-bottom: 0.5px solid #ddd9d0;
+  border-bottom: 0.5px solid var(--border);
 }
 
 .featured {
-  background: #fff;
-  border: 0.5px solid #ddd9d0;
-  border-left: 4px solid #999;
+  background: var(--bg-surface);
+  border: 0.5px solid var(--border);
+  border-left: 4px solid var(--text-muted);
   border-radius: 12px;
   padding: 1.5rem 1.75rem;
   margin-bottom: 2rem;
@@ -294,7 +294,7 @@ const featuredPool = entries.map(e => ({
 }
 .featured-lead {
   font-size: 13px;
-  color: #666;
+  color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 1rem;
   max-width: 560px;
@@ -302,21 +302,21 @@ const featuredPool = entries.map(e => ({
 .featured-actions { display: flex; gap: 14px; align-items: center; }
 .featured-read {
   font-size: 12px;
-  color: #185FA5;
+  color: var(--link);
   text-decoration: none;
 }
 .featured-read:hover { text-decoration: underline; }
 .featured-shuffle {
   font-size: 12px;
   padding: 4px 12px;
-  border: 0.5px solid #ccc;
+  border: 0.5px solid var(--border);
   border-radius: 20px;
   background: none;
-  color: #666;
+  color: var(--text-secondary);
   cursor: pointer;
   font-family: 'Inter', sans-serif;
 }
-.featured-shuffle:hover { background: #f7f5f0; color: #1a1a18; }
+.featured-shuffle:hover { background: var(--bg-surface-alt); color: var(--text-primary); }
 
 .search-bar {
   margin-bottom: 1rem;
@@ -325,19 +325,19 @@ const featuredPool = entries.map(e => ({
   width: 100%;
   padding: 8px 12px;
   font-size: 14px;
-  border: 0.5px solid #ddd9d0;
+  border: 0.5px solid var(--border);
   border-radius: 8px;
-  background: #fff;
-  color: #1a1a18;
+  background: var(--bg-surface);
+  color: var(--text-primary);
   font-family: 'Inter', sans-serif;
 }
 .search-bar input:focus {
   outline: none;
-  border-color: #aaa;
+  border-color: var(--border-strong);
 }
 .no-results {
   font-size: 13px;
-  color: #aaa;
+  color: var(--text-faint);
   padding: 1rem 0;
 }
 
@@ -347,17 +347,17 @@ const featuredPool = entries.map(e => ({
   gap: 1rem;
 }
 .card {
-  background: #fff;
+  background: var(--bg-surface);
   padding: 1.25rem;
   display: block;
   text-decoration: none;
   color: inherit;
-  border: 0.5px solid #ddd9d0;
-  border-top: 3px solid #ccc;
+  border: 0.5px solid var(--border);
+  border-top: 3px solid var(--border);
   border-radius: 12px;
   transition: transform .18s ease;
 }
-.card:hover { transform: translateY(-3px); background: #faf8f4; }
+.card:hover { transform: translateY(-3px); background: var(--bg-surface-hover); }
 .card.hidden { display: none; }
 
 .tag {
@@ -377,7 +377,7 @@ const featuredPool = entries.map(e => ({
 }
 .card-desc {
   font-size: 12px;
-  color: #888;
+  color: var(--text-muted);
   line-height: 1.6;
 }
 
@@ -395,7 +395,7 @@ const featuredPool = entries.map(e => ({
     position: static;
     height: auto;
     border-right: none;
-    border-bottom: 0.5px solid #ddd9d0;
+    border-bottom: 0.5px solid var(--border);
     padding: 1rem 0;
   }
   .main { padding: 1.5rem 1.25rem; }
