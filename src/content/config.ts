@@ -12,4 +12,14 @@ const encyclopedia = defineCollection({
   }),
 });
 
-export const collections = { encyclopedia };
+const maps = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    image: z.string(),
+    order: z.number().optional(),
+  }),
+});
+
+export const collections = { encyclopedia, maps };

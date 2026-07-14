@@ -1,23 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
 
-const maps = [
-  {
-    title: 'Tellunis',
-    description: 'A broad overview of known lands.',
-    image: '/images/tellunis_3.jpg',
-  },
-  {
-    title: 'Timbur Deep',
-    description: 'Rough map of the Imperial capital.',
-    image: '/images/timbur_deep_5.jpg',
-  },
-  {
-    title: 'The Heartlands',
-    description: "Exploration of the Empire's territory.",
-    image: '/images/the_heartlands.jpg',
-  },
-];
+const mapEntries = (await getCollection('maps')).sort(
+  (a, b) => (a.data.order ?? Number.MAX_SAFE_INTEGER) - (b.data.order ?? Number.MAX_SAFE_INTEGER)
+);
+
+const maps = mapEntries.map(entry => ({
+  title: entry.data.title,
+  description: entry.data.description,
+  image: `/thirdearthstories${entry.data.image}`,
+}));
 ---
 
 <Base title="Maps">
@@ -32,7 +25,7 @@ const maps = [
       {maps.map((map, i) => (
         <div class="map-card" onclick={`openLightbox(${i})`}>
           <div class="map-thumb">
-            <img src={`/thirdearthstories${map.image}`} alt={map.title} />
+            <img src={map.image} alt={map.title} />
             <div class="map-overlay">
               <span class="map-zoom">View full size</span>
             </div>
@@ -208,20 +201,14 @@ const maps = [
   }
 </style>
 
-<script>
-  const maps = [
-    { image: '/thirdearthstories/images/tellunis_3.jpg', title: 'Tellunis' },
-    { image: '/thirdearthstories/images/timbur_deep_5.jpg', title: 'Timbur Deep' },
-    { image: '/thirdearthstories/images/the_heartlands.jpg', title: 'The Heartlands' },
-  ];
-
+<script define:vars={{ maps }}>
   let current = 0;
 
-  window.openLightbox = function(index: number) {
+  window.openLightbox = function(index) {
     current = index;
-    const lb = document.getElementById('lightbox')!;
-    const img = document.getElementById('lightbox-img') as HTMLImageElement;
-    const caption = document.getElementById('lightbox-caption')!;
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    const caption = document.getElementById('lightbox-caption');
     img.src = maps[current].image;
     img.alt = maps[current].title;
     caption.textContent = maps[current].title;
@@ -230,21 +217,21 @@ const maps = [
   }
 
   window.closeLightbox = function() {
-    document.getElementById('lightbox')!.classList.remove('open');
+    document.getElementById('lightbox').classList.remove('open');
     document.body.style.overflow = '';
   }
 
-  window.changeMap = function(dir: number) {
+  window.changeMap = function(dir) {
     current = (current + dir + maps.length) % maps.length;
-    const img = document.getElementById('lightbox-img') as HTMLImageElement;
-    const caption = document.getElementById('lightbox-caption')!;
+    const img = document.getElementById('lightbox-img');
+    const caption = document.getElementById('lightbox-caption');
     img.src = maps[current].image;
     img.alt = maps[current].title;
     caption.textContent = maps[current].title;
   }
 
   document.addEventListener('keydown', e => {
-    const lb = document.getElementById('lightbox')!;
+    const lb = document.getElementById('lightbox');
     if (!lb.classList.contains('open')) return;
     if (e.key === 'Escape') window.closeLightbox();
     if (e.key === 'ArrowLeft') window.changeMap(-1);
