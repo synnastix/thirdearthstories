@@ -59,8 +59,8 @@ const featuredPool = entries.map(e => ({
           <div class="stat"><span class="stat-num" data-target={counts.person}>0</span><button type="button" class="stat-label stat-filter" data-filter="person" style="color:var(--person-text);">People</button></div>
         </div>
       </div>
-      <a href="/thirdearthstories/maps" class="map-teaser">
-        <img src="/thirdearthstories/images/tellunis.jpg" alt="Map of Tellunis" />
+      <a href="/maps" class="map-teaser">
+        <img src="/images/tellunis.jpg" alt="Map of Tellunis" />
         <div class="map-teaser-bar">Explore the maps →</div>
       </a>
     </div>
@@ -107,7 +107,7 @@ const featuredPool = entries.map(e => ({
           {entries.map(entry => {
             const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
             return (
-              <a href={`/thirdearthstories/encyclopedia/${entry.slug}`} class="card" style={`border-top-color:${tag.edge};`} data-category={entry.data.category} data-title={entry.data.title} data-lead={entry.data.lead}>
+              <a href={`/encyclopedia/${entry.slug}`} class="card" style={`border-top-color:${tag.edge};`} data-category={entry.data.category} data-title={entry.data.title} data-lead={entry.data.lead}>
                 <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
                 <div class="card-title">{entry.data.title}</div>
                 <div class="card-desc">{entry.data.lead}</div>
@@ -466,7 +466,7 @@ const featuredPool = entries.map(e => ({
       tag.style.color = e.color;
       document.getElementById('fname').textContent = e.title;
       document.getElementById('flead').textContent = e.lead;
-      document.getElementById('fread').href = `/thirdearthstories/encyclopedia/${e.slug}`;
+      document.getElementById('fread').href = `/encyclopedia/${e.slug}`;
       card.style.borderLeftColor = e.color;
       card.style.opacity = '1';
     };
