@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://synnastix.github.io',
-  base: '/thirdearthstories',
+  site: 'https://www.thirdearthstories.com',
 });
