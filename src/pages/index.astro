@@ -291,6 +291,7 @@ const featuredPool = entries.map(e => ({
   border-radius: 12px;
   padding: 1.5rem 1.75rem;
   margin-bottom: 2rem;
+  cursor: pointer;
   transition: opacity .4s ease;
 }
 .featured:hover {
@@ -483,6 +484,11 @@ const featuredPool = entries.map(e => ({
     if (next === fi && featuredPool.length > 1) next = (next + 1) % featuredPool.length;
     fi = next;
     renderFeatured(true);
+  });
+
+  document.getElementById('featured').addEventListener('click', e => {
+    if (e.target.closest('#fshuffle') || e.target.closest('#fread')) return;
+    window.location.href = document.getElementById('fread').href;
   });
 
   renderFeatured(false);
