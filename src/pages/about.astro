@@ -1,22 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getEntry } from 'astro:content';
+
+const about = await getEntry('about', 'index');
+const { Content } = await about.render();
 ---
 <Base title="About">
   <div class="about">
     <p class="eyebrow">About</p>
     <h1 class="page-title">Third Earth Stories</h1>
 
-    <blockquote>
-      <p class="quote">"Consistency is the death of the spirit."</p>
-      <p class="attribution">— Em, Wildkin · Recursion</p>
-    </blockquote>
-
-    <blockquote>
-      <p class="quote">"I figured as long as I wasn't dead…I may as well live."</p>
-      <p class="attribution">— Rast, Wizard · Recursion</p>
-    </blockquote>
-
-    <p class="body-text">We're all in this together, keep the vibes high.</p>
+    <div class="body-text">
+      <Content />
+    </div>
   </div>
 </Base>
 
@@ -39,29 +35,28 @@ import Base from '../layouts/Base.astro';
     font-weight: 300;
     margin-bottom: 2rem;
   }
-  blockquote {
-    margin-bottom: 2rem;
-  }
-  .quote {
-    font-family: 'Crimson Pro', serif;
-    font-size: 20px;
-    font-weight: 300;
-    font-style: italic;
-    color: var(--text-primary);
-    line-height: 1.6;
-    margin-bottom: .35rem;
-  }
-  .attribution {
-    font-size: 12px;
-    letter-spacing: .06em;
-    color: var(--text-muted);
-  }
   .body-text {
     font-size: 15px;
     line-height: 1.8;
     color: var(--text-secondary);
-    margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 0.5px solid var(--border);
+  }
+  .body-text :global(h2) {
+    font-family: 'Crimson Pro', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin: 2rem 0 .75rem;
+    padding-bottom: .3rem;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .body-text :global(h2:first-child) {
+    margin-top: 0;
+  }
+  .body-text :global(p) {
+    margin-bottom: 1rem;
+  }
+  .body-text :global(a) {
+    color: var(--link);
+    text-decoration: underline;
   }
 </style>

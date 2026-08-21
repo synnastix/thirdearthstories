@@ -39,4 +39,9 @@ const books = defineCollection({
   }),
 });
 
-export const collections = { encyclopedia, maps, books };
+const about = defineCollection({
+  type: 'content',
+  schema: z.object({}),
+});
+
+export const collections = { encyclopedia, maps, books, about };
