@@ -1,6 +1,6 @@
 ---
 title: Recursion
-description: The story of the world as experienced through the eyes of a wizard.
+description: A wizard sits in a tower and begins to write. With his story, a world is born.
 cover: /images/recursion.png
 isbn: 979-8-9976475-1-3 (ebook)
       979-8-9976475-0-6 (paperback)
