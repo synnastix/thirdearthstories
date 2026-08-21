@@ -29,6 +29,7 @@ const books = defineCollection({
     description: z.string(),
     cover: z.string(),
     isbn: z.string().optional(),
+    release: z.string().optional(),
     order: z.number().optional(),
     links: z.array(
       z.object({

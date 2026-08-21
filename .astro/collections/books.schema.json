@@ -16,6 +16,9 @@
         "isbn": {
           "type": "string"
         },
+        "release": {
+          "type": "string"
+        },
         "order": {
           "type": "number"
         },

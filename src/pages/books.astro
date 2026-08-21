@@ -11,6 +11,7 @@ const books = bookEntries.map(entry => ({
   description: entry.data.description,
   cover: entry.data.cover,
   isbn: entry.data.isbn,
+  release: entry.data.release,
   links: entry.data.links,
 }));
 ---
@@ -33,6 +34,7 @@ const books = bookEntries.map(entry => ({
             <div class="book-info">
               <div class="book-title">{book.title}</div>
               <p class="book-desc">{book.description}</p>
+              {book.release && <p class="book-release">{book.release}</p>}
               {book.isbn && <p class="book-isbn">ISBN {book.isbn}</p>}
               <div class="book-links">
                 {book.links.map(link => (
@@ -128,6 +130,12 @@ const books = bookEntries.map(entry => ({
     color: var(--text-secondary);
     line-height: 1.6;
     margin-bottom: .6rem;
+  }
+  .book-release {
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: .02em;
+    margin-bottom: .3rem;
   }
   .book-isbn {
     font-size: 11px;
