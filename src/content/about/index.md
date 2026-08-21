@@ -19,4 +19,4 @@ I’ve arranged this space to help readers, and myself, explore the world in a w
 
 If you wish to contact me, feel free to send a message to the address below.
 
-thirdearthstories@gmail.com
+[thirdearthstories@gmail.com](mailto:thirdearthstories@gmail.com)
