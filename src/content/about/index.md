@@ -5,7 +5,7 @@
 
 Third Earth Stories is a project that has its roots in my formative years. Sorcery and science fiction alike fascinated me, and I lived many lives in games, movies, books, and my own stories. I wrote many short stories and finished almost none of them, eventually stepping away to join the rat race of the real world.
 
-I’d always dreamed of coming back to the world I started years ago, to discover it, learn about the people living there. I took inspiration from many sources ranging from popular culture to historical reality, fantasy, science-fiction, dystopian settings, role-playing games, and of course, other written works. What came out of that may be fascinating or an abomination – such distinctions are left to the reader.
+I’d always dreamed of coming back to the world I started years ago, to discover it, learn about the people living there. I took inspiration from many sources ranging from popular culture to historical reality, fantasy, science fiction, dystopian settings, role-playing games, and of course, other written works. What came out of that may be fascinating or an abomination – such distinctions are left to the reader.
 
 ## About This Site
 
