@@ -22,4 +22,21 @@ const maps = defineCollection({
   }),
 });
 
-export const collections = { encyclopedia, maps };
+const books = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    cover: z.string(),
+    isbn: z.string().optional(),
+    order: z.number().optional(),
+    links: z.array(
+      z.object({
+        label: z.string(),
+        url: z.string().url(),
+      })
+    ),
+  }),
+});
+
+export const collections = { encyclopedia, maps, books };
