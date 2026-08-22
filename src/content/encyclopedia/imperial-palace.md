@@ -27,7 +27,7 @@ The palace is an architect’s nightmare. And an engineer’s nightmare. And a t
 
 “…The choice of material makes sense on one level and is absurd on another. The basalt was mined locally, and stands up well to time. Logical.
 
-Working with the dark stone is the challenge – it wears iron tools rapidly and take some measure of skill to craft into workable pieces. Much of the palace is constructed using the natural shapes of the stone. The hexagonal columns are stacked, laid horizontally, and are used in their natural state where possible. 
+Working with the dark stone is the challenge – it wears iron tools rapidly and takes some measure of skill to craft into workable pieces. Much of the palace is constructed using the natural shapes of the stone. The hexagonal columns are stacked, laid horizontally, and are used in their natural state where possible. 
 
 They hand us these materials with the impossible task of making them into something beautiful…”
 
@@ -45,7 +45,7 @@ It did not matter. Either the drawing was changed, or the palace rearranges itse
 
 I will, but this is the third time…”
 
-*It is unclear what happened, but the handwriting of the remaining entries appears differently. The words more crudely scrawled, like the author was rushing to put the words to paper.*
+*It is unclear what happened, but the handwriting of the remaining entries changes. The words more crudely scrawled, like the author was rushing to put the words to paper.*
 
 “…It keeps going! 
 
