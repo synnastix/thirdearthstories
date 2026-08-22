@@ -1,7 +1,7 @@
 ---
 title: Imperial Palace
 category: place
-lead: Imperial Palace
+lead: A monument to Imperial excess, it is both the most and least important structure in the Empire.
 image: /images/imperial_palace.png
 meta:
   Status: Active
