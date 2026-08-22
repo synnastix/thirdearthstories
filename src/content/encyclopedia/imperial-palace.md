@@ -17,7 +17,7 @@ related:
   - empire
 ---
 
-*Excerpts from the journal of an Imperial architect who declined to include his name. It was found under a collapsed tower in the eastern section of the Imperial palace, circa 683 CR.*
+*Excerpts from the journal of an Imperial architect who declined to include his name. It was found under a collapsed tower in the eastern section of the Imperial palace, in the year 683 CR.*
 
 “I thought it would bring me some measure of fulfillment to study the Imperial palace. I could learn from the ancient masters. Perhaps I could help design some of the new sections, even leave my own mark on the world, something distinctly ‘mine.’
 
