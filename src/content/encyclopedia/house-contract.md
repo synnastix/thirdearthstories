@@ -38,8 +38,8 @@ Contractor is responsible for own arms, armor, and any specialized equipment.
 Upon death, no compensation will be offered to surviving kin unless negotiated in a separate clause.  
 
 ## Signatures
-By Order of House Zaredein,
-*Signature here*
+By Order of House Zaredein,  
+*Signature here*. 
 Imari,  
 House Scribe
 
