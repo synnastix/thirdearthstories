@@ -9,25 +9,26 @@ related:
   - imperial-palace
 ---
 
-*Merchant Reconnaissance Report – Imperial Legion Third Division
+*Merchant Reconnaissance Report – Imperial Legion Third Division  
 Official Use Only*
 
-Scryer Daniel
+Scryer Daniel  
 29th of First Seed, Year 743 CR
 
 ## Operational Details
 
-Mission conducted in accordance with standard procedures. Source was a 25 year old female performing services as a tavern made in the target location. Scryer located Source through reflecting bowl and monitored Source’s experience throughout the encounter using an immersive technique. Contact with Source was terminated once Scryer determined continued monitoring would not yield any further valuable information.
+Mission conducted in accordance with standard procedures. Source was a 25 year old female performing services as a tavern maid in the target location. Scryer located Source through reflecting bowl and monitored Source’s experience throughout the encounter using an immersive technique. Contact with Source was terminated once Scryer determined continued monitoring would not yield any further valuable information.
 
 ## Information Collected
 
 Source entered the private office area where Master Visra, hereafter referred to as Subject 1, had already been seated. Source could not recall how many drinks Subject 1 had already consumed, but did not want to serve any more. Subject 1 had become belligerent and Source demonstrated hesitancy when approaching the table.
 
-Source was pushed from behind and stumbled forward a step. Source turned to see a man, approximately 35 years old, hereafter referred to as Subject 2. Subject 2 approached the table; Subject 1 did not rise to greet him. Source asked Subject 2 if he needed anything. Subject 2 requested a glass of dark spirits. Source advised Subject 2 that the establishment did not have glasses and the spirits would come in a ceramic mug. Subject 2 agreed. Source left the room.
+Source was pushed from behind and stumbled forward a step. Source turned to see an unidentified man, approximately 35 years old, hereafter referred to as Subject 2. Subject 2 approached the table; Subject 1 did not rise to greet him. Source asked Subject 2 if he needed anything. Subject 2 requested a glass of dark spirits. Source advised Subject 2 that the establishment did not have glasses and the spirits would come in a ceramic mug. Subject 2 agreed. Source left the room.
 
 Source returned to the room with the mug of spirits to find Subject 1 and Subject 2 engaged in discourse. Details of the discourse were recorded by Scryer as follows:
 
 Subject 1: “You’re developing a reputation for yourself in the eastern corridor.”
+
 Subject 2: “It wasn’t easy but yes, that’s been our focus. We have established our supply line and can provide you with…”
 
 Subject 1 (interrupting Subject 2): “Stop.”
