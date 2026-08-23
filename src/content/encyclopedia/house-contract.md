@@ -39,7 +39,7 @@ Upon death, no compensation will be offered to surviving kin unless negotiated i
 
 ## Signatures
 By Order of House Zaredein,  
-*Signature here*. 
+*Signature here*  
 Imari,  
 House Scribe
 
