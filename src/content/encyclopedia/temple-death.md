@@ -4,6 +4,7 @@ category: lore
 lead: Personal notes, compiled in service of Aldric's investigation into unconfirmed phenomena. For Temple use only.
 related:
   - flow-and-energy
+  - imperial-politics
 ---
 
 I have been asked to compile what is known, and what is rumored, about the energetic remnants of the dead. Aldric was characteristically sparse in his instructions. 
