@@ -21,7 +21,7 @@ My beloved Matron,
 
 You’d once joked about Timbur Deep: “Take me down to the parasite city…”
 *…illegible…*
-I confess, I only partly paid attention to your warnings, but I can say that you were correct – opportunities exist to extend our House into the region. The city carved itself into several distinct districts, and I recommend avoiding some entirely.
+I confess, I only partly paid attention to your warnings, but I can say that you were correct – opportunities exist to extend our House into the region. The city carved itself into several distinct districts, and this is what I have learned in my time here.
 
 Firstly, some zones should be considered off-limits entirely. The Legion compound in particular is well guarded, and I’ve seen poor individuals getting assaulted by guards just for being too close to the walls. The Imperial palace, I’ve heard, is treated the same, though I cannot confirm this directly as I have yet to find a way past the Bastion gates. It’s not that I haven’t tried, it’s just that I value my life too greatly to test the methods that have presented themselves.
 
