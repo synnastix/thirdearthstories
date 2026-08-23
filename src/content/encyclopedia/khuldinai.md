@@ -12,27 +12,17 @@ related:
   - front
 ---
 
+*Recovered field journal – Imperial Expeditionary Scholar Varnell
+Entry 42 – Northeastern Approach, 3rd of Coldset, Year 702 CR*
 
+Inside their mountain homes, the Khuldinai remain an enigma. We have tracked their paths as far as the frost cliffs allow, but beyond that, nothing. Several caves that we have explored yielded no clues. No animals inhabit them, and we still have not found the entrances to their tunnel systems. 
 
-## Culture
+Only once did we glimpse a figure, cloaked in iron and fur that blended into the rock. It watched us from the ridge and remained still for hours. At first we thought it was a statue, until it moved.
 
-The Khuldinai culture is not well known by outsiders. This is partly due to their habit of carving their settlements into mountains rather than atop them, hiding behind smoke-choked vents, reinforced with iron-banded gates, and lit by forges that never sleep. They do not fear the darkness beneath the earth, they live in it, shape it, and command it.
+Trade from the Khuldinai arrives unaccompanied. Weighted crates, tools without names, scripts that we were unable to translate. Each shipment calibrated to a precise degree, never leaving anything more or any less. I asked one of their envoys what drives their people. He simply said: “Decay is a failure of design.”
 
-In addition to the geography, Khuldinai have a natural distrust of outsiders. Above all else, they focus their efforts on logic and engineering. Efficiency is paramount to them, and anything that cannot be defined and measured is not worth bothering with.
+That phrase has haunted me ever since.
 
+We know nothing more than we learned in the city. Still, I…
 
-## Politics
-
-Internally, the Khuldinai have a rigid system of merit that is based on one’s individual contribution to the machine (literal or societal). Their primary governing structure is a council of individuals selected by trial, not vote.
-
-Externally, the Khuldinai mostly ignores diplomatic efforts unless it revolves around safety for their people or trade for resources not native to their homeland. They have a long-standing feud with the Visari over the redwood trees the Visari consider sacred.
-
-
-## Economy
-
-Khuldinai engage in trade with other factions for resources not native to their homeland. In exchange, they provide various metals, gems, and other resources obtained through mining.
-
-In addition to raw materials, they are excellent engineers and often barter their services. It serves two purposes for the Khuldinai:
-
-Gain access to resources not otherwise available.
-Personal fulfillment through perfection of a craft.
+*What remains is incomprehensible.*
