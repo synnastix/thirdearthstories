@@ -38,7 +38,7 @@ Your future.
 Look at the person beside you.  
 Each of us is only a piece of a much larger whole.  
 We cannot stand independently.   
-We cannot go it alone.
-Your life is no longer entirely yours.
-You belong to the Empire.
-And the Empire belongs to you.
+We cannot go it alone.  
+Your life is no longer entirely yours.  
+You belong to the Empire.  
+And the Empire belongs to you.  
