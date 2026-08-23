@@ -6,7 +6,7 @@ lead: The people of the mountains. Expert engineers and craftsmen.
 meta:
   Status: Active
   Territory: Mountains
-  Also known as: Children of Stone and Steam
+  Also known as: Frostheart People
 related:
   - visari
   - front
