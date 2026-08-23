@@ -1,7 +1,7 @@
 ---
 title: Infrastructure Survey - Timbur Deep
 category: place
-lead: A technical assessment of the city's material construction, water systems, food logistics, and waste management
+lead: A technical assessment of the city's material construction, water systems, food logistics, and waste management.
 related:
   - timbur-deep
   - the-heartlands
