@@ -8,7 +8,7 @@ release: Released August 2026
 order: 1
 links:
   - label: Amazon Kindle Edition
-    url: https://www.amazon.com
+    url: https://www.amazon.com/gp/product/B0HG64FVFN
   - label: Amazon Paperback
     url: https://www.amazon.com
 ---
