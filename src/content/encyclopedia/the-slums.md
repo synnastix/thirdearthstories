@@ -1,7 +1,7 @@
 ---
 title: The Slums
 category: place
-lead: A croweded, poverty-stricken district in Timbur Deep.
+lead: A crowded, poverty-stricken district in Timbur Deep.
 image: /images/the_slums.png
 meta:
   Status: Active
