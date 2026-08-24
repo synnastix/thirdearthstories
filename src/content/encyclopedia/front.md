@@ -10,12 +10,31 @@ meta:
 related:
   - khuldinai
   - visari
+  - imperial-politics
 ---
 
-## Geography
+Within the city taverns, bards and storytellers entertain drunks through story and song. This is one such tale, as recited on a cold winter evening in Larder’s End.
 
-The Front occupies the contested border where the mountain foothills give way to ancient redwood forest – trees so vast their limbs vanish into low cloud, trunks wide enough to shelter homes within them, their silence carrying a gravitational pull that settles into the bones. This is cathedral country, grown rather than built, and it demands a particular kind of quiet from anyone passing through it. Moving northwest from the canopy, the great redwoods thin into yellow-trunked pines as the terrain flattens toward the river valleys. Here the Rootborn live at ground level, scattered among trees too small for skyborne settlements, their bramble walls marking the edge of what the forest still protects. 
+## The Bard’s Tale
 
-## History
+*Come closer.  
+Friends.  
+Gather round.  
+You know there is a war in the north.  
+One of blood and bone.  
+There has always been war.  
+But you don’t know why.*
 
-The conflict at the Front is older than the maps that tried to contain it, beginning when fractured kingdoms carved their names into soil and called the lines truth. The Khuldinai came for the redwood  and the Visari resisted, and from that collision neither side ever fully stepped back. Atrocity accumulated on both sides until the word atrocity lost its weight. The Empire interceded, broke machines, shattered fortresses, declared peace, and called itself a hero. What it actually built was a network of outposts on the bones of prison camps that never officially existed, populated by a people being erased by attrition because erasure by attrition is cheaper than any alternative. 
+*The war is older than the maps.  
+It began when fractured kingdoms carved their names into soil and called the lines truth.  
+They claimed it was for protection.  
+It was the trees.  
+The ancient redwood forest.  
+The cathedral forest whose limbs vanished into low clouds, trunks wide enough to shelter homes within them.  
+Their silence carries a pull that settles into the bones.*
+
+*The Khuldinai came for the redwood and the Visari resisted.  
+From that first moment, neither side ever fully stepped back.  
+Atrocity accumulated on both sides until the word atrocity lost its weight.  
+Eventually the people could stand no more.  
+The Empire imposed peace, and the region rejoiced.*
