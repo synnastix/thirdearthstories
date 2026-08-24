@@ -10,5 +10,5 @@ links:
   - label: Amazon Kindle Edition
     url: https://www.amazon.com/dp/B0H86CWD8R/
   - label: Amazon Paperback
-    url: https://www.amazon.com
+    url: https://www.amazon.com/dp/B0HGBYZTQ3
 ---
