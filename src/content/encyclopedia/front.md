@@ -36,5 +36,8 @@ Their silence carries a pull that settles into the bones.*
 *The Khuldinai came for the redwood and the Visari resisted.  
 From that first moment, neither side ever fully stepped back.  
 Atrocity accumulated on both sides until the word atrocity lost its weight.  
+A village burned.  
+A family slaughtered.  
+A generation executed before leaving  the womb.  
 Eventually the people could stand no more.  
 The Empire imposed peace, and the region rejoiced.*
