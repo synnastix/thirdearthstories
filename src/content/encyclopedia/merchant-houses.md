@@ -6,7 +6,7 @@ related:
   - timbur-deep
   - the-heartlands
   - imperial-politics
-  - imperial-palace
+  - house-contract
 ---
 
 *Merchant Reconnaissance Report – Imperial Legion Third Division  
@@ -79,7 +79,7 @@ Subject 2: “And I assume this (pause) gesture of good will is an invitation I 
 
 Subject 1: “Starting whenever you want.”
 
-Subject 2 stepped forward. Subject 2 reached for source with one hand.
+Subject 2 stepped forward. Subject 2 reached for Source with one hand.
 
 *Scryer executed disengagement protocol and disconnected from Source’s experience.*
 
