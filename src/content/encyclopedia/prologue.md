@@ -1,10 +1,13 @@
 ---
 title: Creation Story
 category: lore
-lead: An account of the worlds that came before.
+lead: An account of the worlds that came before, marked by the Temple as "heresy".
 related:
   - flow-and-energy
+  - imperial-politics
 ---
+
+*The account here is preserved on a scroll that was so old, it all but crumbled under its own weight. The Temple has asserted it is fantasy. The scroll was placed into a chest and secured. Then wrapped in chain. Rumors abound that it is sealed beneath the foundation of the Temple in Ashvale Heights.*
 
 ## The Fall of Man
 
