@@ -32,7 +32,7 @@ This is worth understanding for practical reasons. A contract specifying deliver
 | Season | Moon | Notes for Factors |
 |---|---|---|
 | **Winter** | **Coldset** | Cold arrives and locks. River traffic slows; mountain passes close. No overland contracts should be written expecting delivery through the Spine. |
-| | **Hearthkeep** | *Winter Solstice falls here - the darkest point.* Deep cold. Indoor trades preferred. Roads become difficult in hard years, some become impassible. Stock your wayhouses before this moon or not at all. |
+| | **Hearthkeep** | *Winter Solstice falls here - the darkest point.* Deep cold. Indoor trades preferred. Roads become difficult in hard years, some become impassible. Stock your wayhouses before this moon or not at all. This month marks the end of the annual cycle and begins a new year.|
 | | **Frostbreak** | Cold persists but daylight returns. Roads remain treacherous. Patience. |
 | **Spring** | **Meltwater** | Snowmelt and flood-risk. The river tributaries run high. Barge schedules are unreliable until this moon passes. Do not promise eastern deliveries. |
 | | **Furrowdeep** | *Spring Equinox falls here.* Ground workable. Plowing and lambing. Road traffic resumes in earnest. First viable window for overland contracts since Coldset. |
