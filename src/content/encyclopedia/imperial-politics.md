@@ -7,6 +7,8 @@ related:
   - the-heartlands
   - front
   - imperial-palace
+  - merchant-houses
+  - legion
 ---
 
 *As understood by Rast, Wizard of the Tower and conjurer of woodland spirits.*
