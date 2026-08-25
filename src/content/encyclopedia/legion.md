@@ -17,7 +17,7 @@ It feels like years ago when Lord Niven first proposed independence, and at the 
 
 The Empire cares little for our Domain. It does not ask for tribute like many other Domains, and it does not seem intent on maintaining a permanent Legion garrison here. In fact, outside of occasional Imperial representatives that come to research the surrounding mountains, we see very little of the Empire’s people.  
 
-We just need to decide the when, what to do with Prefect Baelyn. Tegan thinks we should let the Prefect know ahead of time and convince him to join us. I think Tegan is a bit naïve and his kindness is going to get him into trouble.
+We just need to decide what to do with Prefect Baelyn. Tegan thinks we should let the Prefect know ahead of time and convince him to join us. I think Tegan is a bit naïve and his kindness is going to get him into trouble.
 
 ## 29th Day of Hearthkeep, Year 701 CR
 
@@ -37,9 +37,10 @@ Yes Prefect, we are sure. We are sure and we are free!
 
 ## 8th Day of Frostbreak, Year 702 CR
 
-The transition of power went as smoothly as any of us could have predicted. We did not need to raise arms, and there was no bloody conflict as the rumors suggested. King Niven secured more than 400 warriors to secure the village, but the Prefect simply… left. As did the other Legion soldiers. We expected more fight from the Empire. Perhaps it is weaker than we thought.
+The transition of power went as smoothly as any of us could have predicted. We did not need to raise arms, and there was no bloody conflict as the rumors suggested. King Niven secured more than 400 warriors to protect the village, but the Prefect simply… left. As did the other Legion soldiers. We expected more fight from the Empire. Perhaps it is weaker than we thought.
 
 Our only challenge came from House Kittis. The Master of Coin warned about some vague calamity or such nonsense. I think he is just nervous and has never tasted true freedom.  
+
 There is a crispness to the air that feels invigorating, and long overdue.  
 
 ## 16th of Meltwater, Year 702 CR
@@ -50,7 +51,7 @@ Even House Kittis has come to terms with our independence, and they have voiced 
 
 Perhaps it is due to the cold lingering on the ground, or that we are still adjusting to the new order. In any case, it feels like nothing is different, and everything is different. It’s an odd sensation and I could not point to the cause, or the outcome.  
 
-I’m rambling. Perhaps I am too happy.  
+I’m rambling. Perhaps I am too happy with drink.  
 
 ## 8th of Furrowdeep, Year 702 CR
 
@@ -92,7 +93,7 @@ It happened too fast. Less than the blink of an eye. None of us moved. The Legio
 
 Like lightning.  
 Like vengeance.   
-Like a God offended.  
+Like a god offended.  
 
 By morning, Legion soldiers had established a presence in the village. We were too shocked by the suddenness, the brutality, to fight back. There was no violence beyond the initial strike. Legion soldiers offered no offenses, and our own soldiers simply accepted their presence. They didn’t patrol like an invading army, rather, they occupied specific locations with the claim of ensuring order.  
 
