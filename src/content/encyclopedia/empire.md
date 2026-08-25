@@ -11,6 +11,7 @@ related:
   - imperial-palace
   - imperial-politics
   - heartlands-geography
+  - legion
 ---
 
 *Senior Commander’s speech delivered to Legion warriors during the first few days of training. The speech is meant to inspire patriotism in young men.*
