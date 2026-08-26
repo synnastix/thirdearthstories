@@ -10,3 +10,13 @@
 
 "Is the lesson here that you enjoy deception?"
 — The Witch · Recursion
+
+---
+
+"I try not to judge people for what they do when they’re desperate."
+— Mallory · Fracture
+
+---
+
+"Call it a peacekeeping fee."
+— Sorren · Fracture
