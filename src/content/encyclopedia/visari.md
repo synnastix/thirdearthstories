@@ -36,7 +36,7 @@ The Visari people are among the most poetic-minded in the Empire’s lands. Thei
 
 ## Political Complications
 
-Leadership in the Visari falls to the women. They are like the Somari in that way, and perhaps the Nirashi too, though the Nirashi are notorious for letting outsiders believe things that aren’t true. For these peoples, women are the ones who understand what need remembering and carry the weight of the people between conflicts. Matriarchs are charged with passing wisdom to future generations. This is a sensible way of living when wars erupt sporadically and can erase an entire generation of men.  
+Leadership in the Visari falls to the women. They are like the Somari in that way, and perhaps the Nirashi too, though the Nirashi are notorious for letting outsiders believe things that aren’t true. For these peoples, women are the ones who understand what needs remembering and carry the weight of the people between conflicts. Matriarchs are charged with passing wisdom to future generations. This is a sensible way of living when wars erupt sporadically and can erase an entire generation of men.  
 
 While the Visari organize themselves into many loosely connected tribes as a means of preserving their living sanctuaries, they must still deal with an outside world that does not understand their nature. As such, they have elected to present themselves as a Dominion with a central leadership structure that, they believe, is what outsiders expect and respect. There is a nominal King and Queen who serve as liaisons to the Empire and make treaties on behalf of the Dominion. Truthfully, it is simply an arrangement to cater to outside influences, and within the Dominion they hold very little real authority.
 
