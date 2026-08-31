@@ -13,7 +13,7 @@ related:
 
 *Document recovered by Timbur Deep city guards during suppression of civil disturbance in the Slums in the year 719 CR. The document itself is undated and unattributed, it is assumed the author either died during the disturbance or fled the city.*
 
-## First Page
+## Declaration
 
 This declaration explains that this Kingdom was founded in the shadow of the Empire. Our purpose was and is for the progress, upliftment, and freedom of our people. We band together to liberate the oppressed brothers and sisters, to stand against those who seek to deny our right to the city’s spoils, and to create a space for acceptance of our people. In order to achieve our goals, we hereby establish these laws, rules, and conventions for the good of our brothers, our sisters, and our Kingdom. The undersigned is hereby invited to join this Kingdom, our cause, and become an agent of change. If the knight is unable to sign, a blood oath may be substituted instead.
 
