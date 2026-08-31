@@ -9,7 +9,7 @@ related:
   - temple-death
 ---
 
-*Word of Grand Heirophant Sanus, Highest of the Temple Order, Shephard of the Lost, Light of the Righteous Star.*
+*Word of Grand Hierophant Sanus, Highest of the Temple Order, Shepherd of the Lost, Light of the Righteous Star.*
  
 *Archivist note – The copy entered into the Imperial Archives was discovered in a charred wagon by a merchant caravan east of Thornhold. Documents found with this work suggest copies were sent to Temple emissaries in at least seventeen Domains. It is unclear why the bearer of this copy had taken it outside of Imperial territory.*
 
