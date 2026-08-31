@@ -36,11 +36,11 @@ I have been sitting with that thought for several days now.
 
 The Temple's position is that ghosts are souls unable to complete their passage - held here by attachment, by violence, by something left unresolved. Our role is to pray for their release, to perform the rites of passage that were perhaps denied them, and to trust the gods to do the rest. Whether the gods always answer is not a question I am prepared to examine in writing.
 
-## On the Strigoi
+## On the Vampir
 
-I include this entry with significant reservation, as I have found nothing credible to confirm it exists at all.
+I include this entry with significant reservation, as I have found nothing credible to confirm it exists at all. Even among the remote villages they disagree on what to call it. Some refer to it as *strigoi,* others as *upyr,* and even within the Temple's documents there are various spellings of the term.
 
-The Strigoi appears in accounts from the eastern and northern mountain settlements - always secondhand, always someone's cousin or a merchant who passed through. The description is consistent enough to be either true or a very persistent story: a dead thing that moves, that feeds on the living in some fashion, that is difficult to kill by conventional means.
+The vampir appears in accounts from the eastern and northern mountain settlements - always secondhand, always someone's cousin or a merchant who passed through. The description is consistent enough to be either true or a very persistent story: a dead thing that moves, that feeds on the living in some fashion, that is difficult to kill by conventional means. Some in the remote regions are said to make offerings to the creature as a form of worship.
 
 I have raised this with Aldric. He told me to write it down and stop asking him about it.
 
