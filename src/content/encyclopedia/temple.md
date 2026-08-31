@@ -17,7 +17,7 @@ related:
 
 We are the blessed.  
 We are not raised to serve a single god, but to bear witness to the multitude.  
-No house shall claim the sky alone. No altar close its doors against a face it does not know.  
+No house shall claim the sky alone. No altar closes its doors against a face it does not know.  
 We are the table at which every god can sup. We are the shelter under which every god can rest.  
 We do not apologize for our purpose. We gather what would otherwise scatter, and keep what might be forgotten. We stand between the people and the worship of false idols – the nameless things that shall not find respite under our watch.  
 O’ brothers and sisters, friend and foe, remember that our generosity is wide, but do not mistake our kindness.  
@@ -80,7 +80,7 @@ No!
 They seek to become one with the beasts!  
 They would deny their place as the favored.  
 They reject the gods and worship the wild.  
-O’ they shall not find mercy among us.  
+O’ they shall not find mercy among us, and be hunted like the beasts they are.  
 Gods be praised!
 
 ## Condemnation for the Occult
@@ -88,7 +88,7 @@ Gods be praised!
 Unclean souls!  
 We have driven the fires from the near hills, yet the worship persists! 
 O’ brothers and sisters, there are those among us who set tables in low places.  
-What gods to you think partake at these tables?  
+What gods do you think partake at these tables?  
 False gods!  
 Spirits who inhabit temples languishing in darkness.  
 Blasphemers who feed the dead and call it tribute.  
