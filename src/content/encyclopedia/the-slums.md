@@ -38,4 +38,4 @@ Members are to protect their local streets. Members are to ensure collection of 
 
 ## Guard Captain’s Statement
 
-Organized gangs don’t write manifestos; this trash was probably written by one of the anarchists as an attempt to sew conspiracy within the city. Send it to the Legion scryers. Maybe they can use it to find those responsible so we can finally end this.
+Organized gangs don’t write manifestos; this trash was probably written by one of the anarchists as an attempt to sew [sic] conspiracy within the city. Send it to the Legion scryers. Maybe they can use it to find those responsible so we can finally end this.
