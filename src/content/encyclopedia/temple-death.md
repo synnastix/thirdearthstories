@@ -5,6 +5,7 @@ lead: Personal notes, compiled in service of Aldric's investigation into unconfi
 related:
   - flow-and-energy
   - imperial-politics
+  - temple
 ---
 
 I have been asked to compile what is known, and what is rumored, about the energetic remnants of the dead. Aldric was characteristically sparse in his instructions. 
