@@ -9,6 +9,7 @@ related:
   - imperial-palace
   - merchant-houses
   - legion
+  - temple
 ---
 
 *As understood by Rast, Wizard of the Tower and conjurer of woodland spirits.*
