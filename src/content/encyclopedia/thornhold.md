@@ -22,7 +22,7 @@ Allow us to be among the first to congratulate you on your appointment to our be
 
 ## The Council
 
-Thornhold is governed by the Council rather than monarch. As a city of merchants, seats on the Council are determined by a House’s contributions to the city. Some build roads, others provide for defenses. It is truly a city that rewards investment with influence, and is a system we have found to be most equitable for our residents. Should your office need assistance, we recommend approaching the independent Merchant Houses first before bringing a matter before the Council.
+Thornhold is governed by the Council rather than a monarch. As a city of merchants, seats on the Council are determined by a House’s contributions to the city. Some build roads, others provide for defenses. It is truly a city that rewards investment with influence, and is a system we have found to be most equitable for our residents. Should your office need assistance, we recommend approaching the independent Merchant Houses first before bringing a matter before the Council.
 
 ## Imperial Agreement
 
@@ -44,7 +44,7 @@ To help you understand our ways, we will assign a varad to attend to your wife a
 
 The paths to becoming a varad greatly impact the prospective roles one can fulfill, and the length of service for the varad. Our culture refers to this as a contract between the varad, and the one who will be responsible for them.
 
-**Debt Service:** Failing to pay one’s debts is the simple way that many can become a varad. Thornhold is a city of commerce, and failing to pay a debt significantly impacts our society. As such, one who fails to pay their debt may become a varad under their debtor. This is how many enter into service for the Merchant Houses, and most choose to continue their service to the House upon fulfillment of their debt obligations. For many, this is a pathway to becoming a productive member of the community, giving them opportunities they may not have otherwise had.   
+**Debt Service:** Failing to pay one’s debts is the simple way that many can become a varad. Thornhold is a city of commerce, and failing to pay a debt significantly impacts our society. As such, one who fails to pay their debt may become a varad under their creditor. This is how many enter into service for the Merchant Houses, and most choose to continue their service to the House upon fulfillment of their debt obligations. For many, this is a pathway to becoming a productive member of the community, giving them opportunities they may not have otherwise had.   
 
 **Criminal Punishment:** Thornhold does not imprison many. Most crimes are adjudicated quickly, and criminals are provided the option of becoming varad or competing in the arena for their freedom. Allowing criminals to redeem themselves through service is a mercy few decline.  
 
@@ -76,7 +76,7 @@ A varad is required to remain in service of the mavrid until the conditions of t
 
 ## Forbidden Practices
 
-The are several practices the Council has determined to be forbidden as they cause great suffering to the people:
+There are several practices the Council has determined to be forbidden as they cause great suffering to the people:
 
 Varad cannot be forced into service through unlawful raiding.  
 
