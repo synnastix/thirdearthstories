@@ -35,7 +35,7 @@ For two days now I have been plagued with nightmares. I am not quite sure how to
 
 The sand never ends. It is an eternal landscape, one dune after another, and at times I am not sure if we are continuing in the right direction. We follow the sun every evening, yet I swear we’ve traversed the same dune multiple times. The akalreth march forward, unbothered, and seemingly immune to the desert heat. Nothing lives out here, except the jackal that trails behind the caravan.  
 
-I fear our party is not faring as well. The heat reflects off the sand in a way that stains ones vision, such that even once you look away or close your eyes it is still there. I am beginning to wonder if it will be like a scar that stays with us once the expedition is complete.  
+I fear our party is not faring as well. The heat reflects off the sand in a way that stains one's vision, such that even once you look away or close your eyes it is still there. I am beginning to wonder if it will be like a scar that stays with us once the expedition is complete.  
 
 ## Qazari Expedition Day 27
 
