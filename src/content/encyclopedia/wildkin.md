@@ -6,6 +6,7 @@ related:
   - flow-and-energy
   - sandborn
   - temple
+  - temple-death
 ---
 
 *Document submitted to Inquisitor Carnis by representatives from House Renfro in support of Temple investigations into the occult. House Renfro claimed the document contained the ravings of a lunatic attempting to dissuade exploration into the region southwest of Thornhold. House Renfro agreed to turn over the document in lieu of a full inventory of the House’s holdings in Timbur Deep. Inquisitor Carnis entered the following extracts into the Imperial Archives, insisting the remainder of the document was not relevant to the Temple investigation.*
@@ -18,9 +19,9 @@ The evening sky shows the way. South to the spire of stone, then west into the d
 
 We have reached the great spire and it is as magnificent as described – a column of rock made from the sand itself and carved by the wind. The handler claimed the akalreth did not need guiding to find the spire, and they almost seemed drawn to it naturally. He explained that the beasts often know the desert better than the maps, and I am inclined to believe that claim.  
 
-Upon our arrival, we performed our usual survey and confirmed the scout’s reports. Our scryer claims there is water beneath the surface that will require more equipment to access as it is trapped beneath rock. If the water can be accessed, this area makes a fine waypoint as it offers a natural shelter that is easily visible from a great distance away.
+Upon our arrival, we performed our usual survey and confirmed the scout’s reports. Our scryer says there is water beneath the surface that will require more equipment to access as it is trapped beneath rock. If the well can be drilled, this area makes a fine waypoint as it offers a natural shelter that is easily visible from a great distance away.
 
-We were able to locate a small spring near the base of the spire, one full of sand and silt. It took several hours to dig deep enough to form a small pool from which we refilled our waterskins. A necessary preparation for tomorrow, as the journey west is uncharted.
+We were able to locate a spring near the base of the spire, one full of sand and silt. It took several hours to dig deep enough to form a small pool from which we refilled our waterskins. A necessary preparation for tomorrow, as the journey west is uncharted.
 
 ## Qazari Expedition Day 22
 
@@ -28,13 +29,13 @@ The great spire faded hour by hour as we marched west. The sand deepened, but th
 
 ## Qazari Expedition Day 23
 
-For two days now I have been plagued with nightmares. I am not quite sure how to describe them as it does not seem to make sense even as I remember it clearly. Then a point that became a line, moving slowly across my vision. It was alone in a field of nothing, not even the sand as a backdrop, simply darkness. It moved with agonizing slowness. Then, suddenly, it burst into motion, scattering about haphazardly. I wake drenched in sweat even if the night was cold, and my nerves deeply unsettled. I haven’t told anyone about the dreams. Even if I wanted to, I’m not sure they’d understand how I could be frightened by a slow moving line.
+For two days now I have been plagued with nightmares. I am not quite sure how to describe them as it does not seem to make sense even as I remember it clearly. It starts in a void, then a point that became a line, moving slowly across my vision. It was alone in a field of nothing, not even the sand as a backdrop, simply darkness. It moved with agonizing slowness. Then, suddenly, it burst into motion, scattering about haphazardly. I wake drenched in sweat even if the night was cold, and my nerves deeply unsettled. I haven’t told anyone about the dreams. Even if I wanted to, I’m not sure they’d understand how I could be frightened by a slow moving spot in a field of nothing.
 
 ## Qazari Expedition Day 26
 
 The sand never ends. It is an eternal landscape, one dune after another, and at times I am not sure if we are continuing in the right direction. We follow the sun every evening, yet I swear we’ve traversed the same dune multiple times. The akalreth march forward, unbothered, and seemingly immune to the desert heat. Nothing lives out here, except the jackal that trails behind the caravan.  
 
-I fear our party is not faring as well. The heat reflects off the sand in a way that stains the sight, such that even once you look away or close your eyes it is still there. I am beginning to wonder if it will be like a scar that stays with us once the expedition is complete.  
+I fear our party is not faring as well. The heat reflects off the sand in a way that stains ones vision, such that even once you look away or close your eyes it is still there. I am beginning to wonder if it will be like a scar that stays with us once the expedition is complete.  
 
 ## Qazari Expedition Day 27
 
@@ -54,7 +55,7 @@ Dirksen has tried no less than three times now to run directly into the storm. I
 
 ## Qazari Expedition Day 28 – Night
 
-Gods! Where does a woman wander in from this storm?
+Gods! Where does a woman wander in from in this kind of storm?
 
 She came donned in crimson robes in the traditional style of our people, but she is not Qazari, nor Somari. She is also not of the Empire, yet she speaks our common tongue. We have offered her water and food, but she declined. She keeps herself crouched in the corner and watches. Micah does not trust her, and keeps his blade at the ready. I told him to calm himself, the gods must have seen fit to deliver her to us.
 
