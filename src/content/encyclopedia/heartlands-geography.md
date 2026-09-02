@@ -8,6 +8,10 @@ related:
   - empire
   - khuldinai 
   - visari
+tags:
+  - visari
+  - khuldinai
+  - heartlands
 ---
 
 ## Geography of the Heartlands

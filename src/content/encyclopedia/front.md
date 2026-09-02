@@ -11,6 +11,11 @@ related:
   - khuldinai
   - visari
   - imperial-politics
+tags:
+  - empire
+  - visari
+  - khuldinai
+  - war-and-plague
 ---
 
 Within the city taverns, bards and storytellers entertain drunks through story and song. This is one such tale, as recited on a cold winter evening in Larder’s End.

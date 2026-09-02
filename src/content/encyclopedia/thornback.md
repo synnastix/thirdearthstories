@@ -11,6 +11,9 @@ meta:
   Temperament: Docile in herds, Unstable if provoked
 related:
   - wildkin
+tags:
+  - sandborn
+  - thornhold
 ---
 
 

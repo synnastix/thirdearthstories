@@ -7,6 +7,12 @@ related:
   - heartlands-geography
   - the-slums 
   - imperial-palace
+tags:
+  - legion
+  - merchant-houses
+  - timbur-deep
+  - the-slums
+  - heartlands
 ---
 
 ## Infrastructure Survey - Timbur Deep

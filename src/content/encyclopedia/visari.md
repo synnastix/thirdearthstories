@@ -10,6 +10,11 @@ meta:
 related:
   - front
   - khuldinai
+tags:
+  - visari
+  - temple
+  - restless-dead
+  - lost-to-memory
 ---
 
 *Excerpt from a work titled “Domains and Dealings”, written by Temple scholars in the late 7th century CR. The work focuses on the organizational structures of Domains within the Heartlands.*

@@ -11,6 +11,9 @@ meta:
   Temperament: Hostile - ambush hunter
 related:
   - heartlands-geography
+tags:
+  - dragons
+  - heartlands
 ---
 
 *Caution: Size notes are representative of average samples. Rumors of significantly larger indiviudals circulate among the mountain peoples.

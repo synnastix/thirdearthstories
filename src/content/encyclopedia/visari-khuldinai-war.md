@@ -6,6 +6,11 @@ related:
   - visari
   - khuldinai
   - front
+tags:
+  - empire
+  - visari
+  - khuldinai
+  - war-and-plague
 ---
 
 ## The Visari-Khuldinai War

@@ -7,6 +7,12 @@ related:
   - heartlands-geography
   - temple-death
   - the-slums
+tags:
+  - timbur-deep
+  - the-slums
+  - heartlands
+  - restless-dead
+  - lost-to-memory
 ---
 
 *Timbur Deep is a city of legends and myth. This is an account of the Ancestor Spirits, as told by bards in the Slums, for the wealthy have no concern for ghosts.*

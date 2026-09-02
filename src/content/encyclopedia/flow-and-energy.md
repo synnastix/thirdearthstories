@@ -5,6 +5,11 @@ lead: Some call it magic, Visareen call it 'mana'. It is the energy that connect
 related:
   - visari
   - wildkin
+tags:
+  - legion
+  - temple
+  - visari
+  - flow-and-energy
 ---
 
 *Musings on the nature of the worlds energies, compiled from notes in the Imperial Archives, including banned works.*

@@ -7,6 +7,9 @@ related:
   - heartlands-geography
   - imperial-politics
   - temple-death
+tags:
+  - temple
+  - heartlands
 ---
 
 *Word of Grand Hierophant Sanus, Highest of the Temple Order, Shepherd of the Lost, Light of the Righteous Star.*

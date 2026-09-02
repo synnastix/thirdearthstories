@@ -35,6 +35,35 @@
             "type": "string"
           }
         },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "empire",
+              "legion",
+              "temple",
+              "merchant-houses",
+              "visari",
+              "khuldinai",
+              "somari",
+              "sandborn",
+              "nirashi",
+              "wildkin",
+              "flow-and-energy",
+              "timbur-deep",
+              "thornhold",
+              "the-slums",
+              "varad",
+              "dragons",
+              "heartlands",
+              "restless-dead",
+              "war-and-plague",
+              "lost-to-memory",
+              "debts-and-bondage"
+            ]
+          }
+        },
         "$schema": {
           "type": "string"
         }

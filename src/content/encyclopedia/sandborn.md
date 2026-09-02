@@ -11,6 +11,14 @@ related:
   - somari
   - thornhold
   - merchant-houses
+tags:
+  - empire
+  - merchant-houses
+  - somari
+  - sandborn
+  - thornhold
+  - varad
+  - debts-and-bondage
 ---
 
 *A letter sent between Merchant Houses. The letter was undated, but Imperial archivists suspect it was written between Year 710 and 720 CR.*

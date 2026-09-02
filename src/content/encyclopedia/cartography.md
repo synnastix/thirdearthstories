@@ -4,6 +4,12 @@ category: lore
 lead: A note found in the Imperial library near the texts on mapmaking.
 related:
   - heartlands-geography
+tags:
+  - empire
+  - legion
+  - temple
+  - heartlands
+  - lost-to-memory
 ---
 
 *Note unattributed - the author left no distinquishing markings but it appears to be addressed to the Imperial authorities rather than the Merchant Houses.*

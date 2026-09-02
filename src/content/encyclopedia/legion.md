@@ -7,6 +7,11 @@ related:
   - heartlands-geography
   - imperial-politics
   - imperial-palace
+tags:
+  - empire
+  - legion
+  - nirashi
+  - heartlands
 ---
 
 *Journal of Lord Montain, appointed ruler of the Domain of Darnay, former Steward of Darnay. Lord Montain’s journal was entered into the Imperial Archives against his wishes upon coronation.*

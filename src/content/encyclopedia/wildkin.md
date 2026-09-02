@@ -7,6 +7,13 @@ related:
   - sandborn
   - temple
   - temple-death
+tags:
+  - temple
+  - somari
+  - sandborn
+  - thornhold
+  - wildkin
+  - flow-and-energy
 ---
 
 *Document submitted to Inquisitor Carnis by representatives from House Renfro in support of Temple investigations into the occult. House Renfro claimed the document contained the ravings of a lunatic attempting to dissuade exploration into the region southwest of Thornhold. House Renfro agreed to turn over the document in lieu of a full inventory of the House’s holdings in Timbur Deep. Inquisitor Carnis entered the following extracts into the Imperial Archives, insisting the remainder of the document was not relevant to the Temple investigation.*

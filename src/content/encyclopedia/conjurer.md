@@ -4,6 +4,8 @@ category: lore
 lead: As told by the wind-singers of the Somari people.
 related:
   - nix
+tags:
+  - somari
 ---
 
 No one remembers the name he carried when they caught him, only that he was not from their land. Skin soft from city shade. Eyes too tired to fear the wind.
