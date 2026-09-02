@@ -1,7 +1,7 @@
 ---
 title: Ancestor Spirits
 category: lore
-lead: Folklore from the Slums of Timbur Deep.
+lead: Folklore about ghosts in the surrounding hills, as told by the bards of Timbur Deep.
 related:
   - timbur-deep
   - heartlands
@@ -59,7 +59,7 @@ Taken!
 
 The elders knew,  
 The door was the way,  
-To ward of the spirits,  
+To ward off the spirits,  
 Do you see?  
 
 Look around!  
