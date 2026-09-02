@@ -4,6 +4,10 @@ category: lore
 lead: A contract between an unnamed individual and House Zaredein, discovered after a raid on a Zaredein caravan.
 related:
   - imperial-politics
+tags:
+  - empire
+  - merchant-houses
+  - debts-and-bondage
 ---
 
 *Documents captured during a raid against a merchant caravan near an unnamed oasis west of Thornhold.*

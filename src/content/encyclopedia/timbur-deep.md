@@ -13,6 +13,13 @@ related:
   - imperial-politics
   - imperial-palace
   - heartlands-geography
+tags:
+  - empire
+  - merchant-houses
+  - legion
+  - timbur-deep
+  - the-slums
+  - heartlands
 ---
 
 *A letter confiscated from a man named Marcellus, imprisoned for attempting to smuggle illegal goods into the city.*

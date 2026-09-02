@@ -10,6 +10,14 @@ related:
   - merchant-houses
   - legion
   - temple
+tags:
+  - empire
+  - legion
+  - temple
+  - merchant-houses
+  - timbur-deep
+  - the-slums
+  - heartlands
 ---
 
 *As understood by Rast, Wizard of the Tower and conjurer of woodland spirits.*

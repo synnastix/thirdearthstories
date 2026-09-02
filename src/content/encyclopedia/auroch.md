@@ -12,6 +12,8 @@ meta:
 related:
   - heartlands-geography
   - stone-drake
+tags:
+  - heartlands
 ---
 
 Wild aurochs and domestic cattle are the same animal at different points of the domestication process. Domestic breeding lines have been established long enough to produce reliably manageable stock, but the wild population persists in the Heartlands and should not be approached as though it shares the temperament of a barn animal.

@@ -12,6 +12,8 @@ meta:
 related:
   - heartlands-geography
   - stone-drake
+tags:
+  - heartlands
 ---
 
 *Believed extinct in the Heartlands region. Unverified sighting reports persist from the northern ranges and eastern passes.*

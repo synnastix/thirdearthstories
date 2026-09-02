@@ -5,6 +5,12 @@ lead: An account of the worlds that came before. The Temple calls it "heresy".
 related:
   - flow-and-energy
   - imperial-politics
+tags:
+  - temple
+  - khuldinai
+  - dragons
+  - war-and-plague
+  - lost-to-memory
 ---
 
 *The account here is preserved on a scroll that was so old, it all but crumbled under its own weight. The Temple has asserted it is fantasy. The scroll was placed into a chest and secured. Then wrapped in chain. Rumors abound that it is sealed beneath the foundation of the Temple in Ashvale Heights.*

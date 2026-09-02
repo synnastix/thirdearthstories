@@ -6,6 +6,12 @@ related:
   - flow-and-energy
   - imperial-politics
   - temple
+tags:
+  - temple
+  - flow-and-energy
+  - heartlands
+  - restless-dead
+  - war-and-plague
 ---
 
 I have been asked to compile what is known, and what is rumored, about the energetic remnants of the dead. Aldric was characteristically sparse in his instructions. 

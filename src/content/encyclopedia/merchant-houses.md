@@ -7,6 +7,12 @@ related:
   - heartlands-geography
   - imperial-politics
   - house-contract
+tags:
+  - empire
+  - legion
+  - merchant-houses
+  - heartlands
+  - debts-and-bondage
 ---
 
 *Merchant Reconnaissance Report – Imperial Legion Third Division  

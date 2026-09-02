@@ -13,6 +13,9 @@ related:
   - flow-and-energy
   - heartlands-geography
   - imperial-politics
+tags:
+  - nirashi
+  - heartlands
 ---
 
 *Document found on a corpse under a low stone in the mountains near Blackwood. It was discovered after local residents gathered to drive away a small black bear that had been harassing the village. The document was provided to local guards who advised the Domain Lord of the discovery. It was then confiscated by the Prefect and entered into the Imperial Archives in Timbur Deep, Year 717 CR.*

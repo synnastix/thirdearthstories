@@ -15,6 +15,10 @@ related:
   - imperial-politics
   - timbur-deep-infrastructure
   - empire
+tags:
+  - empire
+  - timbur-deep
+  - heartlands
 ---
 
 *Excerpts from the journal of an Imperial architect who declined to include his name. It was found under a collapsed tower in the eastern section of the Imperial palace, in the year 683 CR.*

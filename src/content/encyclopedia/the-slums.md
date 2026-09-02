@@ -9,6 +9,12 @@ meta:
   Also known as: Rotlinburg
 related:
   - timbur-deep
+tags:
+  - timbur-deep
+  - the-slums
+  - heartlands
+  - lost-to-memory
+  - debts-and-bondage
 ---
 
 *Document recovered by Timbur Deep city guards during suppression of civil disturbance in the Slums in the year 719 CR. The document itself is undated and unattributed, it is assumed the author either died during the disturbance or fled the city.*

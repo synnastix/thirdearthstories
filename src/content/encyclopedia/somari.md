@@ -10,6 +10,11 @@ meta:
 related:
   - thornhold
   - sandborn
+tags:
+  - empire
+  - somari
+  - sandborn
+  - thornhold
 ---
 
 *Paraphrased excerpts from the work titled “People of the Western Steppe”, by Historian Valriss, Imperial Scholar.*

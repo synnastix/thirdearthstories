@@ -5,6 +5,12 @@ lead: An agreement between the Empire and Merchant Houses on the recording of ti
 related:
   - empire
   - merchant-houses
+tags:
+  - empire
+  - merchant-houses
+  - visari
+  - khuldinai
+  - heartlands
 ---
 
 # The Common Reckoning

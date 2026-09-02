@@ -10,6 +10,8 @@ meta:
 related:
   - visari
   - front
+tags:
+  - khuldinai
 ---
 
 *Recovered field journal – Imperial Expeditionary Scholar Varnell  

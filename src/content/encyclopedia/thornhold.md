@@ -10,6 +10,12 @@ meta:
 related:
   - somari
   - sandborn
+tags:
+  - somari
+  - sandborn
+  - thornhold
+  - varad
+  - debts-and-bondage
 ---
 
 *Missive from the Council, free city of Thornhold, to the Consul, Imperial Ambassador to Thornhold, dated 12th of Frostfall, Year 714 CR.*

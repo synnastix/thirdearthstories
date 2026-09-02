@@ -18,6 +18,18 @@ const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
   person:   { bg: 'var(--person-bg)', color: 'var(--person-text)', edge: 'var(--person-edge)' },
 };
 const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
+
+const myTags = entry.data.tags ?? [];
+const allEntries = await getCollection('encyclopedia');
+const relatedByTag = allEntries
+  .filter(e => e.slug !== entry.slug)
+  .map(e => ({
+    entry: e,
+    shared: (e.data.tags ?? []).filter(t => myTags.includes(t)),
+  }))
+  .filter(r => r.shared.length > 0)
+  .sort((a, b) => b.shared.length - a.shared.length || a.entry.data.title.localeCompare(b.entry.data.title))
+  .slice(0, 6);
 ---
 
 <Base title={entry.data.title}>
@@ -67,13 +79,13 @@ const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', col
           </div>
         </div>
 
-        {entry.data.related && entry.data.related.length > 0 && (
+        {relatedByTag.length > 0 && (
           <div class="related">
-            <p class="related-label">See also</p>
+            <p class="related-label">Related entries</p>
             <div class="related-links">
-              {entry.data.related.map(r => (
-                <a href={`/encyclopedia/${r}`} class="related-link">
-                  {r.replace(/-/g, ' ')}
+              {relatedByTag.map(r => (
+                <a href={`/encyclopedia/${r.entry.slug}`} class="related-link">
+                  {r.entry.data.title}
                 </a>
               ))}
             </div>
