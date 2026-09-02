@@ -1,6 +1,6 @@
 ---
 title: The Wildkin
-category: faction
+category: lore
 lead: A ruling-class designation for those who practice the old druidic arts. Worn by outsiders as a badge of tradition, felt by those it names as a collar.
 related:
   - flow-and-energy
