@@ -27,11 +27,11 @@ My wife was glad to hear that Mina had already been living our ways for some tim
 
 As to the other matters you wrote about, yes, the wells are still a problem. Every day we send our cousins under the water, they scoop the silt, and we toss it to the side. It takes hours to clear the bottom enough to ensure the cistern will refill itself for the next day. The Imperial Mathias claims the Khuldinai can make improvements so we do not have to dig, but their demands are outrageous!  
 
-On the subject of Mathias, he continues to press on the issue of the verad. As you know, we thought the Empire was trying to deprive us of servants, insists that they are slaves, but as it turns out, they simply do not want us to call them that. They prefer we refer to them as “employees” or “servants”, as the word “slave” has become foul within the Empire. I have told him that we do not care what the Empire wants to call a vassal, we are not bound by their sensitivities.  
+On the subject of Mathias, he continues to press on the issue of the varad. As you know, we thought the Empire was trying to deprive us of servants, insists that they are slaves, but as it turns out, they simply do not want us to call them that. They prefer we refer to them as “employees” or “servants”, as the word “slave” has become foul within the Empire. I have told him that we do not care what the Empire wants to call a vassal, we are not bound by their sensitivities.  
 
 I find the whole affair amusing. The Empire is all too eager to conscript someone into service, bind them with debts, or ensure they earn just enough to eat and sometimes less. How is that not the same thing?  At least in our Houses we provide clean clothing, food, and shelter for our slaves. It is far better treatment than the Empire gives its own *free* people.  
 
-Free. The hypocrisy. I have seen the Slums of the city, and if I were forced to choose, I would prefer to be a verad in the desert than a free person in the city.  
+Free. The hypocrisy. I have seen the Slums of the city, and if I were forced to choose, I would prefer to be a varad in the desert than a free person in the city.  
 
 Enough of that. Your aunt Delpha said to remind you that you promised to write, and hadn’t. Or at least, she hasn’t received any messages. So please, brother, write to her. She has been terribly sad since you left and though she will not say it out loud, you were the favorite among us.  
 
