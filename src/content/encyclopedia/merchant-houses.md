@@ -4,7 +4,7 @@ category: faction
 lead: Merchant Houses are an economic force not bound by political borders.
 related:
   - timbur-deep
-  - the-heartlands
+  - heartlands-geography
   - imperial-politics
   - house-contract
 ---
