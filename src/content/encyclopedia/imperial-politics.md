@@ -4,7 +4,7 @@ category: lore
 lead: A discussion on the systems that govern the Empire.
 related:
   - timbur-deep
-  - the-heartlands
+  - heartlands-geography
   - front
   - imperial-palace
   - merchant-houses
