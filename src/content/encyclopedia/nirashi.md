@@ -11,7 +11,7 @@ related:
   - visari
   - sandborn
   - flow-and-energy
-  - heartlands
+  - heartlands-geography
   - imperial-politics
 ---
 
