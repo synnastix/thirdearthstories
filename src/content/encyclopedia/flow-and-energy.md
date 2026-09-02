@@ -3,7 +3,7 @@ title: Flow and Energy
 category: lore
 lead: Some call it magic, Visareen call it 'mana'. It is the energy that connects all things in the world.
 related:
-  - visareen
+  - visari
   - wildkin
 ---
 
