@@ -4,7 +4,7 @@ category: faction
 lead: The Imperial Legion enforces Imperial policies and protects the people of the Empire.
 related:
   - timbur-deep
-  - the-heartlands
+  - heartlands-geography
   - imperial-politics
   - imperial-palace
 ---
