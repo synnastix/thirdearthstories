@@ -7,10 +7,6 @@ meta:
   Status: Active
   Territory: Ryukhan Desert
   Also known as: Qazari
-related:
-  - somari
-  - thornhold
-  - merchant-houses
 tags:
   - empire
   - merchant-houses

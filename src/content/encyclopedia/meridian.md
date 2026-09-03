@@ -7,8 +7,6 @@ meta:
   Status: Active
   Territory: Unknown
   Also known as: Unknown
-related:
-  - flow-and-energy
 tags:
   - flow-and-energy
 ---

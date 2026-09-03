@@ -7,9 +7,6 @@ meta:
   Status: Active
   Territory: Mountains
   Also known as: Frostheart People
-related:
-  - visari
-  - front
 tags:
   - khuldinai
 ---

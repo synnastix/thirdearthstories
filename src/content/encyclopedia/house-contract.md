@@ -2,8 +2,6 @@
 title: Merchant House Contract
 category: lore
 lead: A contract between an unnamed individual and House Zaredein, discovered after a raid on a Zaredein caravan.
-related:
-  - imperial-politics
 tags:
   - empire
   - merchant-houses

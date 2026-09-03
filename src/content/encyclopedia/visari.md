@@ -7,9 +7,6 @@ meta:
   Status: Active
   Territory: Redwood forest
   Also known as: Rootborn, Visareen
-related:
-  - front
-  - khuldinai
 tags:
   - visari
   - temple

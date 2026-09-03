@@ -9,8 +9,6 @@ meta:
   Diet: Carnivore
   Size: 14 - 18 ft long, 16 - 20 ft wingspan, 6 - 7 ft tall at the shoulder, 1,600 - 2,400 pounds
   Temperament: Hostile - ambush hunter
-related:
-  - heartlands-geography
 tags:
   - dragons
   - heartlands

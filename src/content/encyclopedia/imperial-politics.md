@@ -2,14 +2,6 @@
 title: Politics of the Empire
 category: lore
 lead: A discussion on the systems that govern the Empire.
-related:
-  - timbur-deep
-  - heartlands-geography
-  - front
-  - imperial-palace
-  - merchant-houses
-  - legion
-  - temple
 tags:
   - empire
   - legion

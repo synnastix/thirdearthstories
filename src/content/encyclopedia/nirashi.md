@@ -7,12 +7,6 @@ meta:
   Status: Active
   Territory: The Heartlands, possibly broader.
   Also known as: The Nira People
-related:
-  - visari
-  - sandborn
-  - flow-and-energy
-  - heartlands-geography
-  - imperial-politics
 tags:
   - nirashi
   - heartlands

@@ -27,6 +27,8 @@ export const ENCYCLOPEDIA_TAGS = [
   'war-and-plague',
   'lost-to-memory',
   'debts-and-bondage',
+  // format tags
+  'story',
 ] as const;
 
 const encyclopedia = defineCollection({
@@ -36,7 +38,6 @@ const encyclopedia = defineCollection({
     category: z.enum(['place', 'faction', 'creature', 'lore', 'person']),
     lead: z.string(),
     image: z.string().optional(),
-    related: z.array(z.string()).optional(),
     meta: z.record(z.string()).optional(),
     tags: z.array(z.enum(ENCYCLOPEDIA_TAGS)).optional(),
   }),

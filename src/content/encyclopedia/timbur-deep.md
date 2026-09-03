@@ -7,12 +7,6 @@ meta:
   Status: Active
   Territory: The Heartlands
   Also known as: City of Plenty
-related:
-  - empire
-  - the-slums
-  - imperial-politics
-  - imperial-palace
-  - heartlands-geography
 tags:
   - empire
   - merchant-houses

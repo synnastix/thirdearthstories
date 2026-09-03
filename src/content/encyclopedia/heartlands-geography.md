@@ -2,12 +2,6 @@
 title: Geography of the Heartlands
 category: place
 lead: A survey of the Heartlands region commissioned by the Imperial Cartographic Office.
-related:
-  - timbur-deep
-  - front
-  - empire
-  - khuldinai 
-  - visari
 tags:
   - visari
   - khuldinai

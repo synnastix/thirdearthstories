@@ -7,8 +7,6 @@ meta:
   Species: Raccoon (Procyon)
   Mythology: Wildkin omen, desert spirit, thief-guide
   Actual behavior: Looking for food
-related:
-  - wildkin
 tags:
   - wildkin
 ---

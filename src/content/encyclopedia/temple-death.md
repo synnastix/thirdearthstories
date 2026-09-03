@@ -2,10 +2,6 @@
 title: Research Notes on the Subject of Death
 category: lore
 lead: Personal notes, compiled in service of Aldric's investigation into unconfirmed phenomena. For Temple use only.
-related:
-  - flow-and-energy
-  - imperial-politics
-  - temple
 tags:
   - temple
   - flow-and-energy

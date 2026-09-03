@@ -23,12 +23,6 @@
         "image": {
           "type": "string"
         },
-        "related": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
         "meta": {
           "type": "object",
           "additionalProperties": {
@@ -60,7 +54,8 @@
               "restless-dead",
               "war-and-plague",
               "lost-to-memory",
-              "debts-and-bondage"
+              "debts-and-bondage",
+              "story"
             ]
           }
         },

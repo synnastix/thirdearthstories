@@ -9,8 +9,6 @@ meta:
   Diet: Omnivore
   Size: 18-25 ft long, 8-12 ft tall, 8-10 tons
   Temperament: Docile in herds, Unstable if provoked
-related:
-  - wildkin
 tags:
   - sandborn
   - thornhold

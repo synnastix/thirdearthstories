@@ -2,8 +2,6 @@
 title: Tale of the Conjurer
 category: lore
 lead: As told by the wind-singers of the Somari people.
-related:
-  - nix
 tags:
   - somari
 ---

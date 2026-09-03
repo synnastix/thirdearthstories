@@ -9,12 +9,6 @@ meta:
   Known for: Home to the Emperor and seat of Imperial power.
   Population: 5,000 - 7,000 (est)
   
-related:
-  - timbur-deep
-  - the-slums
-  - imperial-politics
-  - timbur-deep-infrastructure
-  - empire
 tags:
   - empire
   - timbur-deep

@@ -9,9 +9,6 @@ meta:
   Diet: Herbivore
   Size: 8 - 10 ft long, 6 - 7 ft tall at the shoulder, 1,100 - 1,500 pounds
   Temperament: Passive unless provoked - dangerous during rut
-related:
-  - heartlands-geography
-  - stone-drake
 tags:
   - heartlands
 ---

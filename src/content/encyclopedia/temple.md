@@ -2,11 +2,6 @@
 title: The Temple
 category: faction
 lead: The Temple exists to serve the many gods, whether the people want it or not.
-related:
-  - timbur-deep
-  - heartlands-geography
-  - imperial-politics
-  - temple-death
 tags:
   - temple
   - heartlands

@@ -1,13 +1,14 @@
---
+---
 title: Seafaring Ambitions
 category: lore
 lead: The story of man's attempt to make the world just a little bit bigger.
 tags:
-  - legion
-  - temple
-  - visari
-  - flow-and-energy
---
+  - merchant-houses
+  - empire
+  - dragons
+  - heartlands
+  - story
+---
 
 The early morning breeze brought salt-laden air over the cliffs, wisping
 strands of the boy's hair across his ears as he sat, gazing over the
