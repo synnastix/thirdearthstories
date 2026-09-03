@@ -2,9 +2,6 @@
 title: Creation Story
 category: lore
 lead: An account of the worlds that came before. The Temple calls it "heresy".
-related:
-  - flow-and-energy
-  - imperial-politics
 tags:
   - temple
   - khuldinai

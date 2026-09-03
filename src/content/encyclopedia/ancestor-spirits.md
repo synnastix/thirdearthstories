@@ -2,11 +2,6 @@
 title: Ancestor Spirits
 category: lore
 lead: Folklore about ghosts in the surrounding hills, as told by the bards of Timbur Deep.
-related:
-  - timbur-deep
-  - heartlands-geography
-  - temple-death
-  - the-slums
 tags:
   - timbur-deep
   - the-slums

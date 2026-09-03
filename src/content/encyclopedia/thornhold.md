@@ -7,9 +7,6 @@ meta:
   Status: Active
   Territory: Border lands
   Also known as: The Burning Seat
-related:
-  - somari
-  - sandborn
 tags:
   - somari
   - sandborn

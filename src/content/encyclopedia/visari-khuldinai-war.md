@@ -2,10 +2,6 @@
 title: Visari-Khuldinai War
 category: lore
 lead: The Story of the Visari-Khuldinai War
-related:
-  - visari
-  - khuldinai
-  - front
 tags:
   - empire
   - visari

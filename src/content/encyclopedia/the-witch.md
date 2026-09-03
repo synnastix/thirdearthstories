@@ -7,8 +7,6 @@ meta:
   Appearances: Recursion
   Mythology: Interrogator, counselor
   Actual behavior: Mischief
-related:
-  - wildkin
 ---
 
 She is clever, patient, and impossible to fully know. The witch delights in riddles, subtle provocations, and testing the hidden truths inside others. She can be tender as rainwater or merciless as winter, often within the same breath. Those who meet her rarely leave unchanged, because she sees straight through masks and has little respect for comforting lies.

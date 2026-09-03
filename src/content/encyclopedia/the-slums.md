@@ -7,8 +7,6 @@ meta:
   Status: Active
   Territory: Timbur Deep
   Also known as: Rotlinburg
-related:
-  - timbur-deep
 tags:
   - timbur-deep
   - the-slums

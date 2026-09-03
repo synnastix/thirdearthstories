@@ -7,10 +7,6 @@ meta:
   Status: Active
   Territory: Between Lake Lunareth and Lorithol
   Also known as: The Deadlands
-related:
-  - khuldinai
-  - visari
-  - imperial-politics
 tags:
   - empire
   - visari

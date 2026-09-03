@@ -6,12 +6,6 @@ image: /images/empiresealsmall.png
 meta:
   Status: Active
   Territory: The Heartlands
-related:
-  - timbur-deep
-  - imperial-palace
-  - imperial-politics
-  - heartlands-geography
-  - legion
 tags:
   - empire
   - legion
