@@ -3,28 +3,20 @@ title: Aurochs
 category: creature
 lead: The wild ancestor of domestic cattle. Still present in the Heartlands, and still dangerous.
 image: /images/auroch.png
-meta:
-  Type: Natural
-  Habitat: Forest edge, river valleys, open plains
-  Diet: Herbivore
-  Size: Up to 11 ft long, 5 ft 10 in tall at the shoulder, 1,500 - 2,200 pounds
-  Temperament: Passive at distance - dangerous when cornered or provoked
 tags:
   - heartlands
 ---
 
-Wild aurochs and domestic cattle are the same animal at different points of the domestication process. Domestic breeding lines have been established long enough to produce reliably manageable stock, but the wild population persists in the Heartlands and should not be approached as though it shares the temperament of a barn animal.
+*Excerpt from Capricen – a book of recipes archivists dated to the mid-6th century.*
 
-## Physical Description
+Ah the wild cow, how lean the meat, yet delicious. Many confuse them for our domesticated cattle, and for good reason – they are the same animal. Some farms still rely on them, and some prefer them as ox. For while the domestic cattle has been bred to become fat, the auroch remains muscular. This makes it particularly good for preserving as the meat takes salt much better, and conditions faster.
 
-The aurochs is a massively built bovine, significantly larger than other cattle breeds. The body is deep-chested and heavily muscled, carried on legs built for rough terrain as much as open plain. The coat is dark brown to near-black in bulls, lighter in cows, with a pale stripe running the length of the spine. The horns sweep forward and upward from the skull in a wide arc, reaching up to three feet in length in mature bulls. The head is carried lower than domestic cattle, with a broad forehead and a directness to the gaze that experienced hunters describe as categorically different from domesticated stock.
+Yet it is not an easy animal to harvest. They are quite massive, significantly larger than other cattle breeds. The body is deep-chested and heavily muscled, carried on legs built for rough terrain. Their coats range from dark brown to near black in bulls, lighter in cows, often with a pale stripe running the length of the spine. The bulls are especially intimidating, with horns swept forward and upward from the skull in a wide arc, as long as a man’s arm or more. They carry their heads lower than domestic cattle, with a broad forehead and a directness to the gaze that unsettle many hunters, and for good reason.
 
-## Wild Behavior
+In the wild, the auroch are grazers and browsers that occupy the edges of the forests, river valleys, and, rarely, the open plains across the Heartlands basin. They travel in herds that are typically small – a dominant bull, several cows, and calves – with younger bulls moving in loose bachelor groups at the margins. They are not migratory in the same manner as other animals might be, but tend to move seasonally across established ranges following forage and water. An auroch bull near the edge of the woods is a sight, especially when it is covered in a blanket of snow.
 
-Aurochs are grazers and browsers occupying forest edge, river valley, and open plain across the Heartlands basin. They are not migratory in the way of cerostim but move seasonally across established ranges following forage and water. Herds are typically small - a dominant bull, several cows, and calves - with younger bulls moving in loose bachelor groups at the margins.
+Generally, they display a passivity toward people and even smaller predators at a distance. If one dares to move too close, the auroch is an entirely different encounter. Bulls charge without warning when threatened, and have been known to seriously injure and even kill horses with their large horns. Taking down a mature bull is a significant undertaking, even for the largest predators in the region.
 
-They are passive toward humans and most predators at distance. A cornered aurochs is a different problem. Bulls will charge without significant warning when threatened, and a direct hit from a mature bull has killed horses. Stone drakes take aurochs, but selectively - calves and isolated cows are preferred targets. A healthy bull is a serious undertaking even for a drake.
+Domestic cattle in the Heartlands are descended from aurochs stock, and retain more of the wild type’s size and temperament than breeds in other regions. This means a poor farmer may be able to boost their stock by capturing wild aurochs, bull or otherwise, but the practice is extremely dangerous. Wild bulls have been known to infiltrate domestic herds on their own, often killing any existing bulls before mating with the females. Calves taken young and raised in human company are manageable. 
 
-## Domesticated Behavior & Uses
-
-Domestic cattle in the Heartlands are descended from aurochs stock and retain more of the wild type's size and temperament than breeds from more settled regions. They are used for meat, milk, hide, and draft labor as oxen. Calves taken young and raised in human company are manageable. Adult wild aurochs cannot be domesticated. Wild bulls occasionally challenge or infiltrate domestic herds, which presents both a management problem and a danger to handlers.
+On farms, they are used for meat, milk, hide, and, as mentioned earlier, draft labor as oxen. Farm-raised auroch lack the flavor of their wild kin, and discriminating cooks can taste the difference immediately.
