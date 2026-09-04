@@ -6,6 +6,7 @@ image: /images/thornback.png
 tags:
   - sandborn
   - thornhold
+  - merchant-houses
 ---
 
 *Excerpt from Domesticated Beasts – a field guide circulated among the Merchant Houses.*
