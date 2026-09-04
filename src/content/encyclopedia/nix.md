@@ -1,12 +1,8 @@
 ---
 title: Nix
-category: creature
+category: lore
 lead: A raccoon of no particular distinction who has, through a series of mundane behaviors, become the subject of at least three contradictory legends.
 image: /images/nix.png
-meta:
-  Species: Raccoon (Procyon)
-  Mythology: Wildkin omen, desert spirit, thief-guide
-  Actual behavior: Looking for food
 tags:
   - wildkin
 ---
