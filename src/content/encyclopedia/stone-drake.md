@@ -6,6 +6,7 @@ image: /images/stonedrake.png
 tags:
   - dragons
   - heartlands
+  - legion
 ---
 
 *Target Briefing, Imperial Legion 2nd Division – Wildlife Control. Sharing this document requires express approval from Legion authorities.*
