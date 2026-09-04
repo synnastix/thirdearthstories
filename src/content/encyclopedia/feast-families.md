@@ -11,6 +11,8 @@ tags:
 
 *Nirashi are one of the few groups who travel the Heartlands well. To that end, they have gathered multiple stories from the remote Domains of the region. This is one such story.*
 
+---
+
 Have you ever wanted to be a bandit?  
 Wanted to live free and wild?  
 Cusco did.  
