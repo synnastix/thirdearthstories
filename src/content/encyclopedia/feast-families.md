@@ -29,9 +29,9 @@ For years he remained just out of reach. From one Domain to the next, he and his
 
 *It was a domestic matter,* they said. *Not the Empire’s problem.*
 
-And among the people, gods, some adored the bandit-king Cusco. He had women wherever he chose, yet none could tame him. Even among those who would call themselves a wife, he would not be shy. This, of course, only made his legend grow.
+And among the people, gods, some adored the bandit-king Cusco. He had women wherever he chose, yet none could tame him. Even among those who would call themselves a wife to another, he would not be shy. This, of course, only made his legend grow.
 
-Finally, a Lord had tired of turmoil. He offered his daughter’s hand as an offer of peace, a promise of wealth and power. It would be a uniting of clans, an alliance through bond. In truth, the Lord’s daughter had begged him to do so, for she desperately wanted to be the one he would choose. The one who could finally settle the wild man.
+Finally, a Lord had tired of turmoil. He proposed his daughter’s hand as an offer of peace, a promise of wealth and power. It would be a uniting of clans, an alliance through bond. In truth, the Lord’s daughter had begged him to do so, for she desperately wanted to be the one he would choose. The one who could finally settle the wild man.
 
 Now time is a thing that wears on all men, and the bandit-king had tormented the mountain Domains for nearly two decades. So he accepted the Lord’s offer, and agreed to the marriage. 
 
@@ -43,7 +43,7 @@ The young Lord kept his promise.
 
 The Lord’s men stood watch. Unarmed. Unarmored. The young Lord, too, partook of only wine as Cusco and his men dined on breads and cheeses. They jested and drank, and Cusco regaled the young Lord with stories of his conquests of women. 
 
-Soon the feast was ready. Trays of roasted meats were brought forth, cut into small bits and roasted, glazed with a sauce of plum and peppers. Cusco and his men feasted, while the young Lord sipped his wine. By the time the candles had burned, the bandits’ bellies were full and they soon left the keep.
+Soon the feast was ready. Trays of roasted meats were brought forth, cut into small bits and glazed with a sauce of plum and peppers. Cusco and his men feasted, while the young Lord sipped his wine. By the time the candles had burned, the bandits’ bellies were full and they departed the keep.
 
 The smell hit them first. Smoke. A fire in the distance. Then a dim orange glow that grew brighter as they approached. They spurred their horses onward at speed. The camp could not be saved.
 
