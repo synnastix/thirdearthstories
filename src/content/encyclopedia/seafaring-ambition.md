@@ -1,7 +1,7 @@
 ---
 title: Seafaring Ambitions
 category: lore
-lead: The story of man's attempt to make the world just a little bit bigger.
+lead: The story of the Empire's attempt to make the world just a little bit bigger.
 tags:
   - merchant-houses
   - empire
