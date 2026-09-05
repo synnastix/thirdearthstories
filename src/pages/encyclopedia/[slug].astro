@@ -15,7 +15,6 @@ const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
   faction:  { bg: 'var(--faction-bg)', color: 'var(--faction-text)', edge: 'var(--faction-edge)' },
   creature: { bg: 'var(--creature-bg)', color: 'var(--creature-text)', edge: 'var(--creature-edge)' },
   lore:     { bg: 'var(--lore-bg)', color: 'var(--lore-text)', edge: 'var(--lore-edge)' },
-  person:   { bg: 'var(--person-bg)', color: 'var(--person-text)', edge: 'var(--person-edge)' },
 };
 const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
 
@@ -44,7 +43,6 @@ const relatedByTag = allEntries
           <a class="sidebar-item" href="/?type=faction">Factions</a>
           <a class="sidebar-item" href="/?type=creature">Creatures</a>
           <a class="sidebar-item" href="/?type=lore">Lore &amp; magic</a>
-          <a class="sidebar-item" href="/?type=person">People</a>
         </div>
       </aside>
 

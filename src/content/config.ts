@@ -35,7 +35,7 @@ const encyclopedia = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    category: z.enum(['place', 'faction', 'creature', 'lore', 'person']),
+    category: z.enum(['place', 'faction', 'creature', 'lore']),
     lead: z.string(),
     image: z.string().optional(),
     meta: z.record(z.string()).optional(),

@@ -13,8 +13,7 @@
             "place",
             "faction",
             "creature",
-            "lore",
-            "person"
+            "lore"
           ]
         },
         "lead": {

@@ -10,7 +10,6 @@ const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
   faction:  { bg: 'var(--faction-bg)', color: 'var(--faction-text)', edge: 'var(--faction-edge)' },
   creature: { bg: 'var(--creature-bg)', color: 'var(--creature-text)', edge: 'var(--creature-edge)' },
   lore:     { bg: 'var(--lore-bg)', color: 'var(--lore-text)', edge: 'var(--lore-edge)' },
-  person:   { bg: 'var(--person-bg)', color: 'var(--person-text)', edge: 'var(--person-edge)' },
 };
 
 const counts = {
@@ -18,7 +17,6 @@ const counts = {
   faction:  entries.filter(e => e.data.category === 'faction').length,
   creature: entries.filter(e => e.data.category === 'creature').length,
   lore:     entries.filter(e => e.data.category === 'lore').length,
-  person:   entries.filter(e => e.data.category === 'person').length,
 };
 
 const quotesRaw = fs.readFileSync('src/content/quotes.md', 'utf-8');
@@ -56,7 +54,6 @@ const featuredPool = entries.map(e => ({
           <div class="stat"><span class="stat-num" data-target={counts.faction}>0</span><button type="button" class="stat-label stat-filter" data-filter="faction" style="color:var(--faction-text);">Factions</button></div>
           <div class="stat"><span class="stat-num" data-target={counts.creature}>0</span><button type="button" class="stat-label stat-filter" data-filter="creature" style="color:var(--creature-text);">Creatures</button></div>
           <div class="stat"><span class="stat-num" data-target={counts.lore}>0</span><button type="button" class="stat-label stat-filter" data-filter="lore" style="color:var(--lore-text);">Lore</button></div>
-          <div class="stat"><span class="stat-num" data-target={counts.person}>0</span><button type="button" class="stat-label stat-filter" data-filter="person" style="color:var(--person-text);">People</button></div>
         </div>
       </div>
       <a href="/maps" class="map-teaser">
@@ -83,7 +80,6 @@ const featuredPool = entries.map(e => ({
           <a class="sidebar-item" href="#" data-filter="faction">Factions</a>
           <a class="sidebar-item" href="#" data-filter="creature">Creatures</a>
           <a class="sidebar-item" href="#" data-filter="lore">Lore &amp; magic</a>
-          <a class="sidebar-item" href="#" data-filter="person">People</a>
         </div>
       </aside>
 
@@ -501,7 +497,7 @@ const featuredPool = entries.map(e => ({
 
   const labels = {
     all: 'All entries', place: 'Places', faction: 'Factions',
-    creature: 'Creatures', lore: 'Lore & magic', person: 'People',
+    creature: 'Creatures', lore: 'Lore & magic',
   };
 
   let activeFilter = 'all';
