@@ -4,9 +4,10 @@ category: lore
 lead: The tale of a bandit-king and the feast.
 tags:
   - heartlands
-  - temple
-  - visari
-  - flow-and-energy
+  - nirashi
+  - empire
+  - legion
+  - story
 ---
 
 *Nirashi are one of the few groups who travel the Heartlands well. To that end, they have gathered multiple stories from the remote Domains of the region. This is one such story.*
