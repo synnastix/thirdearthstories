@@ -28,10 +28,6 @@
   --lore-bg: #faeeda;
   --lore-text: #854f0b;
   --lore-edge: #ef9f27;
-
-  --person-bg: #e1f5ee;
-  --person-text: #0f6e56;
-  --person-edge: #5dcaa5;
 }
 
 [data-theme="dark"] {
@@ -64,10 +60,6 @@
   --lore-bg: #412402;
   --lore-text: #fac775;
   --lore-edge: #ef9f27;
-
-  --person-bg: #0a3629;
-  --person-text: #a3ead6;
-  --person-edge: #5dcaa5;
 }
 
 *, *::before, *::after {
