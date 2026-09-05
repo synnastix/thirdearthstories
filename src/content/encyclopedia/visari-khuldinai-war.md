@@ -7,18 +7,108 @@ tags:
   - visari
   - khuldinai
   - war-and-plague
+  - temple
 ---
 
-## The Visari-Khuldinai War
+*Sermon delivered to attendees of the Temple in Ashvale Heights by High Cleric Madison in response to the escalation tension between the factions, and the Empire's deployment of Legion soldiers to the region.*
 
-War had broken out between the Visareen and Khuldinai, built on centuries of suspicion and distrust, but in truth it was fueled by the lies of those who were in power and intended to maintain it. The conflict was rooted in ages long forgotten, when fractured kingdoms proclaimed independence. 
+---
 
-The Visareen obsessed with keeping nature as it was, working within it, dreaming of a realm bound by starlight and memory rather than iron chains. They were perhaps right in that pursuit – the legends claim we are largely to blame for the destruction of our own world.
+O’ brothers and sisters,
+Once again the bonds of brotherhood have been broken,  
+Darkness has seeped into the soil like a crimson stain,  
+Visari and Khuldinai hunt each other in shadow,
+The great valley to the north lay in ruins,  
+The gods weep for their children!  
 
-The Khuldinai, the ones who found refuge underground during the Cataclysm, rose with hammer and flame to claim the natural resources for their own, seeking to harvest and bind the sacred forests to further their quest for gems and ore. This conflict paused for generations when their rulers brokered peace, but in the world of mortals it is merely a matter of time before the old fires of blood and banner rise again. When pride hardens into zeal and the songs of kinship turn once more into the drums of war. 
+They claim it was rooted in ages long forgotten,  
+When fractured kingdoms sought power,  
+The truth was much shallower,  
+O’ brothers and sisters,  
+O’ how the gods cried for their children!  
 
-The first years of war were marked by skirmishes that dragged through endless winters. Villages were burned to ash, and entire peoples driven from their ancestral homes on both sides of the conflict. The Visareen were hunted from glade and grove, their kin scattered or slain, while the Khuldinai hardened their holds in the ridges of the mountains. Each side weaving vengeance into their very breath, atrocities committed in the defense of the kingdom. In truth, it was a cruel war perpetuated by hate, and it gave each side permission to let their most vicious impulses breathe.
+The Visari have strayed from the light,  
+They dream of a world bound by memory,  
+They worship the trees as gods,  
+But gods they were not,  
+O’ brothers,  
+O’ sisters,  
+The trees would not save them,  
+O’ how the gods cried for their children!  
 
-As the years bled on, the ruin deepened. Villages once rich in trade and song became cages of hunger and death. Finally the cost seemed too great, and each side once again sought a truce. 
+The Khuldinai took up hammer and flame,  
+Sought to claim the great trees for their own,  
+They too ignored the will of the gods,  
+They too let greed take hold,  
+They too, held grudges for people long dead,  
+O’ how the gods cried for their children!  
 
-Then the human faction, the Empire, the nation whose capital of Timbur Deep offered refuge for many of the war’s victims, descended to intervene. They came not as saviors, but as arbiters whose armies struck the implements of war and broke fortifications. The Empire did not take either side, but imposed silence upon the clash, their presence a grim peace forged of iron and decree. What started as a war between neighbors was ended not by victory on either side, but by the weight of outsiders who forced the two into a fragile accord, binding them to a divided land where peace carried the taste of ash.
+Peace broken by pride and zeal,  
+Old fires of blood and banner rose,  
+Songs of kinship turned once again,  
+Toward the drums of war,  
+Let the gods weep,  
+Let the gods weep!  
+
+O’ brothers and sisters,
+I tell you now,  
+The evil that crept over that land,  
+Has no equal among men!  
+
+Skirmishes dragged through endless winters,  
+Villages burned to ash,  
+Entire peoples driven from their ancestral homes,  
+On both sides,  
+O’ brothers and sisters,  
+On both sides.  
+
+Visari hunted from glade and grove,  
+Visari kin scattered and slain,  
+Khuldinai hardened their holds in the mountains,  
+In the high ridges,  
+In the deep caves,  
+O’ brothers and sisters,  
+When the forest burned, they fought,  
+When the mountains filled with graves, they fought,  
+It became a war of hate,  
+O’ how the gods cried for their children!  
+
+Viciousness breathed into the valley,  
+Impulses set free,  
+The worst of mortals revealed,  
+O’ brothers and sisters,  
+The gods were not blind,  
+The gods had not abandoned them,  
+O’ how the gods wept!
+
+Years bled on and ruin ran deep,  
+Villages once rich in song became rich only in death,  
+And hunger,  
+And suffering,  
+O’ brothers and sisters,  
+O’ how the gods cried for their children!  
+
+The gods could cry no more!  
+The gods called to our people,  
+To the Empire,  
+Our beloved Empire,  
+A divine charge to descend on the valley,  
+To be their hand,  
+To end the war,  
+O’ brothers and sisters,  
+O’ how the gods rejoiced!  
+
+We answered their summons,  
+We did not show favor,  
+We silenced the Visari,  
+We silenced the Khuldinai,  
+We silenced the war!
+O’ how the gods rejoice!  
+
+O’ brothers and sisters,  
+The gods rewarded us greatly,  
+The gods have blessed the Empire,  
+And it is our sworn duty,  
+Our solemn vow,  
+To answer their calls,  
+O’ how the gods rejoice!
