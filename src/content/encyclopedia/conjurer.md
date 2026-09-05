@@ -6,6 +6,10 @@ tags:
   - somari
 ---
 
+*The legends of the Somari sometimes travel farther than they should. This particular myth traveled all the way across the sea and found a home with the bards in Merrow's Reach.*
+
+---
+
 No one remembers the name he carried when they caught him, only that he was not from their land. Skin soft from city shade. Eyes too tired to fear the wind.
 
 He was bound like any other and tossed into the cage, left to wait for a better death, one the elders could bless.
