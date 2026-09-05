@@ -10,7 +10,7 @@ tags:
   - temple
 ---
 
-*Sermon delivered to attendees of the Temple in Ashvale Heights by High Cleric Madison in response to the escalation tension between the factions, and the Empire's deployment of Legion soldiers to the region.*
+*Sermon delivered to attendees of the Temple in Ashvale Heights by High Cleric Madison in response to the escalating tension between the factions, and the Empire's deployment of Legion soldiers to the region.*
 
 ---
 
