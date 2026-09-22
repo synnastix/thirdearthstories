@@ -40,9 +40,9 @@ const maps = mapEntries.map(entry => ({
   </div>
 
   <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <button class="lightbox-close" onclick="event.stopPropagation(); closeLightbox()">✕</button>
     <button class="lightbox-prev" onclick="event.stopPropagation(); changeMap(-1)">‹</button>
-    <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+    <img class="lightbox-img" id="lightbox-img" src="" alt="" draggable="false" onclick="event.stopPropagation();" />
     <button class="lightbox-next" onclick="event.stopPropagation(); changeMap(1)">›</button>
     <div class="lightbox-caption" id="lightbox-caption"></div>
   </div>
@@ -158,6 +158,18 @@ const maps = mapEntries.map(entry => ({
     max-height: 82vh;
     object-fit: contain;
     border-radius: 4px;
+    transform-origin: 0 0;
+    transition: transform 0.25s ease;
+    touch-action: none;
+    cursor: zoom-in;
+  }
+  .lightbox-img.zoomed {
+    cursor: grab;
+    border-radius: 0;
+  }
+  .lightbox-img.dragging {
+    cursor: grabbing;
+    transition: none;
   }
   .lightbox-caption {
     color: rgba(255,255,255,0.6);
@@ -203,38 +215,142 @@ const maps = mapEntries.map(entry => ({
 
 <script define:vars={{ maps }}>
   let current = 0;
+  const ZOOM = 3;
+  let scale = 1, panX = 0, panY = 0;
+  let dragging = false, moved = false;
+  let startClientX = 0, startClientY = 0, startPanX = 0, startPanY = 0;
+
+  const lightbox = () => document.getElementById('lightbox');
+  const img = () => document.getElementById('lightbox-img');
+  const caption = () => document.getElementById('lightbox-caption');
+
+  let baseLeft = 0, baseTop = 0, baseW = 0, baseH = 0;
+
+  function measureBase() {
+    const rect = img().getBoundingClientRect();
+    baseLeft = rect.left;
+    baseTop = rect.top;
+    baseW = rect.width;
+    baseH = rect.height;
+  }
+
+  function clampPan(nextScale, nextPanX, nextPanY) {
+    const vw = window.innerWidth, vh = window.innerHeight;
+    const scaledW = baseW * nextScale, scaledH = baseH * nextScale;
+
+    let minX, maxX, minY, maxY;
+    if (scaledW <= vw) {
+      minX = maxX = (vw - scaledW) / 2 - baseLeft;
+    } else {
+      minX = vw - baseLeft - scaledW;
+      maxX = -baseLeft;
+    }
+    if (scaledH <= vh) {
+      minY = maxY = (vh - scaledH) / 2 - baseTop;
+    } else {
+      minY = vh - baseTop - scaledH;
+      maxY = -baseTop;
+    }
+    return {
+      x: Math.min(maxX, Math.max(minX, nextPanX)),
+      y: Math.min(maxY, Math.max(minY, nextPanY)),
+    };
+  }
+
+  function applyTransform() {
+    const el = img();
+    el.style.transform = `translate(${panX}px, ${panY}px) scale(${scale})`;
+    el.classList.toggle('zoomed', scale > 1);
+  }
+
+  function resetZoom() {
+    scale = 1; panX = 0; panY = 0;
+    applyTransform();
+    measureBase();
+  }
+
+  img().addEventListener('load', resetZoom);
+  window.addEventListener('resize', () => {
+    if (lightbox().classList.contains('open')) resetZoom();
+  });
 
   window.openLightbox = function(index) {
     current = index;
-    const lb = document.getElementById('lightbox');
-    const img = document.getElementById('lightbox-img');
-    const caption = document.getElementById('lightbox-caption');
-    img.src = maps[current].image;
-    img.alt = maps[current].title;
-    caption.textContent = maps[current].title;
-    lb.classList.add('open');
+    const el = img();
+    el.src = maps[current].image;
+    el.alt = maps[current].title;
+    caption().textContent = maps[current].title;
+    resetZoom();
+    lightbox().classList.add('open');
     document.body.style.overflow = 'hidden';
   }
 
   window.closeLightbox = function() {
-    document.getElementById('lightbox').classList.remove('open');
+    lightbox().classList.remove('open');
     document.body.style.overflow = '';
   }
 
   window.changeMap = function(dir) {
     current = (current + dir + maps.length) % maps.length;
-    const img = document.getElementById('lightbox-img');
-    const caption = document.getElementById('lightbox-caption');
-    img.src = maps[current].image;
-    img.alt = maps[current].title;
-    caption.textContent = maps[current].title;
+    const el = img();
+    el.src = maps[current].image;
+    el.alt = maps[current].title;
+    caption().textContent = maps[current].title;
+    resetZoom();
   }
 
   document.addEventListener('keydown', e => {
-    const lb = document.getElementById('lightbox');
-    if (!lb.classList.contains('open')) return;
+    if (!lightbox().classList.contains('open')) return;
     if (e.key === 'Escape') window.closeLightbox();
     if (e.key === 'ArrowLeft') window.changeMap(-1);
     if (e.key === 'ArrowRight') window.changeMap(1);
+  });
+
+  function onPointerMove(e) {
+    if (!dragging) return;
+    const dx = e.clientX - startClientX;
+    const dy = e.clientY - startClientY;
+    if (Math.abs(dx) > 4 || Math.abs(dy) > 4) moved = true;
+    if (scale > 1) {
+      const c = clampPan(scale, startPanX + dx, startPanY + dy);
+      panX = c.x; panY = c.y;
+      applyTransform();
+    }
+  }
+
+  function endDrag(e) {
+    if (!dragging) return;
+    dragging = false;
+    img().classList.remove('dragging');
+    window.removeEventListener('pointermove', onPointerMove);
+    window.removeEventListener('pointerup', endDrag);
+    window.removeEventListener('pointercancel', endDrag);
+    if (!moved) {
+      if (scale === 1) {
+        const rect = img().getBoundingClientRect();
+        const dx0 = e.clientX - rect.left;
+        const dy0 = e.clientY - rect.top;
+        const nextPanX = panX + dx0 * (1 - ZOOM / scale);
+        const nextPanY = panY + dy0 * (1 - ZOOM / scale);
+        const c = clampPan(ZOOM, nextPanX, nextPanY);
+        scale = ZOOM; panX = c.x; panY = c.y;
+      } else {
+        scale = 1; panX = 0; panY = 0;
+      }
+      applyTransform();
+    }
+  }
+
+  img().addEventListener('pointerdown', e => {
+    dragging = true;
+    moved = false;
+    startClientX = e.clientX;
+    startClientY = e.clientY;
+    startPanX = panX;
+    startPanY = panY;
+    img().classList.add('dragging');
+    window.addEventListener('pointermove', onPointerMove);
+    window.addEventListener('pointerup', endDrag);
+    window.addEventListener('pointercancel', endDrag);
   });
 </script>
