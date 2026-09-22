@@ -9,7 +9,7 @@ tags:
   - legion
 ---
 
-*Target Briefing, Imperial Legion 2nd Division – Wildlife Control. Sharing this document requires express approval from Legion authorities.*
+*Target Briefing, Imperial Legion Second Division – Wildlife Control. Sharing this document requires express approval from Legion authorities.*
 
 The stone drake is a heavy-bodied quadruped, roughly twice the mass of large bear species. Its most distinctive feature is a set of short wings that fold so flush against the body that a motionless drake on a rocky slope reads as geology rather than animal. The wings are not built for sustained flight; they generate enough lift for explosive short-range launches from height or from a crouch. The creature’s wings are covered in the same dense, grey-brown stone-textured scaling as the rest of the hide. A broad dorsal ridge of calcified bone plates runs from the neck to the tail, terminating in outward-angled spurs. The eyes are amber-gold, wide-set, with a vertical slit pupil and a patience in the gaze that observers consistently describe before they describe anything else.
 
