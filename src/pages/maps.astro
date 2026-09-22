@@ -216,6 +216,8 @@ const maps = mapEntries.map(entry => ({
 <script define:vars={{ maps }}>
   let current = 0;
   const ZOOM = 3;
+  const ZOOM_MIN = 1;
+  const ZOOM_MAX = 6;
   let scale = 1, panX = 0, panY = 0;
   let dragging = false, moved = false;
   let startClientX = 0, startClientY = 0, startPanX = 0, startPanY = 0;
@@ -267,6 +269,23 @@ const maps = mapEntries.map(entry => ({
     scale = 1; panX = 0; panY = 0;
     applyTransform();
     measureBase();
+  }
+
+  function zoomTo(nextScale, clientX, clientY) {
+    nextScale = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, nextScale));
+    if (nextScale <= ZOOM_MIN) {
+      scale = 1; panX = 0; panY = 0;
+      applyTransform();
+      return;
+    }
+    const rect = img().getBoundingClientRect();
+    const dx0 = clientX - rect.left;
+    const dy0 = clientY - rect.top;
+    const nextPanX = panX + dx0 * (1 - nextScale / scale);
+    const nextPanY = panY + dy0 * (1 - nextScale / scale);
+    const c = clampPan(nextScale, nextPanX, nextPanY);
+    scale = nextScale; panX = c.x; panY = c.y;
+    applyTransform();
   }
 
   img().addEventListener('load', resetZoom);
@@ -326,18 +345,7 @@ const maps = mapEntries.map(entry => ({
     window.removeEventListener('pointerup', endDrag);
     window.removeEventListener('pointercancel', endDrag);
     if (!moved) {
-      if (scale === 1) {
-        const rect = img().getBoundingClientRect();
-        const dx0 = e.clientX - rect.left;
-        const dy0 = e.clientY - rect.top;
-        const nextPanX = panX + dx0 * (1 - ZOOM / scale);
-        const nextPanY = panY + dy0 * (1 - ZOOM / scale);
-        const c = clampPan(ZOOM, nextPanX, nextPanY);
-        scale = ZOOM; panX = c.x; panY = c.y;
-      } else {
-        scale = 1; panX = 0; panY = 0;
-      }
-      applyTransform();
+      zoomTo(scale === 1 ? ZOOM : 1, e.clientX, e.clientY);
     }
   }
 
@@ -353,4 +361,10 @@ const maps = mapEntries.map(entry => ({
     window.addEventListener('pointerup', endDrag);
     window.addEventListener('pointercancel', endDrag);
   });
+
+  img().addEventListener('wheel', e => {
+    e.preventDefault();
+    const factor = e.deltaY < 0 ? 1.15 : 1 / 1.15;
+    zoomTo(scale * factor, e.clientX, e.clientY);
+  }, { passive: false });
 </script>
