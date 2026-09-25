@@ -12,7 +12,8 @@ tags:
 ## Foreword
 
 Consistency is the key to progress as the Khuldinai say.  
-The Emberforge Brotherhood’s mission is to ensure consistent quality work across guild members and as such, has commissioned this guide on how to identify, extract, and process ore essential to our craft. We provide the farms with tools, warriors with weapons, and the people of the empire with the things they need to live a more comfortable life.
+
+The Emberforge Brotherhood’s mission is to ensure consistent quality work across guild members and as such, has commissioned this guide on how to identify, extract, and process ore essential to our craft. We provide the farms with tools, warriors with weapons, and the people of the Empire with the things they need to live a more comfortable life.
 
 ## Basic Metalwork
 
@@ -21,8 +22,10 @@ The Emberforge Brotherhood’s mission is to ensure consistent quality work acro
 Copper is the simplest for a beginner to work as it is both easier to come by and faster to smelt than most other ores. It is found commonly within the Dragon’s Spine Mountains and regions near the Misran Sea, and less commonly elsewhere in the region. One may be lucky enough to find nuggets or veins in the basalt flows around Timbur Deep, but more often it is enmeshed in various rocks and must be broken free. These deposits are identifiable by their blue or green colorations but do not worry, proper smelting will yield quality copper all the same.
 
 Smelting copper requires a furnace and a lot of charcoal. Raw wood, even when seasoned, does not burn hot enough to properly melt the material. It is worth stating clearly – if one does not have access to a significant amount of charcoal, don’t bother.  
+
 *This advice carries to everything that follows as well.*  
-A simple clay pit full of charcoal may work, but a basic mud-brick or clay chimney is a better option. In fact, this design will work for smelting many of the metals a member may need to work with, so it is good practice to begin with this design until one can establish a better designed forge. Such forges require more resources to design and craft, and are beyond the scope of this document.
+
+A simple clay pit full of charcoal may work, but a basic mud-brick or clay chimney is a better option. In fact, this design will work for smelting many of the metals a member may need to work with, so it is good practice to begin with this design until one can establish a better engineered forge. Such forges require more resources to plan and craft, and are beyond the scope of this document.
 
 Contaminant materials separate from the pure metal and can be skimmed from the surface. As these are removed, the purity increases, yielding metal that serves a variety of uses.
 
@@ -34,17 +37,17 @@ Bronze is not a natural material but rather a melding of materials – copper an
 
 Tin is the limitation, not copper, as it is found mainly in the far north and even there, rarely. As such, it is recommended to establish relationships with traders to acquire already smelted tin rather than commissioning an expedition to obtain it oneself. Combining the ores requires the copper must be fully melted before the tin can be combined. This can be done by adding a crucible to the simple furnace we already described, but is much easier with access to a well-designed furnace in an established workshop.
 
-Once the metals are combined, they are poured into ingots which can be then worked into the desired shapes. For a beginner, forging a bronze knife is a simple way to start to understand how the material responds and to develop your own ratios. A material too soft needs more tin, a material too brittle needs less. This is simply a matter of time and practice.
+Once the metals are combined, they are poured into ingots which can be then worked into the desired shapes. For a beginner, forging a bronze knife is a simple way to start to understand how the material responds and to develop your own formulations. A material too soft needs more tin, a material too brittle needs less. This is simply a matter of time and practice.
 
 ### Iron
 
-There is a strong case to skip either ore mentioned above and go straight to working iron. The ore is more common than either copper or tin, found in many rocks and red dirt spread throughout the region. The challenge is in smelting and working – it requires a fire significantly hotter than either copper or tin to reduce properly, and even then what’s left must be worked carefully before it becomes usable. Because of this, it is recommended that apprentices begin with working through each ore level one at a time and as their technique improves, the next tier will be easier to master than it would be without such valuable experience.
+There is a strong case to skip either ore mentioned above and go straight to working iron. The ore is more common than either copper or tin, found in many rocks and red dirt spread throughout the region. The challenge is in smelting and working – it requires a fire significantly hotter than either copper or tin to reduce properly, and even then what’s left must be worked carefully before it becomes usable. Because of this, it is recommended that apprentices begin with working through each ore one at a time and as their technique improves, the next tier will be easier to master than it would be without such valuable experience.
 
 Smelting iron again requires a well designed forge and a lot of charcoal. The simplest method is to lay a base of fire, then a layer of iron-rich material, then another layer of charcoal on top. Continue to stack alternating layers of iron and charcoal through the top of the furnace. As the material reduces, add new layers of iron and charcoal to continue the process. 
 
 Be prepared to have a full day running the forge this way before obtaining anything resembling a useful volume of iron. Even then, the process is not complete, as what results is a spongy mass rather than workable metal. The mass must be repeatedly heated and hammered to squeeze out trapped contaminants. Where copper can be worked while cold, iron absolutely must be heated and hammered, which requires significant investment of charcoal and labor.
 
-Despite these drawbacks, iron tools and weapons that are properly worked hold and edge and endure stress far beyond even bronze. Further, because it is more readily available in its raw form, it can be worth pursuing for those with the resources to smelt it and the patience to work the resulting material.
+Despite these drawbacks, iron tools and weapons that are properly worked hold an edge and endure stress far beyond even bronze. Further, because it is more readily available in its raw form, it can be worth pursuing for those with the resources to smelt it and the patience to work the resulting material.
 
 We should mention that there are classes of material that rise above even iron for durability and sharpness. These materials are exceedingly rare, requiring an experienced smith, a proper forge, and certain alchemical ingredients that must be applied at different stages of the forging process. Such materials are beyond the scope of an apprentice and therefore shall not be discussed further here.
 
@@ -56,7 +59,7 @@ Lead is another fantastic material for the apprentice because it is easy to iden
 
 ### Silver
 
-Silver is often found combination with lead and can be separated by experienced forge workers. It is mostly used for ornamentation and decoration, and is unsuitable for projects that require durability or sharpness. For an experienced craftsman, silver can be used to make jewelry and other valuable goods, but care must be taken to avoid forgeries if purchasing silver from traders.
+Silver is often found combination with lead and can be separated by experienced forge workers as the lead will melt much sooner than the silver. It is mostly used for ornamentation and decoration, and is unsuitable for projects that require durability or sharpness. For an experienced craftsman, silver can be used to make jewelry and other valuable goods, but care must be taken to avoid forgeries if purchasing silver from traders.
 
 ### Gold
 
