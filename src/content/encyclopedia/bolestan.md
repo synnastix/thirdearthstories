@@ -22,7 +22,7 @@ The Bolestan outpost has been of strategic importance to our order for some time
 
 As you may know, the Bolestan outpost has its origins in the bubbling ponds that formed near the Sova River just south of the city. The area was thought to be cursed as travelers passing through reported becoming ill when breathing the air near these ponds, and some died in their sleep. It wasn’t until a wayward campfire caught one of the ponds, and the surface of the water burned far longer than it should have.
 
-Over time, our engineers came to understand that underground pockets of air leaked through the ground, and this air carried the stench of eggs but cast flame without wood or charcoal. Since then, these underground pockets have been tapped and used to provide earthfire flames for a variety of industries crucial to the Legion.
+Over time, our engineers came to understand that underground pockets of air leaked through the ground, and this air carried the stench of failed eggs but cast flame without wood or charcoal. Since then, these underground pockets have been tapped and used to provide earthfire flames for a variety of industries crucial to the Legion.
 
 ## Craftworks and Supplies
 
@@ -38,7 +38,7 @@ Cooperation with Khuldinai engineers has yielded improvements in both the safety
 
 Proper orientation of the earthfire at an exterior wall, rather than plumbing to the center of buildings, has reduced the reports of workers getting sick. When instances of illness have risen, clerics have been able to isolate the symptoms and found them related to food or curse, not the earthfire.
 
-Inspection protocols have been refined as well, leading to faster detection of potential leaks in the structures were earthfire might escape. Hounds belonging to House Landry have been trained to follow the earthfire scent to its source, and they do almost without fail. When the hound has warned of a breach, workers apply a greasy solution which produces bubbles to show exactly where the leak might be. These inspections have increased costs but reduced repair times greatly. It has proven to be preferable to invest in the maintenance of these structures rather than waiting for them to fail as the failure is often catastrophic and results in the loss of nearby structures as well.
+Inspection protocols have been refined as well, leading to faster detection of potential leaks in the structures where earthfire might escape. Hounds belonging to House Landry have been trained to follow the earthfire scent to its source, and they do almost without fail. When the hound has warned of a breach, workers apply a greasy solution which produces bubbles to show exactly where the leak might be. These inspections have increased costs but reduced repair times greatly. It has proven to be preferable to invest in the maintenance of these structures rather than waiting for them to fail as the failure is often catastrophic and results in the loss of nearby structures as well.
 
 ## Civil Governance
 
