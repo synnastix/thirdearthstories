@@ -13,12 +13,6 @@ What lives here is a collection of material I dreamed over the years, folded and
 
 I’ve arranged this space to help readers, and myself, explore the world in a way that doesn’t ask as much as a novel might. I hope visitors enjoy browsing it as much as I’ve enjoyed creating it.
 
-## AI Disclaimer
-
-I’ll add a note about artificial intelligence, as it is of some importance these days. I am a proponent of using AI as a tool, not a content generator. I’ve used these tools to help build this site and create some of the imagery, but the stories, thoughts, ideas, and world itself are from my own mind. I am a writer, not a web developer or artist.
-
-That said, I would absolutely love to work with an artist or even multiple artists to bring the world to life. As this is a hobby project, I simply do not have the resources to pay real artists at this time. I am committed to reinvesting any profits from book sales back into the project which hopefully will include cover art for the books and artwork for entries on this lore site.
-
 ## Contact
 
 If you wish to contact me, feel free to send a message to the address below.
