@@ -2,6 +2,7 @@
 title: Bolestan
 category: place
 lead: "An industrial outpost just south of Timbur Deep which is considered to be of strategic importance to the Empire."
+image: /images/bolestan.png
 tags:
   - empire
   - legion
