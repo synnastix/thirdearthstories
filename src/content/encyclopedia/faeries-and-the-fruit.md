@@ -189,7 +189,7 @@ Quiet.
 The fae had gone,  
 Back to their home,  
 Back further still,  
-Away from the humans,
+Away from the people,
 Gone, gone, gone.
 
 *She flutters her hands into the air as she repeats the words.*
