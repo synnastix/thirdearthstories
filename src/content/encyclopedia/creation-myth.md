@@ -58,7 +58,7 @@ At last he stood before the lords of flame. What passed between them was not sha
 
 “The dragons have given me their promise,” he declared. “As long as these remain beyond their grasp, the tyrants shall not rule over us.”
 
-And it is written - the swineherd wandered Tellunis, gifting seven orbs to the hands of men, Visari, and Khuldinai, hiding four in secret places, and keeping one as his own. With its power he raised the first walls of Timbur Deep – the city that stands to this day, twelve thousand years and more later. 
+And it is written - the swineherd wandered Tellunis, gifting seven orbs to the hands of men, Visari, and Khuldinai, hiding four in secret places, and keeping one as his own. With its power he raised the first walls of the great city that stands to this day, twelve thousand years and more later. 
 
 What I have written here is but a moment in the span of ages. Since then, our world has grown vast and diverse, rich in peoples and cultures, but all remember him. His name may be forgotten, but every farmer who tends swine still lays a stone at the corner of his sty, a gesture said to honor the man who faced the demi-gods and survived. The residents of this vast land cannot forget that it was a swineherd who first humbled the dragons, and from his courage the new age of mortals began. 
 
