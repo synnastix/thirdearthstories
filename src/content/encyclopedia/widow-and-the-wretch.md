@@ -312,7 +312,7 @@ He just can’t bring himself to tell her what he wants.
 
 She only wants a confession of his love.
 
-*The Lady started pacing again, slowly. I am deeply uncomfortable with her skin laid bare. It does not seem to bother her.*
+*The Lady started pacing again, slowly. I was deeply uncomfortable with her skin laid bare. It did not seem to bother her.*
 
 Night after night, dear Solan, they grew closer.
 
@@ -386,7 +386,7 @@ When her fingers touched his skin?
 
 Slick.
 
-*The Lady stood, stepping to my side. Her movements were agonizingly slow, her hip brushing my shoulder.*
+*The Lady stood, stepping to my side. Her movements were agonizingly slow, her bare hip brushing my shoulder.*
 
 The itch was not simply an itch, Solan.
 
@@ -402,19 +402,19 @@ Delia’s fingers traced the edges.
 
 Jody only felt pleasure.
 
-Her fingers found the slit. The warm, slick center. They slid in…
+Her fingers found the slit. The hot, slick center. They slid in…
 
 *The Lady turned to face me, stepping closer.*
 
 Slid into the warm fold between the skin.
 
-Two fingers.
+One finger.
 
-Then three.
+Then two.
 
 Then…
 
-*The Lady stepped one leg over my lap, straddling me. I did my best to continue writing, but the feather of the quill brushed her body near the top of her legs.*
+*The Lady stepped one leg over my lap, straddling me. I did my best to continue writing, but the feather of the quill brushed against the crease in her hip.*
 
 Do you know what happened next, dear Solan?
 
@@ -433,6 +433,8 @@ She reached inside him.
 And when she did, he moaned in ecstasy.
 
 He gave her his spirit.
+
+And breathed no more.
 
 *The Lady lifted herself. She paced behind me again. I felt soft skin brush the back of my neck. She’d leaned over me.*
 
