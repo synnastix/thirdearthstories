@@ -285,6 +285,7 @@ Each night Delia applied the salve to his itch.
 Each night he comforted her.
 
 The nightmare returned. Again and again. The clearing. The branch. And Magnus staring.
+
 Each night he wanted to kiss her.
 
 Each night he was still so far away.
@@ -316,6 +317,7 @@ She only wants a confession of his love.
 Night after night, dear Solan, they grew closer.
 
 Until *that* night.
+
 She lay on a wool blanket in the straw.
 
 With her eyes she beckoned him.
@@ -325,6 +327,7 @@ And Jody drew closer.
 He held himself over her.
 
 She whispered: “Tell me.”
+
 His face brushed against hers.
 
 Jody groaned. His desire for her was too much.
@@ -434,6 +437,7 @@ He gave her his spirit.
 *The Lady lifted herself. She paced behind me again. I felt soft skin brush the back of my neck. She’d leaned over me.*
 
 What Jody didn’t know, dear Solan, what he *couldn’t* know…
+
 *The Lady whispered, allowing one hand to slide down my chest.*
 
 Was that when Jody murdered Magnus, his spirit released.
