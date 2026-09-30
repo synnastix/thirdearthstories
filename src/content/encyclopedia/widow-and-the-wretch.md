@@ -117,7 +117,7 @@ His boot came to Magnus’s shoulder, pressing his chest flat into the dirt.
 
 He groaned again.
 
-The sharp point of the blade pressed into his back, between the shoulders, just to the side of his spine. It cut easily, as if the skin parted through magic, and plunged until only the handle remained.
+The sharp point of the blade pressed into his back, between the shoulders, just to the side of his spine. It cut easily, as if the skin parted through magic, and plunged until only the handle remained, and the point found his heart.
 
 The deed now done, there was no turning back.
 
@@ -185,7 +185,8 @@ Another letter!
 
 This time for Delia.
 
-He reached the home. Tightened his face. Wore his best sorrow. Then stepped inside. 
+He reached the home. Tightened his face. Wore his best sorrow. Then stepped inside.
+
 When she saw it, her face bathed in tears.
 
 It was a notice from the Legion that Magnus had died in battle.
@@ -238,7 +239,7 @@ Relief overcame him immediately.
 
 Delia smiled at him.
 
-“You’re tense,” she whispered back. “Is everything ok?”
+“You’re tense,” she whispered back. “Is everything okay?”
 
 *The Lady paused, waiting. I remained silent. She continued.*
 
@@ -452,7 +453,7 @@ Do you understand, dear Solan?
 
 *I nodded. The Lady kept her breasts against me.*
 
-When his spirit found her, it brought his last memory with it.
+When Magnus's spirit found her, it brought his last memory with it.
 
 The memory of Jody standing over him.
 
