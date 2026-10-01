@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 
-const entries = await getCollection('encyclopedia');
+const entries = await getCollection('relics');
 
 const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
   place:    { bg: 'var(--place-bg)', color: 'var(--place-text)', edge: 'var(--place-edge)' },

@@ -31,7 +31,7 @@ export const ENCYCLOPEDIA_TAGS = [
   'story',
 ] as const;
 
-const encyclopedia = defineCollection({
+const relics = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
@@ -76,4 +76,4 @@ const about = defineCollection({
   schema: z.object({}),
 });
 
-export const collections = { encyclopedia, maps, books, about };
+export const collections = { relics, maps, books, about };

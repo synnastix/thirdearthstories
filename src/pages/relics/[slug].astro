@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const entries = await getCollection('encyclopedia');
+  const entries = await getCollection('relics');
   return entries.map(entry => ({ params: { slug: entry.slug }, props: { entry } }));
 }
 
@@ -19,7 +19,7 @@ const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
 const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
 
 const myTags = entry.data.tags ?? [];
-const allEntries = await getCollection('encyclopedia');
+const allEntries = await getCollection('relics');
 const relatedByTag = allEntries
   .filter(e => e.slug !== entry.slug)
   .map(e => ({
