@@ -103,7 +103,7 @@ const featuredPool = entries.map(e => ({
           {entries.map(entry => {
             const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
             return (
-              <a href={`/encyclopedia/${entry.slug}`} class="card" style={`border-top-color:${tag.edge};`} data-category={entry.data.category} data-title={entry.data.title} data-lead={entry.data.lead}>
+              <a href={`/relics/${entry.slug}`} class="card" style={`border-top-color:${tag.edge};`} data-category={entry.data.category} data-title={entry.data.title} data-lead={entry.data.lead}>
                 <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
                 <div class="card-title">{entry.data.title}</div>
                 <div class="card-desc">{entry.data.lead}</div>
@@ -463,7 +463,7 @@ const featuredPool = entries.map(e => ({
       tag.style.color = e.color;
       document.getElementById('fname').textContent = e.title;
       document.getElementById('flead').textContent = e.lead;
-      document.getElementById('fread').href = `/encyclopedia/${e.slug}`;
+      document.getElementById('fread').href = `/relics/${e.slug}`;
       card.style.borderLeftColor = e.color;
       card.style.opacity = '1';
     };
@@ -542,5 +542,6 @@ const featuredPool = entries.map(e => ({
     });
   });
 
-  filter('all');
+  const initialType = new URLSearchParams(window.location.search).get('type');
+  filter(initialType && labels[initialType] ? initialType : 'all');
 </script>

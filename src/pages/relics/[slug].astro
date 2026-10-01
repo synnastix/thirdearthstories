@@ -82,7 +82,7 @@ const relatedByTag = allEntries
             <p class="related-label">Related entries</p>
             <div class="related-links">
               {relatedByTag.map(r => (
-                <a href={`/encyclopedia/${r.entry.slug}`} class="related-link">
+                <a href={`/relics/${r.entry.slug}`} class="related-link">
                   {r.entry.data.title}
                 </a>
               ))}
