@@ -42,26 +42,6 @@ Even the bones of the earth shifted in those years. The western basin was filled
 
 Thus ended the Cataclysm – not with mankind’s extinction, but with its remaking. From fire and famine, from ash and silence, a different world was born. But mankind was not alone in this new world, because something else emerged from the depths of the earth as it shattered in The Great War.
 
-## The Swineherd
-
-In the centuries after the Cataclysm, humankind rose once more from dust. They bound sounds into language, learned to plant seed into soil, built towns from timber and stone. In those days, they were not alone, for they met their cousins of blood and spirit: the Visari who walked beneath the green canopies of the forests, and the Khuldinai who carved their halls in the roots of the earth. For a time, there was peace among them, and no blood was spilled between kin. In truth they rarely spoke to one another, each developing their own language and culture, often symbolic of their geography as is usually the case with mortals. But there was another reason they rarely ventured beyond their own borders – they were afraid of the great beasts of the world.
-
-Above all beings strode the dragons – large creatures with claws and teeth, scales hard as steel and breath hot enough to melt man and metal alike.  They were ancient beings, some believed they were the chosen form of lesser gods in the mortal realm. In truth no mortal knew where they came from, and it did not matter because there they were. In that age they were not the hunted, nor the hidden, but kings in truth. They were radiant, wise, and terrible in majesty. They spoke all tongues, but not in the way that required tongue, no, they spoke directly to the mind. To men and demi-humans alike they were rulers and gods. In reverence, the peoples of Tellunis bent their knees, and in pride, the dragons took the world as their dominion.
-
-But power, once tasted, turns bitter. The lords of the skies grew proud, then cruel. Some became glutted with greed, others deaf to the cries of those who served them. Tribute became bondage, and reverence became fear. Where one may have protected their people as a guardian, they eventually came to imprison and enslave those they once looked after. Even today, men and Visareen alike spit into the fire before swearing an oath, for they say it was in the flames of dragon-pride that promises first turned hollow. The voices of the earth’s children rose in lamentation, until at last, the legends say, the gods themselves were moved.
-
-So it was that the gods chose not a king, nor a warrior, but the least of men – a swineherd dwelling in the shadow of Mount Aris, where the dragon-thrones were set. In dreams the gods called on him: “Rise, and teach the dragons the might of our children.” Yet fear gripped him, for what is a shepherd of swine against the fire of immortals? Six times they called, and six times he hid himself. But on the seventh day the gods displayed their wrath, and he could not flee their command.
-
-And so he climbed. Twelve days and twelve nights he ascended, and each night the gods whispered secrets into his dreams. No man knows what gifts they gave him – whether the hidden names of dragons, for in those days true names held power, or the arts of flattery and charms – for such mysteries were swallowed by time.
-
-At last he stood before the lords of flame. What passed between them was not shared with the world, not even the gods will speak of it. Weeks passed, and the world thought him lost. But one morning, the swineherd returned to his door. In his arms he bore twelve crystal orbs, gleaming with an inner light. Each bearing a distinct color swirling within, and each appearing to hold the entire cosmos inside it.
-
-“The dragons have given me their promise,” he declared. “As long as these remain beyond their grasp, the tyrants shall not rule over us.”
-
-And it is written - the swineherd wandered Tellunis, gifting seven orbs to the hands of men, Visari, and Khuldinai, hiding four in secret places, and keeping one as his own. With its power he raised the first walls of the great city that stands to this day, twelve thousand years and more later. 
-
-What I have written here is but a moment in the span of ages. Since then, our world has grown vast and diverse, rich in peoples and cultures, but all remember him. His name may be forgotten, but every farmer who tends swine still lays a stone at the corner of his sty, a gesture said to honor the man who faced the demi-gods and survived. The residents of this vast land cannot forget that it was a swineherd who first humbled the dragons, and from his courage the new age of mortals began. 
-
 ## The Lorekeeper
 
 The world of today bears little likeness to that of the ancients. In their time, the lands were broken into many pieces, scattered across the face of the earth like shards of a shattered plate. Seas lay between them, deep and wide, and the peoples were divided.
