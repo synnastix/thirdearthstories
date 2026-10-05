@@ -2,7 +2,7 @@
 title: Thornback
 category: creature
 lead: Large draft animals used to pull caravans over the dunes in the Ryukhan desert.
-image: /images/thornback.png
+image: /images/thornback.jpg
 tags:
   - sandborn
   - thornhold
