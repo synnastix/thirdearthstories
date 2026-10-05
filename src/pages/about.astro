@@ -5,7 +5,7 @@ import { getEntry } from 'astro:content';
 const about = await getEntry('about', 'index');
 const { Content } = await about.render();
 ---
-<Base title="About">
+<Base title="About" description="About the Third Earth stories — the world, the author, and what this site is for.">
   <div class="about">
     <p class="eyebrow">About</p>
     <h1 class="page-title">Third Earth Stories</h1>

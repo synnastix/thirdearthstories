@@ -1,13 +1,32 @@
 ---
 import '../styles/theme.css';
-const { title } = Astro.props;
+const { title, description, image } = Astro.props;
+const pageTitle = `${title} — Third Earth Stories`;
+const pageDescription = description ?? 'A fantasy-world lore encyclopedia and story hub for the Third Earth stories.';
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = image ? new URL(image, Astro.site) : undefined;
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} — Third Earth Stories</title>
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+  <link rel="canonical" href={canonicalURL} />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Third Earth Stories" />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={pageDescription} />
+  <meta property="og:url" content={canonicalURL} />
+  {ogImageURL && <meta property="og:image" content={ogImageURL} />}
+
+  <meta name="twitter:card" content={ogImageURL ? 'summary_large_image' : 'summary'} />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={pageDescription} />
+  {ogImageURL && <meta name="twitter:image" content={ogImageURL} />}
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <script is:inline>
