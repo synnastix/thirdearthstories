@@ -56,9 +56,9 @@ There is another dish, a favorite in the central valleys of the Heartlands, that
 ---
 
 ### Grau Drobi
-Four palms of wheat berries
-Four eggs
-A bit of milk
+Four palms of wheat berries  
+Four eggs  
+A bit of milk  
 
 Wash the berries of wheat until clean and then boil. Strain the water and keep only the berries. Separately, into a pot prepare milk and egg in equal measure, mixing together until they can no longer be told apart. Warm the pan and stir, until small bubbles form at the edges. Then mix in the wheat berries and cook until it sticks to the spoon. 
 
