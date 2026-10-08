@@ -2,7 +2,7 @@
 title: Aurochs
 category: creature
 lead: The wild ancestor of domestic cattle. Still present in the Heartlands, and still dangerous.
-image: /images/auroch.png
+image: /images/auroch.jpg
 tags:
   - heartlands
 ---
