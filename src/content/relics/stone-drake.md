@@ -2,7 +2,7 @@
 title: Stone Drake
 category: creature
 lead: Apex predator in the mountain regions. Many people mistake them for dragons.
-image: /images/stonedrake.png
+image: /images/stonedrake.jpg
 tags:
   - dragons
   - heartlands
