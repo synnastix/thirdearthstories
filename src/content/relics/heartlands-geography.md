@@ -2,6 +2,7 @@
 title: Geography of the Heartlands
 category: place
 lead: A survey of the Heartlands region commissioned by the Imperial Cartographic Office.
+image: /images/heartlands-geography.jpg
 tags:
   - visari
   - khuldinai
