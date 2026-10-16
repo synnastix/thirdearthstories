@@ -19,4 +19,16 @@ Generally, they display a passivity toward people and even smaller predators at 
 
 Domestic cattle in the Heartlands are descended from aurochs stock, and retain more of the wild type’s size and temperament than breeds in other regions. This means a poor farmer may be able to boost their stock by capturing wild aurochs, bull or otherwise, but the practice is extremely dangerous. Wild bulls have been known to infiltrate domestic herds on their own, often killing any existing bulls before mating with the females. Calves taken young and raised in human company are manageable. 
 
-On farms, they are used for meat, milk, hide, and, as mentioned earlier, draft labor as oxen. Farm-raised auroch lack the flavor of their wild kin, and discriminating cooks can taste the difference immediately.
+On farms, they are used for meat, milk, hide, and, as mentioned earlier, draft labor as oxen. Farm-raised auroch lack the flavor of their wild kin, and discriminating cooks can taste the difference immediately. Auroch ribs are a traditional Heartlands feast where the ribs are roasted for hours over an open fire, then placed at the center of a table surrounded by breads, roasted vegetables, and plenty of plum wine.
+
+---
+
+### Heartlands Auroch Ribs
+One pair auroch ribs with meat between  
+Four handful elderberries  
+Honey
+Salt
+
+Auroch ribs are long and roast well over the fire. Trim fat and set in a pot near the fire to render. Salt the ribs and set them over the fire. A slow roast is the key, do not let the meat scorch. Crush the berries and mix into the rendered fat along with a bit of honey. Stir this mix and drip it onto the ribs to keep them from becoming too dry. Once the meat breaks away from the bone easily, they are ready.   
+
+---
