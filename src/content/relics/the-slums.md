@@ -2,7 +2,7 @@
 title: The Slums
 category: place
 lead: A crowded, poverty-stricken district in Timbur Deep.
-image: /images/the_slums.png
+image: /images/the_slums.jpg
 meta:
   Status: Active
   Territory: Timbur Deep

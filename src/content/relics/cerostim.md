@@ -2,7 +2,7 @@
 title: Cerostim
 category: creature
 lead: The great deer of the Heartlands. Once migrated in herds from the northern mountains to the coast and back again.
-image: /images/cerostim.png
+image: /images/cerostim.jpg
 tags:
   - heartlands
 ---

@@ -2,7 +2,7 @@
 title: Imperial Palace
 category: place
 lead: A monument to Imperial excess, it is both the most and least important structure in the Empire.
-image: /images/imperial_palace.png
+image: /images/imperial_palace.jpg
 meta:
   Status: Active
   Territory: Timbur Deep

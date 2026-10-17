@@ -1,7 +1,7 @@
 ---
 title: Recursion
 description: A wizard sits in a tower and begins to write. With his story, a world is born.
-cover: /images/recursion.png
+cover: /images/recursion.jpg
 isbn: 979-8-9976475-1-3 (ebook)
       979-8-9976475-0-6 (paperback)
 release: Released August 2026

@@ -1,7 +1,7 @@
 ---
 title: Fracture
 description: A search for meaning in a city that offers little mercy.
-cover: /images/fracture.png
+cover: /images/fracture.jpg
 isbn: 979-8-9976475-3-7 (ebook)
       979-8-9976475-2-0 (paperback)
 release: Released August 2026

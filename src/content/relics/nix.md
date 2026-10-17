@@ -2,7 +2,7 @@
 title: Nix
 category: lore
 lead: A raccoon of no particular distinction who has, through a series of mundane behaviors, become the subject of at least three contradictory legends.
-image: /images/nix.png
+image: /images/nix.jpg
 tags:
   - wildkin
 ---
