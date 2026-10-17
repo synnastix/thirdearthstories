@@ -1,0 +1,127 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const tagColors: Record<string, { bg: string; color: string; edge: string }> = {
+  place:    { bg: 'var(--place-bg)', color: 'var(--place-text)', edge: 'var(--place-edge)' },
+  faction:  { bg: 'var(--faction-bg)', color: 'var(--faction-text)', edge: 'var(--faction-edge)' },
+  creature: { bg: 'var(--creature-bg)', color: 'var(--creature-text)', edge: 'var(--creature-edge)' },
+  lore:     { bg: 'var(--lore-bg)', color: 'var(--lore-text)', edge: 'var(--lore-edge)' },
+};
+
+const entries = (await getCollection('relics'))
+  .filter(entry => entry.data.image)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<Base title="Gallery" description="A gallery of artwork for the places, factions, creatures, and lore of Third Earth.">
+  <div class="page">
+    <div class="hero">
+      <p class="eyebrow">Artwork</p>
+      <h1 class="page-title">Gallery</h1>
+      <p class="page-desc">Illustrated entries from the Relics section. Click an image to read its entry.</p>
+    </div>
+
+    <div class="gallery">
+      {entries.map(entry => {
+        const tag = tagColors[entry.data.category] ?? { bg: 'var(--bg-surface-alt)', color: 'var(--text-secondary)', edge: 'var(--border)' };
+        return (
+          <a href={`/relics/${entry.slug}`} class="gallery-card" style={`border-top-color:${tag.edge};`}>
+            <div class="gallery-thumb">
+              <img src={entry.data.image} alt={entry.data.title} loading="lazy" />
+            </div>
+            <div class="gallery-info">
+              <span class="tag" style={`background:${tag.bg};color:${tag.color};`}>{entry.data.category}</span>
+              <div class="gallery-title">{entry.data.title}</div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .page { background: var(--bg-page); min-height: 100vh; display: flex; flex-direction: column; }
+
+  .hero {
+    background: var(--bg-surface);
+    border-bottom: 0.5px solid var(--border);
+    padding: 3rem 2rem 2.5rem;
+  }
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: .75rem;
+  }
+  .page-title {
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: .75rem;
+  }
+  .page-desc {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.25rem;
+    padding: 2.5rem 2rem;
+  }
+
+  .gallery-card {
+    background: var(--bg-surface);
+    border: 0.5px solid var(--border);
+    border-top: 3px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    display: block;
+  }
+  .gallery-card:hover .gallery-thumb img { transform: scale(1.03); }
+  .gallery-card:hover .gallery-title { color: var(--text-primary); }
+
+  .gallery-thumb {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+  }
+  .gallery-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-info {
+    padding: .85rem 1rem 1rem;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-bottom: .5rem;
+  }
+  .gallery-title {
+    font-family: 'Crimson Pro', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-secondary);
+  }
+
+  @media (max-width: 640px) {
+    .gallery { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1rem; padding: 1.5rem 1.25rem; }
+    .hero { padding: 2rem 1.25rem 1.5rem; }
+    .page-title { font-size: 36px; }
+  }
+</style>
