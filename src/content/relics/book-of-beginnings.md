@@ -24,7 +24,7 @@ Three of them gods.
 Three more as goddesses.  
 Each given charge by the wyrd as it saw fit.  
 
-**Anpur-dim** - The god of light. The yellow sun who brings warmth to the world. The great watcher who breaks the darkness. He keeps his pace and pays no mind to the cares of the world.
+**Anpur-dim** - The god of light. The yellow sun who brings warmth to the world. The great watcher who breaks the darkness. He keeps his pace and pays no mind to the cares of others.
 
 **Somar-dani** - The god of the sky. The breath of life. He is the endless wanderer who brings constant change.
 
@@ -32,7 +32,7 @@ Each given charge by the wyrd as it saw fit.
 
 **Aloni-lei** - The goddess of the sea. The vast expanse. She is the keeper of secrets and creator of great beasts.
 
-**Synnaren** - The goddess of love. The instigator. She is desire personified, the goddess who blesses the world with desire, unable to feel its warmth herself.
+**Synnaren** - The goddess of love. The instigator. She is desire personified, the goddess who blesses the world with want, unable to feel its warmth herself.
 
 **Annuriel** - The goddess of war. The huntress and sentry. She is drawn to conflict and competition alike.
 
@@ -94,11 +94,13 @@ Synnaren became jealous of Annuriel. That she could capture her brother’s atte
 
 To Annuriel – “He does not see you. He will never see you. But there is one who will. One whose passion matches yours. Do not ignore him when he comes.”
 
+Annuriel then came to know desire.
+
 To Kalinexis – “Oh younger one, whose mother released him and whose father stayed not. I see your pain. I see your anger. You are not alone!”
 
 Synnaren watched as fury met fury, war and storm. They danced over men with little regard and when the matter settled, what remained was silence. And so was birthed **Sensa-nai** – goddess of death. 
 
-Synnaren stood next to Sovalis and simply watched. Sensa-nai carefully knelt next to the men who were dead and dying. She took them in her arms and embraced them, until they gasped their last breath, then carefully returned them to the earth.
+Synnaren stood next to Sovalis and watched. Sensa-nai carefully knelt next to the men who were dead and dying. She took them in her arms and embraced them, until they gasped their last breath, then carefully returned them to the earth.
 
 ## The Bargain
 
