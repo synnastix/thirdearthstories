@@ -7,7 +7,7 @@ tags:
   - heartlands
 ---
 
-*Archivist notes on the cerostim, once plentiful in the Heartlands and believed to be extinct. Unverified reports persist from the northern ranges and eastern passes.*
+*Archivist notes on the cerostim, once plentiful in the Heartlands before coming under significant pressure from over hunting. The animal is now most common in the northern ranges and eastern passes.*
 
 Once the dominant megafauna of the Heartlands basin, the cerostim drew the first human settlers to the plain. Large herds once migrated from the mountain wall in the north to the southern coast and were rumored to have been so plentiful that hunters stacked their skulls into piles higher than a home. Their absence defines the landscape as much as their presence once did.
 
