@@ -2,6 +2,7 @@
 title: Experiment 731
 category: lore
 lead: A vandalized Legion record documenting the outcome of a scrying experiment on non-sentient creatures.
+image: /images/experiment-731.jpg
 tags:
   - empire
   - legion
