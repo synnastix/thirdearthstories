@@ -3,10 +3,6 @@ title: Sandborn
 category: faction
 lead: Masters of the Ryukhan Desert and operators of merchant networks throughout the land.
 
-meta:
-  Status: Active
-  Territory: Ryukhan Desert
-  Also known as: Qazari
 tags:
   - empire
   - merchant-houses

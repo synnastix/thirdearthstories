@@ -3,12 +3,6 @@ title: Imperial Palace
 category: place
 lead: A monument to Imperial excess, it is both the most and least important structure in the Empire.
 image: /images/imperial_palace.jpg
-meta:
-  Status: Active
-  Territory: Timbur Deep
-  Known for: Home to the Emperor and seat of Imperial power.
-  Population: 5,000 - 7,000 (est)
-  
 tags:
   - empire
   - timbur-deep

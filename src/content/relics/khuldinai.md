@@ -3,10 +3,6 @@ title: Khuldinai
 category: faction
 lead: The people of the mountains. Expert engineers and craftsmen.
 
-meta:
-  Status: Active
-  Territory: Mountains
-  Also known as: Frostheart People
 tags:
   - khuldinai
 ---

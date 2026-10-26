@@ -61,20 +61,8 @@ const relatedByTag = allEntries
           </div>
         )}
 
-        <div class="article-body">
-          {entry.data.meta && (
-            <aside class="meta-panel">
-              {Object.entries(entry.data.meta).map(([k, v]) => (
-                <div class="meta-row">
-                  <div class="meta-label">{k}</div>
-                  <div class="meta-value">{v}</div>
-                </div>
-              ))}
-            </aside>
-          )}
-          <div class="prose" style={`--edge-color:${tag.edge};`}>
-            <Content />
-          </div>
+        <div class="prose" style={`--edge-color:${tag.edge};`}>
+          <Content />
         </div>
 
         {relatedByTag.length > 0 && (
@@ -176,12 +164,6 @@ const relatedByTag = allEntries
   max-width: 580px;
 }
 
-.article-body {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
 .article-image {
   margin-bottom: 2rem;
   border-radius: 8px;
@@ -194,29 +176,7 @@ const relatedByTag = allEntries
   display: block;
 }
 
-.meta-panel {
-  flex-shrink: 0;
-  width: 168px;
-  background: var(--bg-surface-alt);
-  border: 0.5px solid var(--border);
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
-  order: 2;
-}
-.meta-row { margin-bottom: .6rem; }
-.meta-row:last-child { margin-bottom: 0; }
-.meta-label {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: .06em;
-  color: var(--text-faint);
-  margin-bottom: 2px;
-}
-.meta-value { font-size: 12px; color: var(--text-primary); }
-
 .prose {
-  flex: 1;
-  order: 1;
   font-size: 14px;
   line-height: 1.85;
   color: var(--text-secondary);
@@ -307,17 +267,6 @@ const relatedByTag = allEntries
   }
   .main {
     padding: 1.5rem 1.25rem;
-  }
-  .article-body {
-    flex-direction: column;
-  }
-  .meta-panel {
-    width: 100%;
-    order: 2;
-    margin-top: 1.5rem;
-  }
-  .prose {
-    order: 1;
   }
 }
 </style>

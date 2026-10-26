@@ -3,10 +3,6 @@ title: Timbur Deep
 category: place
 lead: The beating heart of the Empire, home to the Imperial Legion and the Emperor.
 
-meta:
-  Status: Active
-  Territory: The Heartlands
-  Also known as: City of Plenty
 tags:
   - empire
   - merchant-houses

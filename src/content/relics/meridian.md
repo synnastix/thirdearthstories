@@ -3,10 +3,6 @@ title: The Meridian
 category: faction
 lead: A building. A network. A person, maybe.
 
-meta:
-  Status: Active
-  Territory: Unknown
-  Also known as: Unknown
 tags:
   - flow-and-energy
 ---

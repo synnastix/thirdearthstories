@@ -3,10 +3,6 @@ title: Somari
 category: faction
 lead: Nomadic warrior-tribes who roam the plains and build no permanent settlements.
 
-meta:
-  Status: Active
-  Territory: Plains of Somaria
-  Also known as: horse milk drinkers (Imperial slur)
 tags:
   - empire
   - somari

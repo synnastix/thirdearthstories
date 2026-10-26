@@ -3,10 +3,6 @@ title: The Front
 category: place
 lead: The borderlands between Visari and Khuldinai territory. War has raged here for generations with only intermittent periods of peace.
 
-meta:
-  Status: Active
-  Territory: Between Lake Lunareth and Lorithol
-  Also known as: The Deadlands
 tags:
   - empire
   - visari

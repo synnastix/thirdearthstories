@@ -38,7 +38,6 @@ const relics = defineCollection({
     category: z.enum(['place', 'faction', 'creature', 'lore']),
     lead: z.string(),
     image: z.string().optional(),
-    meta: z.record(z.string()).optional(),
     tags: z.array(z.enum(ENCYCLOPEDIA_TAGS)).optional(),
   }),
 });
