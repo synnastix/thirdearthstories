@@ -100,7 +100,7 @@ To Kalinexis – “Oh younger one, whose mother released him and whose father s
 
 Synnaren watched as fury met fury, war and storm. They danced over men with little regard and when the matter settled, what remained was silence. And so was birthed **Sensa-nai** – goddess of death. 
 
-Synnaren stood next to Sovalis and watched. Sensa-nai carefully knelt next to the men who were dead and dying. She took them in her arms and embraced them, until they gasped their last breath, then carefully returned them to the earth.
+Synnaren stood next to Sovalis and watched. Sensa-nai carefully knelt next to the men who were dead and dying. She took them in her arms and embraced them, until they gasped their last breath, releasing their spirits. Sensa-nai carefully returned their bodies to the earth.
 
 ## The Bargain
 
