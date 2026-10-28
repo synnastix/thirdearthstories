@@ -34,39 +34,39 @@ A pair of six-sided dice became the most common for games in the region, but the
 
 ## The Games
 
-There are many creative ways in which the people use dice for games, only a small sample of the most common are described here. The person rolling the dice is called the “shooter,” other players are simply called “players.”
+There are many creative ways in which the people use dice for games, only a small sample of the most common are described here. The person rolling the dice is called the “roller,” other players are simply called “players.”
 
 ### Over or Under
 
-This game is played one round at a time where the shooter rolls the dice which sets a number. Players then guess as to whether the next roll will be higher or lower than the previous roll, while the same number rolled again triggers another roll. Over or Under is often played for fun without wagers. 
+This game is played one round at a time where the roller rolls the dice which sets a number. Players then guess as to whether the next roll will be higher or lower than the previous roll, while the same number rolled again triggers another roll. Over or Under is often played for fun without wagers. 
 
-In some variants, players use it to test their intuition and ability to guess, where multiple players place a small wager to buy in to the game. Each round they place their guess, and if they guess incorrectly they are eliminated from the next round. The last player remaining who guesses correctly wins the game and collects the winnings. If the last roll results in all players being eliminated, the shooter collects the winnings.
+In some variants, players use it to test their intuition and ability to guess, where multiple players place a small wager to buy in to the game. Each round they place their guess, and if they guess incorrectly they are eliminated from the next round. The last player remaining who guesses correctly wins the game and collects the winnings. If the last roll results in all players being eliminated, the roller collects the winnings.
 
-In another variant, the shooter may engage a single player and allow that player to place a bet each round. Some Merchant Houses host events with this style of play and often have set rules and payout odds, sometimes even running an establishment where the game runs continuously as players come and go.
+In another variant, the roller may engage a single player and allow that player to place a bet each round. Some Merchant Houses host events with this style of play and often have set rules and payout odds, sometimes even running an establishment where the game runs continuously as players come and go.
 
 ### Dice War
 
-In this game two shooters compete against one another, with a single die each or multiple dice. A wager is placed before each round and then dice are rolled with one simple rule: the higher number wins.
+In this game two rollers compete against one another, with a single die each or multiple dice. A wager is placed before each round and then dice are rolled with one simple rule: the higher number wins.
 
 *Archivist note: Mathematically speaking, more dice make the game more complicated and it can quickly escape the reach of most players.*
 
 ### The Game of Sevens
 
-Sevens is a basic game where the shooter rolls two dice which are added together on each roll, while the others place bets. The shooter decides the wager, while the other players must collectively cover the shooter’s bet before the dice are rolled. If the players win, the shooter’s bet is distributed to the players who covered it in accordance with their own contributions.
+Sevens is a basic game where the roller rolls two dice which are added together on each roll, while the others place bets. The roller decides the wager, while the other players must collectively cover the roller’s bet before the dice are rolled. If the players win, the roller’s bet is distributed to the players who covered it in accordance with their own contributions.
 
-The very first roll sets the tone for the round. If the shooter rolls a seven, they win automatically and collect the winnings. If they roll a two, the shooter loses and the players collect the winnings. Any other number rolled sets a point. The shooter will continue to roll to try and hit that same number again before rolling a seven. If they hit the point, the shooter wins. If the shooter rolls a seven at any point after the first roll, they lose.
+The very first roll sets the tone for the round. If the roller rolls a seven, they win automatically and collect the winnings. If they roll a two, the roller loses and the players collect the winnings. Any other number rolled sets a point. The roller will continue to roll to try and hit that same number again before rolling a seven. If they hit the point, the roller wins. If the roller rolls a seven at any point after the first roll, they lose.
 
 ### Long Count
 
-The Long Count is played as a running game. The shooter rolls a pair of dice ten times, and after each roll the players can bet on whether the final average will finish above or below a point the shooter chooses. After the fifth round, no more bets are accepted and the shooter finishes the final rolls. The count from each round is added together and divided by ten to determine the winners.
+The Long Count is played as a running game. The roller rolls a pair of dice ten times, and after each roll the players can bet on whether the final average will finish above or below a point the roller chooses. After the fifth round, no more bets are accepted and the roller finishes the final rolls. The count from each round is added together and divided by ten to determine the winners.
 
 *Archivist note: The math involved in Long Count generally dissuades the common folk from this game, but it is popular in wealthy circles.*
 
-### Bard’s Choice
+### Bard’s Hand
 
-This game is more spectacle than the others, and often involves a bard as the shooter. They gather players and begin telling a story. As they do, they throw dice one at a time under a cup. Each time they raise the cup to see the result without letting the players see, then say a number to the players. The number can be truthful, or it can be a lie, and it is up to the player to scrutinize the shooter to determine whether they are being truthful or not. After a certain number of rounds the shooter asks the players for their wagers on the total. 
+This game is more spectacle than the others, and often involves a bard as the roller. They gather players and begin telling a story. As they do, they throw dice one at a time under a cup. Each time they raise the cup to see the result without letting the players see, then say a number to the players. The number can be truthful, or it can be a lie, and it is up to the player to scrutinize the roller to determine whether they are being truthful or not. After a certain number of rounds the roller asks the players for their wagers on the total. 
 
-Bards will often query the players just before revealing the dice beneath the cup, often asking about their confidence in the result or what they thought of the story. The best bards charm the audience as the game proceeds, but once the story ends no wagers are allowed to change, the bard makes them sit with the discomfort of not knowing the result for a moment. The player who gets closest without going over is determined to be the winner. If multiple players win, the winnings are divided among them. If no player wins, the shooter claims the wagers.
+Bards will often query the players just before revealing the dice beneath the cup, often asking about their confidence in the result or what they thought of the story. The best bards charm the audience as the game proceeds, but once the story ends no wagers are allowed to change, the bard makes them sit with the discomfort of not knowing the result for a moment. The player who gets closest without going over is determined to be the winner. If multiple players win, the winnings are divided among them. If no player wins, the roller claims the wagers.
 
 *Archivist note: If the organizer and bard agree, side wagers are allowed between players. These are often simple bets on whether the bard was truthful in revealing the numbers or not, sometimes waging a bet on each number individually.*
 
