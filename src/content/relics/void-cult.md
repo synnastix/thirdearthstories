@@ -10,7 +10,7 @@ tags:
 *Inquisitor’s report on cultists and the threat they pose to the Empire, Year 696 CR.*
 
 
-High Cleric Hermanus,
+Hierophant Hermanus,
 
 There are those whose minds are so twisted that they seek dissolution above everything else, and I fear they have once again taken root in the city. Consider this missive as both a plea and a warning, as I believe it is necessary to marry the two. We have long battled those who follow the path of the void. The anarchists. The nihilists. A ‘brotherhood’ only through the most egregious perversion of the word.  
 

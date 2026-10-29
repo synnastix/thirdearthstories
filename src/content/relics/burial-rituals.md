@@ -10,7 +10,7 @@ tags:
   - visari
 ---
 
-*Paraphrased from High Cleric Gilsen’s missive on the Acceptable Disposition of the Dead, Year 632 CR.*
+*Paraphrased from Hierophant Gilsen’s missive on the Acceptable Disposition of the Dead, Year 632 CR.*
 
 ## Greetings
 
@@ -73,4 +73,4 @@ The gods say this: any eating of dead flesh is an abomination. It is forbidden w
 Go then, brothers and sisters, and make sure the people know what is acceptable, and what brings ruin. Be strong of spirit and bring peace to the weary.
 
 By Divine Charge,  
-*Gilsen, High Cleric of the Temple Order in Timbur Deep*
+*Gilsen, Hierophant of the Temple Order in Timbur Deep*
