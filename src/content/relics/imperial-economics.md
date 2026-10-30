@@ -66,7 +66,7 @@ I am including a simple breakdown here for ease of reference:
 
 ### Relative Bargaining Power
 
-The Empire’s system creates a tiered structure which covers most of what the population will encounter. We must acknowledge that exchange rates are far easier to regulate than market values as the price of goods will vary depending on the location and the circumstances of that transaction. It may be helpful to include rough estimates of what certain goods might cost so that one does not walk into the Heartlands only to be fleeced by the locals.
+The Empire’s system creates a tiered structure which covers most of what the population will encounter. We must acknowledge that exchange rates are far easier to regulate than market values as the price of goods will vary depending on the location and the circumstances of that transaction. Before travel, it may be helpful to obtain rough estimates of what certain goods might cost so that one does not walk into the Heartlands only to be fleeced by the locals.
 
 It is worth noting that it is common practice in the Heartlands to pay workers in food or other goods rather than strictly through coin. This is important for traders - in times of famine, the entire economy of the Heartlands becomes less profitable and attention may be best directed elsewhere.
 
