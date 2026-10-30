@@ -49,7 +49,7 @@ The Inquisitor’s Office has learned of no concerns regarding Hannaren’s serv
 
 ### Final Determination
 
-The council of Hierophants has determined that Hannaren’s petition for elevation to the position of High Cleric of the Temple Order is approved by a vote of 4-2 in favor of the decision. Additionally, Grand Hierophant Sanus provided the following statement:
+The Senary of Hierophants has determined that Hannaren’s petition for elevation to the position of High Cleric of the Temple Order is approved by a vote of 4-2 in favor of the decision. Additionally, Grand Hierophant Sanus provided the following statement:
 
 *“It pleases me greatly to see such a marvelous example of servitude to both the Temple and the healing arts. While I agree with the suggestion that Hannaren would make an excellent Warden, it is my judgement that his contributions warrant bestowing the coveted title of High Cleric upon him. I look forward to his continued service and, may he long live, and should he have the aspiration, he may rise to the rank of Hierophant before the end of his days.”*
 
