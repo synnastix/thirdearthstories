@@ -68,18 +68,7 @@ I am including a simple breakdown here for ease of reference:
 
 The Empire’s system creates a tiered structure which covers most of what the population will encounter. We must acknowledge that exchange rates are far easier to regulate than market values as the price of goods will vary depending on the location and the circumstances of that transaction. It may be helpful to include rough estimates of what certain goods might cost so that one does not walk into the Heartlands only to be fleeced by the locals.
 
-*We have learned that a skilled laborer earns roughly five ceramic pieces for a full day of work. Unskilled laborers earn considerably less. We can use that insight to calculate how many days one must work to be able to purchase a thing. A hen is the peasant’s unit of account, making for an excellent reference.*
-
-| Animal | Days | Price |
-|---|---|---|
-| Chicken | 0.2 | 1 ceramic piece |
-| Goose | 0.6 | 3 ceramic pieces |
-| Sheep/goat | 2.8 | 1 silver piece, 4 ceramic pieces |
-| Pig | 4.8 | 2 silver pieces, 4 ceramic pieces |
-| Cow/ox | 17.6 | 8 silver pieces, 8 ceramic pieces |
-| Draft horse | 36 | 1 gold piece, 6 silver pieces |
-
-It is worth noting that it is common practice in the Heartlands to pay workers in food or other goods rather than strictly through coin. This is important for traders to know because it means in times of famine, the entire economy of the Heartlands becomes less profitable and attention may be best directed elsewhere.
+It is worth noting that it is common practice in the Heartlands to pay workers in food or other goods rather than strictly through coin. This is important for traders - in times of famine, the entire economy of the Heartlands becomes less profitable and attention may be best directed elsewhere.
 
 ## Gems and Contracts
 
@@ -98,3 +87,5 @@ Merchant Houses could not function without contracts. It really is that simple.
 Yet contracts – which may be called writs, charters, promissory notes, and similar terms – are often used throughout the region when deals either too large or too long-tenured for traditional coin must be executed. A Merchant House may contract with a farmer for the next year’s crop yield, while another may contract for protection services while transporting goods through a region. These contracts may also be traded to another organization or individual willing to agree to the terms, and some organizations even use them as a form of gambling against the future. 
 
 In rare cases the contract may be years-long. These are more common between Merchant Houses where two anticipate needing the services of another for some time. For example, one may operate a mine, and another operates a smelter. In that case, a contract will help reduce tension in disagreements that are short-lived. The paper itself is never worth anything, but the infrastructure behind it is worth everything.
+
+Merchant Houses generally use the torn paper method to prevent forgeries. This method involves tearing a sheet of paper down the center, then assembling the two halves to form a complete sheet. Some houses prefer to align the straight edges of each half to make it easier to write across, while others prefer to reassemble the sheet at the tear. In either case, distinct markings are written across the seam and both parties apply a signature or seal which spans both halves. 
