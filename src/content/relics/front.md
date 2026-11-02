@@ -2,7 +2,7 @@
 title: The Front
 category: place
 lead: The borderlands between Visari and Khuldinai territory. War has raged here for generations with only intermittent periods of peace.
-
+image: /images/front.jpg
 tags:
   - empire
   - visari
