@@ -2,6 +2,7 @@
 title: Imperial Legion
 category: faction
 lead: The Imperial Legion enforces Imperial policies and protects the people of the Empire.
+image: /images/legion.jpg
 tags:
   - empire
   - legion
