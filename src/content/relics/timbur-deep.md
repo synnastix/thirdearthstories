@@ -2,7 +2,7 @@
 title: Timbur Deep
 category: place
 lead: The beating heart of the Empire, home to the Imperial Legion and the Emperor.
-
+image: /images/timbur-deep.jpg
 tags:
   - empire
   - merchant-houses
