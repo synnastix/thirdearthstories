@@ -13,7 +13,7 @@ tags:
 
 17th of Reaping, Year 731 CR  
 
-To: *Illegible*
+To: *Illegible*  
 From: Office of Admissions, Imperial Academy of Merrow’s Reach
 
 It is my pleasure to congratulate you on your acceptance into the Imperial Academy of Merrow’s Reach, set to commence at the start of Frostbreak, Year 732 CR.
