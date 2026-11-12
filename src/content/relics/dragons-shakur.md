@@ -2,6 +2,7 @@
 title: The Twin Dragons of Shakur-Pak
 category: lore
 lead: "The southern Misran Sea is full of superstitious folk, and they tell many tales. The Strait of Shakur is where the Misran meets the great ocean beyond, with many wondering how it came to be."
+image: /images/dragons-shakur.jpg
 tags:
   - dragons
   - story
